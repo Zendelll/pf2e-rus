@@ -60,7 +60,7 @@
       }
     ]
   },
-  "url": "https://gitlab.com/gnuraco/pf2r",
-  "manifest": "https://gitlab.com/gnuraco/pf2r/-/raw/master/module.json",
+  "url": "https://github.com/Zendelll/pf2e-rus-fork-old-ver",
+  "manifest": "https://raw.githubusercontent.com/Zendelll/pf2e-rus-fork-old-ver/main/module.json",
   "download": "https://gitlab.com/gnuraco/pf2r/-/archive/master/pf2r-master.zip"
 }
