@@ -1,0 +1,19 @@
+{
+    "pf2e-stances": {
+        "noCombat": "Вы можете входить или находиться в стойке только в режиме столкновения",
+        "useStance": "Автоматический переход в стойку: '{stance}'",
+        "menu": {
+            "title": "Специалист по стойкам",
+            "select": "Пожалуйста выберите стойку",
+            "accept": "Принять",
+            "cancel": "Отмена"
+        },
+        "settings": {
+            "custom": {
+                "name": "Пользовательские стойки",
+                "hint": "Массив объектов JSON содержащий ключи \"feat\" и \"effect\". Пример: [ { \"feat\": \"Compendium.pf2e.classfeatures.7JbiaZ8bxODM5mzS\", \"effect\": \"Compendium.pf2e.bestiary-effects.zBbmuudbWY8FaOwZ\" }, { \"feat\": \"Compendium.pf2e.classfeatures.XPPG7nN9pxt0sjMg\", \"effect\": \"Compendium.pf2e.bestiary-effects.1bOSJ2LbEC28aI9f\" } ]",
+                "error": "Произошла ошибка при синтаксическом анализе пользовательских стоек."
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+	"label": "PF2e Элементы анимаций",
+	"entries": {
+		"Action Counter": {
+			"name": "Счетчик действий",
+			"description": "<blockquote>\n<p><em>Для использования </em>PF2e Animations<em> и </em>Automated Animations<em>.</em></p>\n</blockquote>\n<p>Этот эффект позволяет отслеживать действия. Вот и все.</p>"
+		},
+		"Attack Animation Template (Critical Failure)": {
+			"name": "Шаблон анимации атаки (Крит.провал)",
+			"description": "<blockquote>\n<p>Для использования с <span>PF2e Animations</span> и <span>Automated Animations</span>.</p>\n<p>Это преемник PF2e Workbench's: Настройки мировых эффектов.</p>\n</blockquote>\n<p>Это поддельное действие позволяет вам выбрать любую анимацию, которую вы хотите для критически или обычных успешных/провальных ударов. Вы можете настроить указанную анимацию, щелкнув на кнопку <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em>. Это действие отображается на вкладке Отдыха в вашем листе.</p>"
+		},
+		"Attack Animation Template (Critical Success)": {
+			"name": "Шаблон анимации атаки (Крит.успех)",
+			"description": "<blockquote>\n<p>Для использования с <span>PF2e Animations</span> и <span>Automated Animations</span>.</p>\n<p>Это преемник PF2e Workbench's: Настройки мировых эффектов.</p>\n</blockquote>\n<p>Это поддельное действие позволяет вам выбрать любую анимацию, которую вы хотите для критически или обычных успешных/провальных ударов. Вы можете настроить указанную анимацию, щелкнув на кнопку <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em>. Это действие отображается на вкладке Отдыха в вашем листе.</p>"
+		},
+		"Attack Animation Template (Failure)": {
+			"name": "Шаблон анимации атаки (Провал)",
+			"description": "<blockquote>\n<p>Для использования с <span>PF2e Animations</span> и <span>Automated Animations</span>.</p>\n<p>Это преемник PF2e Workbench's: Настройки мировых эффектов.</p>\n</blockquote>\n<p>Это поддельное действие позволяет вам выбрать любую анимацию, которую вы хотите для критически или обычных успешных/провальных ударов. Вы можете настроить указанную анимацию, щелкнув на кнопку <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em>. Это действие отображается на вкладке Отдыха в вашем листе.</p>"
+		},
+		"Attack Animation Template (Success)": {
+			"name": "Шаблон анимации атаки (Успех)",
+			"description": "<blockquote>\n<p>Для использования с <span>PF2e Animations</span> и <span>Automated Animations</span>.</p>\n<p>Это преемник PF2e Workbench's: Настройки мировых эффектов.</p>\n</blockquote>\n<p>Это поддельное действие позволяет вам выбрать любую анимацию, которую вы хотите для критически или обычных успешных/провальных ударов. Вы можете настроить указанную анимацию, щелкнув на кнопку <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em>. Это действие отображается на вкладке Отдыха в вашем листе.</p>"
+		},
+		"Flip Chamber": {
+			"name": "Переключить патронник",
+			"description": "<p>Вы переключаетесь на @Compendium[pf2e-ranged-combat.macros.Next Chamber]{следующий патронник} в огнестрельном оружии, способном стрелять без @Compendium[pf2e-ranged-combat.macros.Reload]{перезарядки}.</p>"
+		},
+		"Mirror Image": {
+			"name": "Зеркальный образ",
+			"description": "<p>Три ваших иллюзорных образа кружат вокруг вашего пространства, потенциально заставляя тех, кто атакует вас, попадать по одному из этих образов вместо вас. Любая атака, которая бы попала по вам, имеет случайный шанс попасть в один из ваших образов вместо вас. При 3 образах, шанс попасть по вам 1 к 4 (1 на [[/r 1d4]]). При 2 оставшихся образах, шанс попасть по вам 1 к 3 (1-2 на [[/r 1d6]]). При 1 оставшемся образе, шанс попасть по вам 1 к 2 (1-3 на [[/r 1d6]]).</p>\n<p>Как только по образу попадают, он разрушается. Если бросок атаки не попадает по вам из-за вашего КБ, но не проваливается критически, он уничтожает образ, но не имеет дополнительного эффекта (даже если атака имела бы эффект при провале). Если бросок атаки критически попадает и попал бы по одному из образов, то один из образов разрушается и атака продолжается по вам как обычная. Как только все образы уничтожены, заклинание заканчивается.</p>"
+		},
+		"Reload": {
+			"name": "Перезарядить",
+			"description": "<p>Вы @Compendium[pf2e-ranged-combat.macros.Reload]{перезаряжаете} ваше оружие, оно готово к стрельбе!</p>"
+		},
+		"Reload Magazine": {
+			"name": "Перезарядить магазин",
+			"description": "<p>Вы @Compendium[pf2e-ranged-combat.macros.Reload Magazine]{перезаряжаете магазин} вашего оружия, теперь оно готово к @Compendium[pf2e-ranged-combat.macros.Reload]{заряжанию} и стрельбе!</p>"
+		},
+		"Summoning Animation Template": {
+			"name": "Шаблон анимации призыва",
+			"description": "<blockquote>\n<p><em>Для использования с </em>PF2e Animations<em> и </em>Automated Animations<em>.</em></p>\n</blockquote>\n<p>Это фальшивое действие позволяет выбрать любую анимацию при призыве существа с помощью <em style=\"white-space: nowrap;\">PF2e Animations</em>. Вы можете настроить указанную анимацию, щелкнув кнопку <em class=\"fas fa-biohazard\" style=\"white-space: nowrap;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\">A-A</span></em> вверху.</p>\n<p>Вы можете добавить скобки в конце этого действия, чтобы анимировать конкретное заклинание, действие или даже анимацию существа. Если у вас есть несколько действий, применяемых к одной и той же активности, приоритет имеют существа, затем заклинания/действия, а затем общий <strong>Шаблон анимации призыва</strong> без всяких скобок. Если на вашем листе его нет, по умолчанию будет тот, что в сборнике <em>PF2e Animations</em>.</p>\n<p>Пример: <strong>Шаблона анимации призыва (Барсук)</strong> заменит <strong>Шаблон анимации призыва (Призыв животного)</strong>.</p>\n<p>Это действие отображается во вкладке Отдыха вашего листа.</p>\n<h3>Примеры:</h3>\n<ul>\n<li><strong>Шаблон анимации призыва (Барсук)</strong></li>\n<li><strong>Шаблон анимации призыва (Призыв животного)</strong></li>\n<li><strong>Шаблон анимации призыва (Проявление эйдолона)</strong></li>\n<li><strong>Шаблон анимации призыва (Имя моего особого ангела-эйдолона)</strong></li>\n<li><strong>Шаблон анимации призыва (Зомби)</strong></li>\n<li><strong>Шаблон анимации призыва (Призыв анарха)</strong></li>\n</ul>"
+		},
+		"Unload": {
+			"name": "Разрядить",
+			"description": "<p>Вы @Compendium[pf2e-ranged-combat.macros.Unload]{разряжаете} ваше оружие, получая обратно боеприпас.</p>"
+		}
+	}
+}

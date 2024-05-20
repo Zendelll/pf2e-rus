@@ -1,0 +1,17 @@
+{
+	"label": "Abomination Vaults",
+	"mapping": {
+		"Cdescription": "actors.system.details.publicNotes",
+		"CdescriptionGM": "actors.system.details.privateNotes",
+		"language": "actors.system.traits.languages.custom",
+		"senses": "actors.system.traits.senses.value",
+		"Hdescription": "actors.system.details.description",
+		"disable": "actors.system.details.disable",
+		"reset": "actors.system.details.reset",
+		"routine": "actors.system.details.routine",
+		"hp": "actors.system.attributes.hp.details",
+		"di": "actors.system.traits.di.custom",
+		"stealth": "actors.system.attributes.stealth.details"
+	},
+	"entries": {}
+}

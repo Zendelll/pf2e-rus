@@ -1,0 +1,2598 @@
+{
+    "PF2E": {
+        "AmmunitionNotes": {
+            "AntlerArrow": {
+                "CriticalText": "КС проверки Атлетики для извлечения стрелы увеличивается до @Check[type:athletics|dc:15|name:Pull the Missile Free|showDC:all]",
+                "Text": "Цель должна преуспеть в @Check[type:reflex|dc:16|name:Antler Arrow] или будет приколота к поверхности, получая эффекты критической специализации лука",
+                "Title": "Рогатая стрела"
+            },
+            "ExplosiveAmmunition": {
+                "Greater": {
+                    "Text": "Снаряд взрывается в @Template[type:burst|distance:10]{10-футовом взрыве), нанося [[/r 10d6[fire]]] урона огнем каждому существу в области (включая цель). Каждое существо должно сделать @Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition].",
+                    "Title": "Взрывающаяся амуниция (Отличная)"
+                },
+                "Normal": {
+                    "Text": "Снаряд взрывается в @Template[type:burst|distance:10]{10-футовом взрыве), нанося [[/r 6d6[fire]]] урона огнем каждому существу в области (включая цель). Каждое существо должно сделать @Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition].",
+                    "Title": "Взрывающаяся амуниция"
+                }
+            },
+            "ExsanguinatingAmmunition": {
+                "Greater": {
+                    "Text": "На 1 минуту после того, как вы нанесете урон существу, активированным обескровливающим боеприпасом, это существо получает слабость 3 к продолжительному урону кровотечению. Кроме того КС любых чистых проверок, чтобы остановить кровотечение, увеличивается с 15 до 17 (с 10 до 12 при получении особенно эффективной помощи), на время действия. @UUID[Compendium.pf2e.equipment-effects.Item.5lZWAvm0oGxvF4bm]{Эффект: Обескровливающая амуниция (Отличная)}",
+                    "Title": "Обескровливающая амуниция (Отличная)"
+                },
+                "Major": {
+                    "Text": "На 1 минуту после того, как вы нанесете урон существу, активированным обескровливающим боеприпасом, это существо получает слабость 5 к продолжительному урону кровотечению. Кроме того КС любых чистых проверок, чтобы остановить кровотечение, увеличивается с 15 до 17 (с 10 до 12 при получении особенно эффективной помощи), на время действия. @UUID[Compendium.pf2e.equipment-effects.Item.mrwg2XftLtSLj197]{Эффект: Обескровливающая амуниция (Превосходная)}",
+                    "Title": "Обескровливающая амуниция (Превосходная)"
+                },
+                "Normal": {
+                    "Text": "На 1 минуту после того, как вы нанесете урон существу, активированным обескровливающим боеприпасом, это существо получает слабость 1 к продолжительному урону кровотечению. Кроме того КС любых чистых проверок, чтобы остановить кровотечение, увеличивается с 15 до 17 (с 10 до 12 при получении особенно эффективной помощи), на время действия. @UUID[Compendium.pf2e.equipment-effects.Item.Fz3cSffzDAxhCh2D]{Эффект: Обескровливающая амуниция}",
+                    "Title": "Обескровливающая амуниция"
+                }
+            },
+            "FreezingAmmunition": {
+                "Text": "Цель должна преуспеть в @Check[type:fortitude|dc:19] или станет @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлена 1} на 1 раунд из-за сильного холода (@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлена 1} на 1 минуту при крит.провале).",
+                "Title": "Замораживающая амуниция"
+            },
+            "MeteorShot": {
+                "CriticalFailureText": "При критическом провале оружие дает осечку.",
+                "Greater": {
+                    "Text": "В дополнение к обычному урону оружия, метеоритный патрон наносит урон огнем, а земля в области становится сложной местностью. Патрон наносит [[/r 6d6[fire]]] в @Template[type:emanation|distance:10]{10-футовом взрыве} вокруг цели (@Check[type:reflex|dc:29|basic:true|name:Meteor Shot]).",
+                    "Title": "Метеоритный патрон (Отличный)"
+                },
+                "Major": {
+                    "Text": "В дополнение к обычному урону оружия, метеоритный патрон наносит урон огнем, а земля в области становится сложной местностью. Патрон наносит [[/r 9d6[fire]]] в @Template[type:emanation|distance:20]{20-футовом взрыве} вокруг цели (@Check[type:reflex|dc:37|basic:true|name:Meteor Shot]).",
+                    "Title": "Метеоритный патрон (Превосходный)"
+                },
+                "Normal": {
+                    "Text": "В дополнение к обычному урону оружия, метеоритный патрон наносит урон огнем, а земля в области становится сложной местностью. Патрон наносит [[/r 3d6[fire]]] в @Template[type:emanation|distance:5]{5-футовом взрыве} вокруг цели (@Check[type:reflex|dc:23|basic:true|name:Meteor Shot]).",
+                    "Title": "Метеоритный патрон"
+                }
+            },
+            "ShiningAmmunition": {
+                "Text": "Амуниция испускает яркий свет в 20-футовом радиусе (и тусклый свет в следующих 20 футах) в течение 10 минут. Если снаряд попадает в цель, то застревает, из-за чего цель испускает свет в таком же радиусе. @UUID[Compendium.pf2e.equipment-effects.Item.Sf6UO6vgCeicggOK]{Эффект: Светящаяся амуниция}",
+                "Title": "Светящаяся амуниция"
+            }
+        },
+        "AttackEffects": {
+            "DropWeapon": "Существо бросате оружие, которым владеет.",
+            "IgnoreConcealed": "Атака игнорирует состояние @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрыт}.",
+            "ReduceHiddenCheck": "КС чистой проверки для нацеливания на @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Спрятанное} существо, равно @Check[type:flat|dc:5].",
+            "IgnoreCover": "Цель не получает преимущества от малого укрытия, и снижает бонус к КБ от стандартного укрытия на 2 против атаки.",
+            "IncreasedCriticalChance": "Если атака попадает и существо выбрасывает 19 при броске d20, атака - критическое попадание. Это не имеет никакого эфффекта, если 19 приведет к промаху.",
+            "IncreasedReach5": "Досягаемость увеличена на 5 футов.",
+            "InterruptAction": "При попадании действие цели прерывается.",
+            "KnockProne": "При попадании цель падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}."
+        },
+        "BattleForm": {
+            "AberrantForm": {
+                "GugSqueezeNote": "Ваши множественные суставы позволяют вам проходить через ограниченное пространство, как если бы вы были существом Среднего размера."
+            },
+            "AngelForm": {
+                "DeafenedNote": "@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} на 1 раунд при критическом попадании"
+            },
+            "Attack": {
+                "Antler": "Оленьи рога",
+                "AqueousFist": "Водный кулак",
+                "Beak": "Клюв",
+                "Beard": "Борода",
+                "Bite": "Укус",
+                "Body": "Тело",
+                "BoneShard": "Осколок кости",
+                "Boot": "Ботинок",
+                "Branch": "Ветка",
+                "Claw": "Коготь",
+                "CubeFace": "Грань куба",
+                "Fangs": "Клыки",
+                "FireMote": "Огненная пылинка",
+                "Foot": "Нога",
+                "Foreleg": "Передняя лапа",
+                "Gust": "Порыв",
+                "HolyMace": "Священная булава",
+                "Hoof": "Копыто",
+                "Horn": "Рог",
+                "Jaws": "Челюсти",
+                "LavaFist": "Лавовый кулак",
+                "Leaf": "Лист",
+                "Leg": "Нога",
+                "LightningLash": "Молниевый хлыст",
+                "Mandibles": "Мандибулы",
+                "Moonbeam": "Лунный луч",
+                "PiercingHymn": "Пронзительный гимн",
+                "Pincer": "Клешня",
+                "Pseudopod": "Ложноножка",
+                "Rock": "Камень",
+                "Spikes": "Шипы",
+                "Spine": "Позвоночник",
+                "Stinger": "Жало",
+                "Sunbeam": "Солнечный луч",
+                "Tail": "Хвост",
+                "Talon": "Коготь",
+                "Tendril": "Усик",
+                "Tentacle": "Щупальце",
+                "TentacleArm": "Рука-щупальце",
+                "Thorns": "Шипы",
+                "Tongue": "Язык",
+                "Trunk": "Хвост",
+                "Tusk": "Бивень",
+                "Vine": "Лоза",
+                "WaterSpout": "Водяная струя",
+                "Wave": "Волна",
+                "Web": "Паутина",
+                "Wing": "Крыло"
+            },
+            "CosmicForm": {
+                "MoonNote": "Цель @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманена 2} на 1 раунд.",
+                "SunNote": "Цель @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплена} на 1 раунд."
+            },
+            "DaemonForm": {
+                "CeustodaemonDamageNote": "Любой успешный Удар челюстями или когтями наносит дополнительные [[/r {1d6}]]{1d6 урона}, и вы получаете такое же количество урона"
+            },
+            "ElementEmbodied": {
+                "AirPushNote": "Плюс @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Толчок} 10 футов",
+                "WaterPushPullNote": "Плюс @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Толчок} или Притянуть на 10 футов"
+            },
+            "InsectForm": {
+                "SpiderWebNote": "Успешная атака Паутной опутывает цель на 1 раунд, но не наносит урона"
+            },
+            "MonstrosityForm": {
+                "ShroudOfFlame": "Пламенная пелена"
+            },
+            "Note": {
+                "Grab": "Вы можете потратить действие сразу после попадания для @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Захвата} цели",
+                "GrabbingTrunk": {
+                    "Text": "Существо на два размера меньше, пораженное вашим хоботом @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}. Если вы преуспеете в проверке @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захвата} против существа, схваченного вашим хоботом, вы можете переместить существо в другое место в пределах досягаемости вашего хобота.",
+                    "Title": "Хватающий хобот"
+                },
+                "Shove": "Вы можете потратить действие сразу после попадания, чтобы толкнуть цель на 5 футов с эффектом успеха @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Толкнуть}"
+            },
+            "OozeForm": {
+                "GelatinousCubeNote": "Существо пораженное Ударом вашей кубической грани, должно преуспеть в спасброске @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] против вашего КС заклинания или будет @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 1} (или @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализовано} на 1 раунд при критическом провале); у этого спасброска есть признак `недееспособность`."
+            }
+        },
+        "BombNotes": {
+            "AcidFlask": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3d6)[persistent,acid]]]{2*3d6 продолжительного урона кислотой} и [[/r (3[splash]}[acid]]]{3 урона кислотными брызгами}.",
+                    "success": "Бомба наносит [[/r 3d6[persistent,acid]]]{3d6 продолжительного урона кислотой} и [[/r (3[splash]}[acid]]]{3 урона кислотными брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1d6)[persistent,acid]]]{2*1d6 продолжительного урона кислотой} и [[/r (1[splash])[acid]]]{1 урона кислотными брызгами}.",
+                    "success": "Бомба наносит [[/r 1d6[persistent,acid]]]{1d6 продолжительного урона кислотой} и [[/r (1[splash])[acid]]]{1 урона кислотными брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4d6)[persistent,acid]]]{2*4d6 продолжительного урона кислотой} и [[/r (4[splash])[acid]]]{4 урона кислотными брызгами}.",
+                    "success": "Бомба наносит [[/r 4d6[persistent,acid]]]{4d6 продолжительного урона кислотой} и [[/r (4[splash])[acid]]]{4 урона кислотными брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2d6)[persistent,acid]]]{2*2d6 продолжительного урона кислотой} и [[/r (2[splash])[acid]]]{2 урона кислотными брызгами}.",
+                    "success": "Бомба наносит [[/r 2d6[persistent,acid]]]{2d6 продолжительного урона кислотой} и [[/r (2[splash])[acid]]]{2 урона кислотными брызгами}."
+                }
+            },
+            "AlchemistsFire": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3)[persistent,fire]]]{6 продолжительного урона огнем} и [[/r (3[splash])[fire]]]{3 урона огненными брызгами}.",
+                    "success": "Бомба наносит [[/r 3[persistent,fire]]]{3 продолжительного урона огнем} и [[/r (3[splash])[fire]]]{3 урона огненными брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1)[persistent,fire]]]{2 продолжительного урона огнем} и [[/r (1[splash])[fire]]]{1 урона огненными брызгами}.",
+                    "success": "Бомба наносит [[/r 1[persistent,fire]]]{1 продолжительного урона огнем} и [[/r (1[splash])[fire]]]{1 урона огненными брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4)[persistent,fire]]]{8 продолжительного урона огнем} и [[/r (4[splash])[fire]]]{4 урона огненными брызгами}.",
+                    "success": "Бомба наносит [[/r 4[persistent,fire]]]{4 продолжительного урона огнем} и [[/r (4[splash])[fire]]]{4 урона огненными брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2)[persistent,fire]]]{4 прододжительного урона огнем} и [[/r (2[splash])[fire]]]{2 урона огненными брызгами}.",
+                    "success": "Бомба наносит [[/r 2[persistent,fire]]]{2 продолжительного урона огнем} и [[/r (2[splash])[fire]]]{2 урона огненными брызгами}."
+                }
+            },
+            "BioluminescenceBomb": {
+                "success": "<p>Each creature within @Template[type:emanation|distance:10]{10 feet} of where the bomb exploded must succeed at a @Check[type:reflex|dc:17] save or be marked with dye that continues to glow for 24 hours. An affected creature must also attempt a @Check[type:fortitude|dc:17] saving throw against the overwhelming burst of light.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, then dazzled for 1 round.</p>"
+            },
+            "BlightBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3d4)[persistent,poison]]]{2*3d4 продолжительного урона ядом} и [[/r (3[splash])[poison]]]{3 урона ядовитыми брызгами}.",
+                    "success": "Бомба наносит [[/r 3d4[persistent,poison]]]{3d4 продолжительного урона ядом} и [[/r (3[splash])[poison]]]{3 урона ядовитыми брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1d4)[persistent,poison]]]{2*1d4 продолжительного урона ядом} и [[/r (1[splash])[poison]]]{1 урона ядовитыми брызгами}.",
+                    "success": "Бомба наносит [[/r 1d4[persistent,poison]]]{1d4 продолжительного урона ядом} и [[/r (1[splash])[poison]]]{1 урона ядовитыми брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4d4)[persistent,poison]]]{4*4d4 продолжительного урона ядом} и [[/r (4[splash])[poison]]]{4 урона ядовитыми брызгами}.",
+                    "success": "Бомба наносит [[/r 4d4[persistent,poison]]]{4d4 продолжительного урона ядом} и [[/r (4[splash])[poison]]]{4 урона ядовитыми брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2d4)[persistent,poison]]]{2*2d4 продолжительного урона ядом} и [[/r (2[splash])[poison]]]{2 урона ядовитыми брызгами}.",
+                    "success": "Бомба наносит [[/r 2d4[persistent,poison]]]{2d4 продолжительного урона ядом} и [[/r (2[splash])[poison]]]{2 урона ядовитыми брызгами}."
+                }
+            },
+            "BottledLightning": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[electricity]]]{3 урона электрическими брызгами} и цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[electricity]]]{1 урона электрическими брызгами} и цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[electricity]]]{4 урона электрическими брызгами} и цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[electricity]]]{2 урона электрическими брызгами} и цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода."
+                }
+            },
+            "CrystalShards": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (5[splash])[piercing]]]{5 колющего урона брызгами} и поверхности в области вслеска покрываются хрупкими, блестящими, красными кристаллами, которые рассыпаются в пыль через 1 минуту. Кристаллы на горизонтальных поверхностях считаются @UUID[Compendium.pf2e.equipment-srd.Item.Caltrops]{Чесноком}. Кристаллы на вертикальных поверхностях можно ненадолго использовать как опоры для рук, дающих бонус предмета +2 к следующей проверке Атлетики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться}."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (6[splash])[piercing]]]{6 колющего урона брызгами} и поверхности в области вслеска покрываются хрупкими, блестящими, красными кристаллами, которые рассыпаются в пыль через 1 минуту. Кристаллы на горизонтальных поверхностях считаются @UUID[Compendium.pf2e.equipment-srd.Item.Caltrops]{Чесноком}. Кристаллы на вертикальных поверхностях можно ненадолго использовать как опоры для рук, дающих бонус предмета +3 к следующей проверке Атлетики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться}."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (4[splash])[piercing]]]{4 колющего урона брызгами} и поверхности в области вслеска покрываются хрупкими, блестящими, красными кристаллами, которые рассыпаются в пыль через 1 минуту. Кристаллы на горизонтальных поверхностях считаются @UUID[Compendium.pf2e.equipment-srd.Item.Caltrops]{Чесноком}. Кристаллы на вертикальных поверхностях можно ненадолго использовать как опоры для рук, дающих бонус предмета +1 к следующей проверке Атлетики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться}."
+                }
+            },
+            "DreadAmpoule": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[mental]]]{3 ментального урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при крит.попадании)."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[mental]]]{1 ментального урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при крит.попадании)."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[mental]]]{4 ментального урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при крит.попадании)."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[mental]]]{2 ментального урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при крит.попадании)."
+                }
+            },
+            "DwarvenDaisy": {
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[fire]]]{1 урона огненными брызгами} и должна преуспеть в спасброске @Check[type:fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all]{Стойкости} или стать @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослепленной} на 1 раунд."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[fire]]]{2 урона огненными брызгами} и должна преуспеть в спасброске @Check[type:fortitude|dc:18|name:Moderate Dwarven Daisy|traits:damaging-effect|showDC:all]{Стойкости} или стать @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослепленной} на 1 раунд."
+                }
+            },
+            "FrostVial": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[cold]]]{3 урона холодом от брызг} и цель получает штраф -10-футов к своим Скоростям до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.nJRoiSyd67eQ1dYj]{Эффект предмета: Морозная склянка (Большая)})."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[cold]]]{1 урона холодом от брызг} и цель получает штраф -5-футов к своим Скоростям до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.RLsdvhmTh64Mmty9]{Эффект предмета: Морозная склянка (Малая)})."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[cold]]]{4 урона холодом от брызг} и цель получает штраф -15-футов к своим Скоростям до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.4G9qnI0oRyL6eKFQ]{Эффект предмета: Морозная склянка (Сильная)})."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[cold]]]{2 урона холодом от брызг} и цель получает штраф -10-футов к своим Скоростям до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{Эффект предмета: Морозная склянка (Средняя)})."
+                }
+            },
+            "GhostCharge": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[positive]]]{3 позитивного урона брызгами} и цель получающая урон от призрачного заряда, получает состояние @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2} до начала вашего следующего хода."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[positive]]]{1 позитивного урона брызгами} и цель получающая урон от призрачного заряда, получает состояние @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} до начала вашего следующего хода."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[positive]]]{4 позитивного урона брызгами} и цель получающая урон от призрачного заряда, получает состояние @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2} до начала вашего следующего хода."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[positive]]]{2 позитивного урона брызгами} и цель получающая урон от призрачного заряда, получает состояние @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} до начала вашего следующего хода."
+                }
+            },
+            "GooGrenade": {
+                "Greater": "Greater",
+                "Lesser": "Lesser",
+                "Major": "Major",
+                "Moderate": "Moderate",
+                "Prompt": "Select a goo grenade quality.",
+                "success": "<strong>Effect</strong> On a hit, the creature takes a penalty to its Speeds from the clinging goo. @UUID[Compendium.pf2e.equipment-effects.Item.5JYchreCttBg7RcD]{Effect: Goo Grenade}"
+            },
+            "JunkBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3)[bleed]]]{6 продолжительного урона кровотечением} и [[/r (3[splash])[slashing]]]{3 рубящего урона брызгами}}.",
+                    "success": "Бомба наносит [[/r 3[bleed]]]{3 продолжительного урона кровотечением} и [[/r (3[splash])[slashing]]]{3 рубящего урона брызгами}}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1)[bleed]]]{2 продолжительного урона кровотечением} и [[/r (1[splash])[slashing]]]{1 рубящего урона брызгами}}.",
+                    "success": "Бомба наносит [[/r 1[bleed]]]{1 продолжительного урона кровотечением} и [[/r (1[splash])[slashing]]]{1 рубящего урона брызгами}}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4)[bleed]]]{8 продолжительного урона кровотечением} и [[/r (4[splash])[slashing]]]{4 рубящего урона брызгами}}.",
+                    "success": "Бомба наносит [[/r 4[bleed]]]{4 продолжительного урона кровотечением} и [[/r (4[splash])[slashing]]]{4 рубящего урона брызгами}}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2)[bleed]]]{4 продолжительного урона кровотечением} и [[/r (2[splash])[slashing]]]{2 рубящего урона брызгами}}.",
+                    "success": "Бомба наносит [[/r 2[bleed]]]{2 продолжительного урона кровотечением} и [[/r (2[splash])[slashing]]]{2 рубящего урона брызгами}}."
+                }
+            },
+            "MudBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (3[splash])[bludgeoning]]]{3 дробящего урона брызгами}. Цель @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплена} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r (3[splash])[bludgeoning]]]{3 дробящего урона брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (1[splash])[bludgeoning]]]{1 дробящего урона брызгами}. Цель @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплена} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r (1[splash])[bludgeoning]]]{1 дробящего урона брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (4[splash])[bludgeoning]]]{4 дробящего урона брызгами}. Цель @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплена} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r (4[splash])[bludgeoning]]]{4 дробящего урона брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2}[splash,bludgeoning]]]{2 дробящего урона брызгами}. Цель @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплена} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r (2[splash])[bludgeoning]]]{2 дробящего урона брызгами}."
+                }
+            },
+            "NecroticBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (3[splash])[negative]]]{3 негативного урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 3}.",
+                    "success": "Бомба наносит [[/r (3[splash])[negative]]]{3 негативного урона брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (1[splash])[negative]]]{1 негативного урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.",
+                    "success": "Бомба наносит [[/r (1[splash])[negative]]]{1 негативного урона брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (4[splash])[negative]]]{4 негативного урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 4}.",
+                    "success": "Бомба наносит [[/r (4[splash])[negative]]]{4 негативного урона брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2[splash])[negative]]]{2 негативного урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2}.",
+                    "success": "Бомба наносит [[/r (2[splash])[negative]]]{2 негативного урона брызгами}."
+                }
+            },
+            "PerniciousSporeBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3d4}[persistent,piercing]]]{2*3d4 продолжительного колющего урона} и [[/r (3[splash])[poison]]]{3 урона ядовитыми брызгами}. Область брызг бомбы покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 раунд.",
+                    "success": "Бомба наносит [[/r 3d4[persistent,piercing]]]{3d4 продолжительного колющего урона} и [[/r (3[splash])[poison]]]{3 урона ядовитыми брызгами}. Область брызг бомбы покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 раунд."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1d4)[persistent,piercing]]]{2*1d4 продолжительного колющего урона} и [[/r (1[splash])[poison]]]{1 урона ядовитыми брызгами}. Один квадрат в пространстве целевого существа покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 раунд.",
+                    "success": "Бомба наносит [[/r 1d4[persistent,piercing]]]{1d4 продолжительного колющего урона} и [[/r (1[splash])[poison]]]{1 урона ядовитыми брызгами}. Один квадрат в пространстве целевого существа покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 раунд."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4d4)[persistent,piercing]]]{2*4d4 продолжительного колющего урона} и [[/r (4[splash])[poison]]]{4 урона ядовитыми брызгами}. Область брызг бомбы покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 минуту.",
+                    "success": "Бомба наносит [[/r 4d4[persistent,piercing]]]{4d4 продолжительного колющего урона} и [[/r (4[splash])[poison]]]{4 урона ядовитыми брызгами}. Область брызг бомбы покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 минуту."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2d4)[persistent,piercing]]]{2*2d4 продолжительного колющего урона} и [[/r (2[splash])[poison]]]{2 урона ядовитыми брызгами}. Область брызг бомбы покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 раунд.",
+                    "success": "Бомба наносит [[/r 2d4[persistent,piercing]]]{2d4 продолжительного колющего урона} и [[/r (2[splash])[poison]]]{2 урона ядовитыми брызгами}. Область брызг бомбы покрывается растительностью, становясь <a href=https://clck.ru/akms9>сложной местностью</a> на 1 раунд."
+                }
+            },
+            "PeshspineGrenade": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[piercing]]]{3 колющего урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} до конца своего следующего хода."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[piercing]]]{1 колющего урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} до конца своего следующего хода."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[piercing]]]{4 колющего урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 3} до конца своего следующего хода."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[piercing]]]{2 колющего урона брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} до конца своего следующего хода."
+                }
+            },
+            "PressureBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (3[splash])[bludgeoning]]]{3 дробящего урона брызгами}, Средние или меньшие по размеру цели, отталкиваются на 5 футов от вас, и цель падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.",
+                    "success": "Бомба наносит [[/r (3[splash])[bludgeoning]]]{3 дробящего урона брызгами}, Средние или меньшие по размеру цели, отталкиваются на 5 футов от вас."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (1[splash])[bludgeoning]]]{1 дробящего урона брызгами}, Крошечные или меньшие по размеру цели, отталкиваются на 5 футов от вас, и цель падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.",
+                    "success": "Бомба наносит [[/r (1[splash])[bludgeoning]]]{1 дробящего урона брызгами}, Крошечные или меньшие по размеру цели, отталкиваются на 5 футов от вас."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (4[splash])[bludgeoning]]]{4 дробящего урона брызгами}, Средние или меньшие по размеру существа получившие урон брызгами, отталкиваются от цели на 5 футов, и цель Большого или меньшего размера, отталкивается на 5 футов от вас, и цель падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.",
+                    "success": "Бомба наносит [[/r (4[splash])[bludgeoning]]]{4 дробящего урона брызгами}, Средние или меньшие по размеру существа получившие урон брызгами, отталкиваются от цели на 5 футов, и цель Большого или меньшего размера, отталкивается на 5 футов от вас."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2[splash])[bludgeoning]]]{2 дробящего урона брызгами}, Маленькие или меньшие по размеру цели, отталкиваются на 5 футов от вас, и цель падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.",
+                    "success": "Бомба наносит [[/r (2[splash])[bludgeoning]]]{2 дробящего урона брызгами}, Маленькие или меньшие по размеру цели, отталкиваются на 5 футов от вас."
+                }
+            },
+            "RedpitchBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3d4)[persistent,fire]]]{2*3d4 продолжительного урона огнем} и [[/r (3[splash])[fire]]]{3 урона огненными брызгами}. При критическом попадании цель становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюжей 2} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r 3d4[persistent,fire]]]{3d4 продолжительного урона огнем} и [[/r (3[splash])[fire]]]{3 урона огненными брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1d4)[persistent,fire]]]{2*1d4 продолжительного урона огнем} и [[/r (1[splash])[fire]]]{1 урона огненными брызгами}. При критическом попадании цель становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюжей 1} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r 1d4[persistent,fire]]]{1d4 продолжительного урона огнем} и [[/r (1[splash])[fire]]]{1 урона огненными брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4d4)[persistent,fire]]]{2*4d4 продолжительного урона огнем} и [[/r (4[splash])[fire]]]{4 урона огненными брызгами}. При критическом попадании цель становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюжей 3} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r 4d4[persistent,fire]]]{4d4 продолжительного урона огнем} и [[/r (4[splash])[fire]]]{4 урона огненными брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2d4)[persistent,fire]]]{2*2d4 продолжительного урона огнем} и [[/r (2[splash])[fire]]]{2 урона огненными брызгами}. При критическом попадании цель становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюжей 1} до начала вашего следующего хода.",
+                    "success": "Бомба наносит [[/r 2d4[persistent,fire]]]{2d4 продолжительного урона огнем} и [[/r (2[splash])[fire]]]{2 урона огненными брызгами}."
+                }
+            },
+            "SulfurBomb": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (3[splash])[acid]]]{3 урона кислотными брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.",
+                    "success": "Бомба наносит [[/r (3[splash])[acid]]]{3 урона кислотными брызгами} и цель получает штраф состояния –1 к проверкам Восприятия и броскам атак до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Эффект: Серная бомба (Успех)})."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (1[splash])[acid]]]{1 урона кислотными брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.",
+                    "success": "Бомба наносит [[/r (1[splash])[acid]]]{1 урона кислотными брызгами} и цель получает штраф состояния –1 к проверкам Восприятия и броскам атак до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Эффект: Серная бомба (Успех)})."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (4[splash])[acid]]]{4 урона кислотными брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.",
+                    "success": "Бомба наносит [[/r (4[splash])[acid]]]{4 урона кислотными брызгами} и цель получает штраф состояния –1 к проверкам Восприятия и броскам атак до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Эффект: Серная бомба (Успех)})."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2[splash])[acid]]]{2 урона кислотными брызгами} и цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.",
+                    "success": "Бомба наносит [[/r (2[splash])[acid]]]{2 урона кислотными брызгами} и цель получает штраф состояния –1 к проверкам Восприятия и броскам атак до конца своего следующего хода (@UUID[Compendium.pf2e.equipment-effects.Item.fuQVJiPPUsvL6fi5]{Эффект: Серная бомба (Успех)})."
+                }
+            },
+            "TallowBomb": {
+                "criticalSuccess": "При критическом попадании, живое существо получающее продолжительный урон огнем, получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 1} из-за зловония горящего жира и не может уменьшить свое значение <em>`тошноты`</em> ниже 1, пока длится продолжительный урон огнем.",
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3d4)[persistent,fire]]]{2*3d4 продолжительного урона огнем}, [[/r (3[splash])[fire]]]{3 урона огненными брызгами}, и получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} от вони горящего жира. Существо не может снизить свое значение <em>`тошноты`</em> ниже 1, пока получает продолжительный урон огнем.",
+                    "success": "Бомба наносит [[/r 3d4[persistent,fire]]]{3d4 продолжительного урона огнем} и [[/r (3[splash])[fire]]]{3 урона огненными брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1d4)[persistent,fire]]]{2*1d4 продолжительного урона огнем}, [[/r (1[splash])[fire]]]{1 урона огненными брызгами}, и получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} от вони горящего жира. Существо не может снизить свое значение <em>`тошноты`</em> ниже 1, пока получает продолжительный урон огнем.",
+                    "success": "Бомба наносит [[/r 1d4[persistent,fire]]]{1d4 продолжительного урона огнем} и [[/r (1[splash])[fire]]]{1 урона огненными брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4d4)[persistent,fire]]]{2*4d4 продолжительного урона огнем}, [[/r (4[splash])[fire]]]{4 урона огненными брызгами}, и получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} от вони горящего жира. Существо не может снизить свое значение <em>`тошноты`</em> ниже 1, пока получает продолжительный урон огнем.",
+                    "success": "Бомба наносит [[/r 4d4[persistent,fire]]]{4d4 продолжительного урона огнем} и [[/r (4[splash])[fire]]]{4 урона огненными брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*2d4)[persistent,fire]]]{2*2d4 продолжительного урона огнем}, [[/r (2[splash])[fire]]]{2 урона огненными брызгами}, и получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} от вони горящего жира. Существо не может снизить свое значение <em>`тошноты`</em> ниже 1, пока получает продолжительный урон огнем.",
+                    "success": "Бомба наносит [[/r 2d4[persistent,fire]]]{2d4 продолжительного урона огнем} и [[/r (2[splash])[fire]]]{2 урона огненными брызгами}."
+                }
+            },
+            "TanglefootBag": {
+                "Greater": {
+                    "criticalSuccess": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{-15 футов к Скоростям} на 1 минуту. При крит.попадании, существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд. <hr /><i>Бомбы-липучки не наносят урона</i>.",
+                    "success": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{-15 футов к Скоростям} на 1 минуту."
+                },
+                "Lesser": {
+                    "criticalSuccess": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]{-10 футов к Скоростям} на 1 минуту. При крит.попадании, существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд. <hr /><i>Бомбы-липучки не наносят урона</i>.",
+                    "success": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]{-10 футов к Скоростям} на 1 минуту."
+                },
+                "Major": {
+                    "criticalSuccess": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]{-20 футов к Скоростям} на 1 минуту. При крит.попадании, существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд. <hr /><i>Бомбы-липучки не наносят урона</i>.",
+                    "success": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]{-20 футов к Скоростям} на 1 минуту."
+                },
+                "Moderate": {
+                    "criticalSuccess": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]{-15 футов к Скоростям} на 1 минуту. При крит.попадании, существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд. <hr /><i>Бомбы-липучки не наносят урона</i>.",
+                    "success": "При попадании цель получает штраф, @UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]{-15 футов к Скоростям} на 1 минуту."
+                }
+            },
+            "Thunderstone": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[sonic]]]{3 урона звуком от брызг} и каждое существо в 10 футах от места взрыва должно успешно сделать спасбросок @Check[type:fortitude|dc:28|name:Greater Thunderstone|showDC:all]{Cтойкости} иначе получит состояние @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} до конца своего следующего хода."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[sonic]]]{1 урона звуком от брызг} и каждое существо в 10 футах от места взрыва должно успешно сделать спасбросок @Check[type:fortitude|dc:17|name:Lesser Thunderstone|showDC:all]{Стойкости} иначе получит состояние @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} до конца своего следующего хода."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[sonic]]]{4 урона звуком от брызг} и каждое существо в 10 футах от места взрыва должно успешно сделать спасбросок @Check[type:fortitude|dc:36|name:Major Thunderstone|showDC:all]{Стойкости} иначе получит состояние @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} до конца своего следующего хода."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[sonic]]]{2 урона звуком от брызг} и каждое существо в 10 футах от места взрыва должно успешно сделать спасбросок @Check[type:fortitude|dc:20|name:Moderate Thunderstone|showDC:all]{Стойкости} иначе получит состояние @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} до конца своего следующего хода."
+                }
+            },
+            "TwigjackSack": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*4)[bleed]]]{8 продолжительного урона кровотечением} и [[/r (3[splash])[piercing]]]{3 колющего урона брызгами}.",
+                    "success": "Бомба наносит [[/r 4[bleed]]]{4 продолжительного урона кровотечением} и [[/r (3[splash])[piercing]]]{3 колющего урона брызгами}."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*1)[bleed]]]{2 продолжительного урона кровотечением} и [[/r (1[splash])[piercing]]]{1 колющего урона брызгами}.",
+                    "success": "Бомба наносит [[/r 1[bleed]]]{1 продолжительного урона кровотечением} и [[/r (1[splash])[piercing]]]{1 колющего урона брызгами}."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*5)[bleed]]]{10 продолжительного урона кровотечением} и [[/r (4[splash])[piercing]]]{4 колющего урона брызгами}.",
+                    "success": "Бомба наносит [[/r 5[bleed]]]{5 продолжительного урона кровотечением} и [[/r (4[splash])[piercing]]]{4 колющего урона брызгами}."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2*3)[bleed]]]{6 продолжительного урона кровотечением} и [[/r (2[splash])[piercing]]]{2 колющего урона брызгами}.",
+                    "success": "Бомба наносит [[/r 3[bleed]]]{3 продолжительного урона кровотечением} и [[/r (2[splash])[piercing]]]{2 колющего урона брызгами}."
+                }
+            },
+            "VexingVapor": {
+                "Greater": {
+                    "criticalSuccess": "Бомба наносит [[/r (3[splash])[mental]]]{3 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится 1 минуту.",
+                    "success": "Бомба наносит [[/r (3[splash])[mental]]]{3 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится до конца ее следующего хода."
+                },
+                "Lesser": {
+                    "criticalSuccess": "Бомба наносит [[/r (1[splash])[mental]]]{1 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится 1 минуту.",
+                    "success": "Бомба наносит [[/r (1[splash])[mental]]]{1 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится до конца ее следующего хода."
+                },
+                "Major": {
+                    "criticalSuccess": "Бомба наносит [[/r (4[splash])[mental]]]{4 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится 1 минуту.",
+                    "success": "Бомба наносит [[/r (4[splash])[mental]]]{4 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится до конца ее следующего хода."
+                },
+                "Moderate": {
+                    "criticalSuccess": "Бомба наносит [[/r (2[splash])[mental]]]{2 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится 1 минуту.",
+                    "success": "Бомба наносит [[/r (2[splash])[mental]]]{2 ментального урона брызгами} и цель должна преуспевать в @Check[type:flat|dc:5]{КС 5} прежде чем предпринять действие с признаком <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, это длится до конца ее следующего хода."
+                }
+            },
+            "WaterBomb": {
+                "Greater": {
+                    "success": "Бомба наносит [[/r (3[splash])[bludgeoning]]]{3 несмертельного дробящего урона брызгами}. Бомба тушит немагические огни в пределах области брызг."
+                },
+                "Lesser": {
+                    "success": "Бомба наносит [[/r (1[splash])[bludgeoning]]]{1 несмертельного дробящего урона брызгами}."
+                },
+                "Major": {
+                    "success": "Бомба наносит [[/r (4[splash])[bludgeoning]]]{4 несмертельного дробящего урона брызгами}. Бомба тушит немагические огни в пределах области брызг."
+                },
+                "Moderate": {
+                    "success": "Бомба наносит [[/r (2[splash])[bludgeoning]]]{2 несмертельного дробящего урона брызгами}."
+                }
+            }
+        },
+        "Mutagens": {
+            "BestialMutagen": {
+                "FeralPrompt": "Увеличить штраф к КБ, чтобы увеличить размер кости урона?"
+            }
+        },
+        "NPCAbility": {
+            "AncientWisp": {
+                "PinpointLight": "Pinpoint Light"
+            },
+            "BarghestFeed": "Сколько раз кормился баргест?",
+            "Bunyip": {
+                "CrocodileLegs": "Крокодильи лапки",
+                "SnakeTail": "Змеиный хвост"
+            },
+            "Calikang": {
+                "SixfoldFlurry": "Strikes not taken?",
+                "SuspendedAnimationEnter": "Enter Suspended Animation",
+                "SuspendedAnimationExit": "Exit Suspended Animation"
+            },
+            "Charge": {
+                "AtLeastTen": "Переместиться по крайней мере на 10 футов"
+            },
+            "ChyzaeduAlienVestment": "Shattered Alien Vestment",
+            "ClockworkLostPlates": "Сколько пластин потеряно?",
+            "ClockworkWindUp": "Режим ожидания",
+            "ConstructArmor": {
+                "BrokenArmor": "Сломанная броня конструкта",
+                "CriticalHit": "Броня конструкта, сломанная критическим попаданием"
+            },
+            "CustomArmor": {
+                "BrokenArmor": "Broken Custom Armor",
+                "CriticalHit": "Custom Armor Broken by a Critical Hit"
+            },
+            "CyclopsBully": {
+                "TerrorizingSwing": "Если существо @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугано} и получает урон, оно получает дополнительные 2d10 урона и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}."
+            },
+            "DemonInfuseWeapons": "Наносит урон хаосом вместо урона злом",
+            "DisplacedRobot": {
+                "DivertPower": {
+                    "Fists": "Перенаправить питание на Кулаки",
+                    "LaserBeam": "Перенаправить питание на Лазерный луч"
+                },
+                "Fists": "Кулаки",
+                "LaserBeam": "Лазерный луч"
+            },
+            "Dramofir": {
+                "BittersweetDreamsCriticalFailure": "Критический провал",
+                "BittersweetDreamsSuccessFailure": "Успех или провал"
+            },
+            "DuskwalkerHuntPrey": {
+                "AC": "Назначенная добыча атакует Сумеречного",
+                "Checks": "Сумеречный совершает проверки против Назначенной добычи"
+            },
+            "Falrok": {
+                "LazuriteTerrainSwitch": "In lazurite infused terrain"
+            },
+            "GiantAnimatedStatueBrazier": "Жаровня горит",
+            "HellboundAttorney": {
+                "OpeningStatementCriticalSuccess": "Начальное заявление (Крит.успех)"
+            },
+            "HobgoblinFormationArea": "Формация против эффектов по области",
+            "IoseffXarwin": {
+                "FulviasRing": {
+                    "SavePossess": "Save against Target possessing Fulvia's Ring",
+                    "SaveWear": "Save against Target wearing Fulvia's Ring",
+                    "TargetPossess": "Target possesses Fulvia's Ring",
+                    "TargetWear": "Target is wearing Fulvia's Ring"
+                }
+            },
+            "KallasDevil": {
+                "DisguisedAsChild": "Disguised as a Child",
+                "LyingAboutLoathsomeStench": "Lying about Loathsome Stench"
+            },
+            "KrampusPunishTheNaughty": "Крампус бросает против Непослушной Цели",
+            "LegionArchon": {
+                "FlameOfJustice": "Пламя справедливости - критическое попадание"
+            },
+            "LemureSubservience": {
+                "Defend": "Защищать",
+                "Fetch": "Принести",
+                "Kill": "Убить"
+            },
+            "MarilithFocusedAssault": {
+                "One": "1 длинный меч",
+                "Two": "2 длинных меча",
+                "Three": "3 длинных меча",
+                "Four": "4 длинных меча",
+                "Five": "5 длинных мечей",
+                "Six": "6 длинных мечей",
+                "Prompt": "Сколькими длинными мечами владеет марилит?"
+            },
+            "MinotaurHuntedFear": {
+                "Demoralize": "Цель находится в лабиринте или аналогичной запутанной структуре",
+                "Survival": "Чтобы не потеряться"
+            },
+            "Necrohulk": {
+                "AlchemicalCartridgeRuptured": "Alchemical Cartridge Ruptured"
+            },
+            "YetiNightmareGuardianRage": "Ярость стража кошмаров",
+            "PaleStranger": {
+                "TargetMurderedPaleStranger": "Цель убила Бледного Незнакомца",
+                "TargetNeverKilled": "Цель никогда не убивала"
+            },
+            "PoltergeistTelekineticStorm": {
+                "MultiAttackLabel": "Телекинетический шторм - несколько целей",
+                "MultipleTargets": "Несколько целей",
+                "SingleAttackEffect": "Атака наносит [[/r 1d12]]{1d12 урона} при провале.",
+                "SingleAttackLabel": "Телекинетический шторм - одна цель",
+                "SingleTarget": "Одна цель"
+            },
+            "PunishingStrike": {
+                "Note": "Безрассудная атака делает пользователя @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутым врасплох} до начала его следующего хода. Если он попадет, то может добавить @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Толчок} к Удару"
+            },
+            "RaptorGuardWight": {
+                "TerrorMaster": "The Raptor Guard is wearing their dinosaur-skull helm."
+            },
+            "Seugathi": {
+                "MindfogSuppression": "Suppress Mindfog Aura"
+            },
+            "SkyDragon": {
+                "DivineLightningGood": "Божественная молния - урон добром",
+                "DivineLightningPositive": "Божественная молния - позитивный урон"
+            },
+            "SovereignDragon": {
+                "InspireEnvoyDragonChoice": "Дракон дающий эффект",
+                "InspireEnvoyDragonAdult": "Взрослый монарший дракон",
+                "InspireEnvoyDragonAncient": "Древний монарший дракон",
+                "InspireEnvoyEffectChoice": "Эффект предоставляет",
+                "InspireEnvoyEffectAttack": "Бонус к атаке",
+                "InspireEnvoyEffectAC": "Бонус к КБ",
+                "InspireEnvoyEffectPercWillCha": "Бонус к Восприятию, спасброскам Воли и проверкам навыков основанных на Харизме"
+            },
+            "Surgeon": {
+                "MedicalMalpracticeCriticalSuccess": "Медицинская ошибка (Крит.успех)"
+            },
+            "TreerazerPlantAttack": "Атака растения",
+            "Vampire": {
+                "JiangShi": {
+                    "StanceOfDeath": {
+                        "BoneCorpse": {
+                            "Label": "Стойка окостеневшего тела"
+                        },
+                        "CloudlessVoid": {
+                            "Label": "Стойка безоблачной пустоты"
+                        },
+                        "SunderedVeins": {
+                            "Label": "Стойка разорванных вен",
+                            "Note": "Цель становится @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослабленной 1}"
+                        }
+                    }
+                }
+            },
+        "Zetogeki": {
+            "TiltScalesChannelEnergy": "Kinetic Energy Channeled",
+            "TiltScalesTilted": "Scales Tilted"
+        }
+    },
+        "OracleCurses": {
+            "Ancestor": {
+                "Label": {
+                    "MinorBattle": "Слабое-Воин",
+                    "ModerateBattle": "Среднее-Воин",
+                    "MajorBattle": "Сильное-Воин",
+                    "ExtremeBattle": "Экстремальное-Воин",
+                    "MinorSkillful": "Слабое-Умелый",
+                    "ModerateSkillful": "Среднее-Умелый",
+                    "MajorSkillful": "Сильное-Умелый",
+                    "ExtremeSkillful": "Экстремаьное-Умелый",
+                    "MinorSpellcasting": "Слабое-Заклинатель",
+                    "ModerateSpellcasting": "Среднее-Заклинатель",
+                    "MajorSpellcasting": "Сильное-Заклинатель",
+                    "ExtremeSpellcasting": "Экстремальное-Заклинатель"
+                },
+                "MinorFailure": "Ваше проклятие мешает этому действию и вы должны сделать чистую проверку @Check[type:flat|dc:4|showDC:owner]{КС 4}.",
+                "ModerateFailure": "Ваше проклятие мешает этому действию и вы должны сделать чистую проверку @Check[type:flat|dc:6|showDC:owner]{КС 6}.",
+                "MajorFailure": "Ваше проклятие мешает этому действию и вы должны сделать чистую проверку @Check[type:flat|dc:8|showDC:owner]{КС 8}."
+            },
+            "Battle": {
+                "MadeAStrike": "Вы нанесли Удар в этом раунде",
+                "NonTrivialEncounter": "Это нетривиальное столкновение"
+            },
+            "Bones": {
+                "ModerateUpgrade": "Когда вы выбрасываете успех при спасброске против эффекта болезни, яда или смерти, вместо этого вы получаете крит.успех.",
+                "MajorUpgrade": " Когда вы выбрасываете крит.провал при спасброске против эффекта болезни, яда или смерти, вместо этого вы получаете провал."
+            },
+            "Label": {
+                "Minor": "Слабое",
+                "Moderate": "Среднее",
+                "Major": "Сильное",
+                "Extreme": "Экстремаьное"
+            },
+            "Life": {
+                "ToggleLabel": "Все цели исцеления - живые существа"
+            },
+            "Time": {
+                "ACLabel": "Защита от реакция или свободных действий во время движения"
+            }
+        },
+        "PersistentDamage": {
+            "Acid1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,acid]]]{2*1d4 продолжительного урона кислотой}",
+                "success": "[[/r 1d4[persistent,acid]]]{1d4 продолжительного урона кислотой}"
+            },
+            "Acid1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,acid]]]{2*1d6 продолжительного урона кислотой}",
+                "success": "[[/r 1d6[persistent,acid]]]{1d6 продолжительного урона кислотой}"
+            },
+            "Acid2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,acid]]]{2*2d6 продолжительного урона кислотой}",
+                "success": "[[/r 2d6[persistent,acid]]]{2d6 продолжительного урона кислотой}"
+            },
+            "Acid2d6+2": {
+                "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]{2*2d6+4 продолжительного урона кислотой}",
+                "success": "[[/r 2d6+2[persistent,acid]]]{2d6+2 продолжительного урона кислотой}"
+            },
+            "Bleed1": {
+                "criticalSuccess": "[[/r 2[bleed]]]{2 продолжительного урона кровотечением}",
+                "success": "[[/r 1[bleed]]]{1 продолжительного урона кровотечением}"
+            },
+            "Bleed2": {
+                "criticalSuccess": "[[/r 4[bleed]]]{4 продолжительного урона кровотечением}",
+                "success": "[[/r 2[bleed]]]{2 продолжительного урона кровотечением}"
+            },
+            "Bleed1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[bleed]]]{2*1d4 продолжительного урона кровотечением}",
+                "success": "[[/r 1d4[bleed]]]{1d4 продолжительного урона кровотечением}"
+            },
+            "Bleed2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[bleed]]]{2*2d4 продолжительного урона кровотечением}",
+                "success": "[[/r 2d4[bleed]]]{2d4 продолжительного урона кровотечением}"
+            },
+            "Bleed8d4": {
+                "criticalSuccess": "[[/r (2*8d4)[bleed]]]{2*8d4 продолжительного урона кровотечением}",
+                "success": "[[/r 8d4[bleed]]]{8d4 продолжительного урона кровотечением}"
+            },
+            "Bleed1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[bleed]]]{2*1d6 продолжительного урона кровотечением}",
+                "success": "[[/r 1d6[bleed]]]{1d6 продолжительного урона кровотечением}"
+            },
+            "Bleed2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[bleed]]]{2*2d6 продолжительного урона кровотечением}",
+                "success": "[[/r 2d6[bleed]]]{2d6 продолжительного урона кровотечением}"
+            },
+            "Bleed3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[bleed]]]{2*3d6 продолжительного урона кровотечением}",
+                "success": "[[/r 3d6[bleed]]]{3d6 продолжительного урона кровотечением}"
+            },
+            "Bleed4d6": {
+                "criticalSuccess": "[[/r (2*4d6)[bleed]]]{2*4d6 продолжительного урона кровотечением}",
+                "success": "[[/r 4d6[bleed]]]{4d6 продолжительного урона кровотечением}"
+            },
+            "Bleed6d6": {
+                "criticalSuccess": "[[/r (2*6d6)[bleed]]]{2*6d6 продолжительного урона кровотечением}",
+                "success": "[[/r 6d6[bleed]]]{6d6 продолжительного урона кровотечением}"
+            },
+            "Bleed1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[bleed]]]{2*1d8 продолжительного урона кровотечением}",
+                "success": "[[/r 1d8[bleed]]]{1d8 продолжительного урона кровотечением}"
+            },
+            "Bleed2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[bleed]]]{2*2d8 продолжительного урона кровотечением}",
+                "success": "[[/r 2d8[bleed]]]{2d8 продолжительного урона кровотечением}"
+            },
+            "Bleed3d8": {
+                "criticalSuccess": "[[/r (2*3d8)[bleed]]]{2*3d8 продолжительного урона кровотечением}",
+                "success": "[[/r 3d8[bleed]]]{3d8 продолжительного урона кровотечением}"
+            },
+            "Bleed4d8": {
+                "criticalSuccess": "[[/r (2*4d8)[bleed]]]{2*4d8 продолжительного урона кровотечением}",
+                "success": "[[/r 4d8[bleed]]]{4d8 продолжительного урона кровотечением}"
+            },
+            "Bleed1d10": {
+                "criticalSuccess": "[[/r (2*1d10)[bleed]]]{2*1d10 продолжительного урона кровотечением}",
+                "success": "[[/r 1d10[bleed]]]{1d10 продолжительного урона кровотечением}"
+            },
+            "Bleed2d10": {
+                "criticalSuccess": "[[/r (2*2d10)[bleed]]]{2*2d10 продолжительного урона кровотечением}",
+                "success": "[[/r 2d10[bleed]]]{2d10 продолжительного урона кровотечением}"
+            },
+            "Bleed3d10": {
+                "criticalSuccess": "[[/r (2*3d10)[bleed]]]{2*3d10 продолжительного урона кровотечением}",
+                "success": "[[/r 3d10[bleed]]]{3d10 продолжительного урона кровотечением}"
+            },
+            "Bleed6d10": {
+                "criticalSuccess": "[[/r (2*6d10)[bleed]]]{2*6d10 продолжительного урона кровотечением}",
+                "success": "[[/r 6d10[bleed]]]{6d10 продолжительного урона кровотечением}"
+            },
+            "Bleed1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[bleed]]]{2*1d12 продолжительного урона кровотечением}",
+                "success": "[[/r 1d12[bleed]]]{1d12 продолжительного урона кровотечением}"
+            },
+            "Bleed2d12": {
+                "criticalSuccess": "[[/r (2*2d12)[bleed]]]{2*2d12 продолжительного урона кровотечением}",
+                "success": "[[/r 2d12[bleed]]]{2d12 продолжительного урона кровотечением}"
+            },
+            "Cold1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,cold]]]{2*1d6 урона холодом}",
+                "success": "[[/r 1d6[persistent,cold]]]{1d6 урона холодом}"
+            },
+            "Cold2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,cold]]]{2*2d6 продолжительного урона холодом}",
+                "success": "[[/r 2d6[persistent,cold]]]{2d6 продолжительного урона холодом}"
+            },
+            "Cold1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,cold]]]{2*1d8 продолжительного урона холодом}",
+                "success": "[[/r 1d8[persistent,cold]]]{1d8 продолжительного урона холодом}"
+            },
+            "Cold2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,cold]]]{2*2d8 продолжительного урона холодом}",
+                "success": "[[/r 2d8[persistent,cold]]]{2d8 продолжительного урона холодом}"
+            },
+            "Fire1": {
+                "criticalSuccess": "[[/r 2[persistent,fire]]]{2 продолжительного урона огнем}",
+                "success": "[[/r 1[persistent,fire]]]{1 продолжительного урона огнем}"
+            },
+            "Fire1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,fire]]]{2*1d4 продолжительного урона огнем}",
+                "success": "[[/r 1d4[persistent,fire]]]{1d4 продолжительного урона огнем}"
+            },
+            "Fire1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,fire]]]{2*1d6 продолжительного урона огнем}",
+                "success": "[[/r 1d6[persistent,fire]]]{1d6 продолжительного урона огнем}"
+            },
+            "Fire2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[persistent,fire]]]{2*2d4 продолжительного урона огнем}",
+                "success": "[[/r 2d4[persistent,fire]]]{2d4 продолжительного урона огнем}"
+            },
+            "Fire2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,fire]]]{2*2d6 продолжительного урона огнем}",
+                "success": "[[/r 2d6[persistent,fire]]]{2d6 продолжительного урона огнем}"
+            },
+            "Fire3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[persistent,fire]]]{2*3d6 продолжительного урона огнем}",
+                "success": "[[/r 3d6[persistent,fire]]]{3d6 продолжительного урона огнем}"
+            },
+            "Fire2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,fire]]]{2*2d8 продолжительного урона огнем}",
+                "success": "[[/r 2d8[persistent,fire]]]{2d8 продолжительного урона огнем}"
+            },
+            "Fire3d8": {
+                "criticalSuccess": "[[/r (2*3d8)[persistent,fire]]]{2*3d8 продолжительного урона огнем}",
+                "success": "[[/r 3d8[persistent,fire]]]{3d8 продолжительного урона огнем}"
+            },
+            "Fire1d10": {
+                "criticalSuccess": "[[/r (2*1d10)[persistent,fire]]]{2*1d10 продолжительного урона огнем}",
+                "success": "[[/r 1d10[persistent,fire]]]{1d10 продолжительного урона огнем}"
+            },
+            "Fire2d10": {
+                "criticalSuccess": "[[/r (2*2d10)[persistent,fire]]]{2*2d10 продолжительного урона огнем}",
+                "success": "[[/r 2d10[persistent,fire]]]{2d10 продолжительного урона огнем}"
+            },
+            "Fire3d10": {
+                "criticalSuccess": "[[/r (2*3d10)[persistent,fire]]]{2*3d10 продолжительного урона огнем}",
+                "success": "[[/r 3d10[persistent,fire]]]{3d10 продолжительного урона огнем}"
+            },
+            "Fire4d10": {
+                "criticalSuccess": "[[/r (2*4d10)[persistent,fire]]]{2*4d10 продолжительного урона огнем}",
+                "success": "[[/r 4d10[persistent,fire]]]{4d10 продолжительного урона огнем}"
+            },
+            "Force1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[persistent,force]]]{2*1d12 продолжительного урона силой}",
+                "success": "[[/r 1d12[persistent,force]]]{1d12 продолжительного урона силой}"
+            },
+            "Force2d12": {
+                "criticalSuccess": "[[/r (2*2d12)[persistent,force]]]{2*2d12 продолжительного урона силой}",
+                "success": "[[/r 2d12[persistent,force]]]{2d12 продолжительного урона силой}"
+            },
+            "Mental1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,mental]]]{2*1d4 продолжительного ментального урона}",
+                "success": "[[/r 1d4[persistent,mental]]]{1d4 продолжительного ментального урона}"
+            },
+            "Mental1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,mental]]]{2*1d6 продолжительного ментального урона}",
+                "success": "[[/r 1d6[persistent,mental]]]{1d6 продолжительного ментального урона}"
+            },
+            "Mental2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,mental]]]{2*2d6 продолжительного ментального урона}",
+                "success": "[[/r 2d6[persistent,mental]]]{2d6 продолжительного ментального урона}"
+            },
+            "Mental3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[persistent,mental]]]{2*3d6 продолжительного ментального урона}",
+                "success": "[[/r 3d6[persistent,mental]]]{3d6 продолжительного ментального урона}"
+            },
+            "Mental1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,mental]]]{2*1d8 продолжительного ментального урона}",
+                "success": "[[/r 1d8[persistent,mental]]]{1d8 продолжительного ментального урона}"
+            },
+            "Negative1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,negative]]]{2*1d6 продолжительного негативного урона}",
+                "success": "[[/r 1d6[persistent,negative]]]{1d6 продолжительного негативного урона}"
+            },
+            "Negative1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,negative]]]{2*1d8 продолжительного негативного урона}",
+                "success": "[[/r 1d8[persistent,negative]]]{1d8 продолжительного негативного урона}"
+            },
+            "Negative1d10": {
+                "criticalSuccess": "[[/r (2*1d10)[persistent,negative]]]{2*1d10 продолжительного негативного урона}",
+                "success": "[[/r 1d10[persistent,negative]]]{1d10 продолжительного негативного урона}"
+            },
+            "Negative2d10": {
+                "criticalSuccess": "[[/r (2*2d10)[persistent,negative]]]{2*2d10 продолжительного негативного урона}",
+                "success": "[[/r 2d10[persistent,negative]]]{2d10 продолжительного негативного урона}"
+            },
+            "Piercing2d8+8": {
+                "criticalSuccess": "[[/r (2*2d8+16)[persistent,piercing]]]{2*2d8+16 продолжительного колющего урона}",
+                "success": "[[/r (2d8+8)[persistent,piercing]]]{2d8+8 продолжительного колющего урона}"
+            },
+            "Poison1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]{2*1d4 продолжительного урона ядом}",
+                "success": "[[/r 1d4[persistent,poison]]]{1d4 продолжительного урона ядом}"
+            },
+            "Poison2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[persistent,poison]]]{2*2d4 продолжительного урона ядом}",
+                "success": "[[/r 2d4[persistent,poison]]]{2d4 продолжительного урона ядом}"
+            },
+            "Poison3d4": {
+                "criticalSuccess": "[[/r (2*3d4)[persistent,poison]]]{2*3d4 продолжительного урона ядом}",
+                "success": "[[/r 3d4[persistent,poison]]]{3d4 продолжительного урона ядом}"
+            },
+            "Poison1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]{2*1d6 продолжительного урона ядом}",
+                "success": "[[/r 1d6[persistent,poison]]]{1d6 продолжительного урона ядом}"
+            },
+            "Poison2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,poison]]]{2*2d6 продолжительного урона ядом}",
+                "success": "[[/r 2d6[persistent,poison]]]{2d6 продолжительного урона ядом}"
+            },
+            "Poison3d6": {
+                "criticalSuccess": "[[/r (2*3d6)[persistent,poison]]]{2*3d6 продолжительного урона ядом}",
+                "success": "[[/r 3d6[persistent,poison]]]{3d6 продолжительного урона ядом}"
+            },
+            "Poison4d6": {
+                "criticalSuccess": "[[/r (2*4d6)[persistent,poison]]]{2*4d6 продолжительного урона ядом}",
+                "success": "[[/r 4d6[persistent,poison]]]{4d6 продолжительного урона ядом}"
+            },
+            "Poison1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,poison]]]{2*1d8 продолжительного урона ядом}",
+                "success": "[[/r 1d8[persistent,poison]]]{1d8 продолжительного урона ядом}"
+            },
+            "Poison2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,poison]]]{2*2d8 продолжительного урона ядом}",
+                "success": "[[/r 2d8[persistent,poison]]]{2d8 продолжительного урона ядом}"
+            },
+            "Poison1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[persistent,poison]]]{2*1d12 продолжительного урона ядом}",
+                "success": "[[/r 1d12[persistent,poison]]]{1d12 продолжительного урона ядом}"
+            }
+        },
+        "RuleEditor": {
+            "FastHealing": {
+                "DeactivatedBy": "Отключается от"
+            },
+            "FlatModifier": {
+                "HideIfDisabled": "Скрыть (если отключено)"
+            },
+            "General": {
+                "Brackets": "Скобки",
+                "CriticalBehavior": {
+                    "null": "2x Урон при крите",
+                    "false": "1x Урон при крите",
+                    "true": "Только при критическом уроне"
+                },
+                "DamageType": "Тип урона",
+                "Label": "Метка",
+                "Predicate": "Предикат",
+                "Primitive": "Примитив",
+                "Range": "Диапазон",
+                "Selector": "Селектор",
+                "Value": "Значение"
+            },
+            "GrantItem": {
+                "AllowDuplicate": "Разрешить дубликаты",
+                "ReplaceSelf": "Заменить себя",
+                "ReevaluateOnUpdate": "Переоценивать при обновлении"
+            },
+            "Note": {
+                "Hidden": "Скрытый",
+                "Outcome": "Результат",
+                "Title": "Заголовок",
+                "Text": "Текстовое содержимое"
+            }
+        },
+        "RuleElement": {
+            "ActiveEffectLike": "Подобный активному эффекту",
+            "ActorTraits": "Признаки участника",
+            "AdjustDegreeOfSuccess": "Регулятор степени успеха",
+            "AdjustModifier": "Регулятор модификатора",
+            "AdjustStrike": "Регулятор Удара",
+            "Aura": "Аура",
+            "BaseSpeed": "Базовая скорость",
+            "BattleForm": "Боевая форма",
+            "ChoiceSet": "Набор выбора",
+            "CraftingEntry": "Запись создания",
+            "CraftingFormula": "Формула создания",
+            "CreatureSize": "Размер существа",
+            "CriticalSpecialization": "Критическая специализация",
+            "DamageDice": "Кость урона",
+            "DexterityModifierCap": "Макс. модификатора Ловкости",
+            "EphemeralEffect": "Эфемерный эффект",
+            "FastHealing": "Быстрое исцеление",
+            "FixedProficiency": "Фиксированное владение",
+            "FlatModifier": "Модификатор чистой проверки",
+            "GrantItem": "Предоставляемое предметом",
+            "Immunity": "Иммунитет",
+            "LoseHitPoints": "Потеря очков здоровья",
+            "MarkToken": "Отметить токен",
+            "MartialProficiency": "Боевое мастерство",
+            "MultipleAttackPenalty": "Штраф множественной атаки",
+            "Note": "Примечание",
+            "Resistance": "Сопротивление",
+            "RollOption": "Опции броска",
+            "RollTwice": "Бросок дважды",
+            "Sense": "Чувство",
+            "Strike": "Удар",
+            "Striking": "Разящий",
+            "SubstituteRoll": "Заменяющий бросок",
+            "TempHP": "Временные ОЗ",
+            "TempHPShortLabel": "ВОЗ",
+            "TokenEffectIcon": "Значок эффекта токена",
+            "TokenImage": "Изображение токена",
+            "TokenLight": "Освещение токена",
+            "TokenName": "Имя токена",
+            "Unrecognized": "Непризнанный элемент правил",
+            "Weakness": "Слабость",
+            "WeaponPotency": "Мощь оружия"
+        },
+        "SkillVariant": {
+            "AboutCaves": "О пещерах",
+            "AcidicEnvironment": "In Acidic Surroundings",
+            "AgainstDemons": "Против демонов",
+            "Aid": "Для Помощи",
+            "AttemptToFascinateOutdoorsInBrightSun": "Using Fascinating Performance Outdoors in Bright Sun",
+            "Blacksmithing": "Для кузнечного дела",
+            "BloodOrWater": "In Blood of Water",
+            "BoundHome": "Within Bound Home",
+            "Buried": "Buried",
+            "CanClearlyIdentifyTheStars": "Can Clearly Identify the Stars",
+            "Climb": "Для Карабкаться",
+            "ClimbHighJumpLongJumpOrDisarm": "Для Карабкаться, Прыжка в высоту, Прыжка в длину или Разоружения",
+            "ClimbOrSwim": "Для Карабкаться или Плавать",
+            "CommandAnAnimal": "Для Команды животному",
+            "CommandReptile": "To Command an Animal that is a Reptile",
+            "ConcealAnObject": "Для Скрыть Объект",
+            "CraftAlchemical": "Для Создания алхимических предметов",
+            "CraftAlchemicalOrMedicine": "Для Создания алхимических или медицинских предметов",
+            "CraftBone": "Using Bone",
+            "CraftJewelry": "Для Создания драгоценностей",
+            "CraftSnare": "Для Создания силков",
+            "CraftTrap": "Для Создания ловушек",
+            "CraftTrapSnare": "Для Создания ловушек и силков",
+            "CreateForgery": "Для Создания подделок",
+            "Dance": "To Dance",
+            "Darkness": "Во тьме",
+            "DarknessOrSmoke": "Во тьме или дыму",
+            "DecayingPlantFungus": "Amid Decaying Plant Matter or Fungus",
+            "Demoralize": "Для Деморализации",
+            "DemoralizeThreateningLunge": "To Demoralize with Threatening Lunge",
+            "Deserts": "В пустынях",
+            "DimLight": "В тусклом свете",
+            "DimLightOrDarkness": "При тусклом свете или темноте",
+            "DisableADevice": "Для Отключения устройства",
+            "Disarm": "Для Разоружения",
+            "DisarmGrapple": "Для Разоружения или Захвата",
+            "DisarmGrappleAvoidDisarm": "Для Разоружения, Захвата или избегания Разоружения",
+            "DisarmMetal": "Для Разоружения металлического предмета",
+            "DisarmStoneMetal": "Для Разоружения каменного или металлического предмета",
+            "DiscernAndPredictWeather": "Discern Weather Patterns and Predict Upcoming Weather Conditions",
+            "Diversion": "Для Отвлечь внимание",
+            "Escape": "Для Вырваться",
+            "EscapeForceOpenOrLift": "Для Вырваться, Открыть силой или поднятия тяжелых объектов",
+            "Feint": "Для Финта",
+            "ForceOpenGrappleShoveOrTrip": "Для Открыть Силой, Захватить, Толкнуть или Опрокинуть",
+            "Forests": "В лесах",
+            "ForestsOrJungles": "В лесах или джунглях",
+            "ForestsOrSnow": "В лесах или снегах",
+            "ForestsOrSwamps": "В лесах или болотах",
+            "ForestsOrUnderground": "В лесах или подземных областях",
+            "FortuneTelling": "To Tell Fortunes",
+            "GatherInformation": "Для Сбора информации",
+            "Grapple": "Для Захватить",
+            "GrappleShove": "Для Захватить или Толкнуть",
+            "Hide": "Для Спрятаться",
+            "HideInBody": "Для Спрятаться внутри тела",
+            "HideInDim": "Для Спрятаться в тусклом свете",
+            "HideInDimOrDark": "Для Спрятаться в тусклом свете или темноте",
+            "HideSneakInscriptions": "To Hide or Sneak Among Inscriptions",
+            "HideSneakTree": "To Hide or Sneak while in a Tree",
+            "HighJumpOrLongJump": "Для Прыжка в высоту или Прыжка в длину",
+            "IceAndSnow": "Во льдах или снегу",
+            "ImitateStone": "Для имитации камня",
+            "ImitateVoice": "Для имитации голоса",
+            "Impersonate": "Для Перевоплотиться",
+            "ImpersonateCloakSheetRay": "Для Перевоплотиться в плащ, простыню или луч",
+            "ImpersonateClothing": "Для Перевоплотиться в одежду",
+            "ImpersonateHumanVersion": "To Impersonate a Human Version of Themselves",
+            "ImpersonateInanimate": "To Impersonate an Inanimate Object",
+            "ImpersonateMound": "To Impersonate a Mound",
+            "ImpersonatePastSelf": "To Impersonate a Past Self",
+            "JumpOrClimb": "To Jump or Climb",
+            "JumpOrSwim": "To Jump or Swim",
+            "Jungles": "В джунглях",
+            "JunglesOrFlowerFields": "In Jungles or Flower Fields",
+            "JunkOrDebris": "В мусоре",
+            "Lair": "В логове",
+            "Lava": "In Lava",
+            "LeyLine": "Near Ley Line",
+            "Lie": "Лгать",
+            "LongJump": "To Long Jump",
+            "Lute": "To Play the Lute",
+            "MakeAnImpression": "Производить впечатление",
+            "ManeuverInFlight": "Маневрирование в полете",
+            "Moist": "In Moist Environments",
+            "Mountains": "В горах",
+            "Navigate": "Для Навигации",
+            "NearTheOcean": "Near The Ocean",
+            "NighttimeWithMoonVisible": "Nighttime, with the Moon Visible",
+            "OceansForests": "In Oceans and Forests",
+            "Orate": "To Orate",
+            "Paint": "Для рисования",
+            "PalmAnObjectOrSteal": "To Palm an Object or Steal",
+            "PickALock": "To Pick a Lock",
+            "Poison": "To Craft Poisons",
+            "Prophecy": "To Spout Prophecy",
+            "Raining": "Raining",
+            "RecallKnowledge": "To Recall Knowledge",
+            "RecallKnowledgeDeadSubject": "To Recall Knowledge about a deceased subject",
+            "Rocky": "In Rocky Terrain",
+            "Ruins": "In Ruins",
+            "RunningWater": "In Running Water",
+            "RustyTerrain": "В местах где есть ржавые объекты",
+            "Sand": "В песках",
+            "SenseMotive": "Для Понимания мотива",
+            "Sewers": "В канализации",
+            "SewersScrapyards": "In Sewers and Scrapyards",
+            "ShootingGallery": "In the Shooting Gallery",
+            "Shove": "Для Толкнуть",
+            "Singing": "Пение",
+            "Skinless": "When Skinless",
+            "Snow": "В снегу",
+            "Squeeze": "Для Протиснуться",
+            "Steal": "Для Украсть",
+            "StonyOrIcyAreas": "В каменистых или ледяных областях",
+            "StringedInstruments": "For Stringed Instruments",
+            "Subsist": "Для Проживания",
+            "Swamps": "В болотах",
+            "Swardlands": "In the Swardlands",
+            "Swim": "Для Плавания",
+            "TarPit": "В смоляных ямах",
+            "TellTheTruth": "To Tell the Truth",
+            "ThickVegetation": "In Thick Vegetation",
+            "Track": "Для Выслеживания",
+            "TrackBleedingCreature": "Для Выслеживания кровоточащего существа",
+            "TrackCreator": "To Track Their Creator",
+            "TrackHalfHealth": "To Track a Creature at Half its Hit Points or Fewer",
+            "Traps": "Ловушки",
+            "TrashAndRubbish": "В мусоре",
+            "Trip": "Для Опрокинуть",
+            "TripTangle": "To Trip and Tangle",
+            "TumbleThrough": "To Tumble Through",
+            "TumbleThroughMediumOrLarger": "To Tumble Through the Space of a Medium or Larger Creature",
+            "Tundra": "В тундре",
+            "Underground": "Под землей",
+            "Undergrowth": "В подлеске",
+            "Underwater": "Под водой",
+            "UnderwaterVegetation": "In Underwater Vegetation",
+            "Vegetation": "В растительности",
+            "VsArthropods": "против членистоногих",
+            "VsControlled": "против эффектов контроля",
+            "VsDarknessLightShadow": "против эффектов тьмы, света или тени",
+            "VsDemons": "против демонов",
+            "VsDiseases": "против болезней",
+            "VsEmotion": "против эффектов эмоций",
+            "VsMagic": "против магических эффектов",
+            "VsMental": "против ментальных эффектов",
+            "VsPlants": "против растений",
+            "VsProne": "против эффектов ничком",
+            "VsShoveOrTrip": "против Толкнуть или Опрокинуть",
+            "VsSleeping": "vs. sleeping targets",
+            "Water": "В воде",
+            "WaterOrMud": "В воде или грязи",
+            "Weave": "Для ткания",
+            "Woodworking": "Деревообработка"
+        },
+        "SpecificRule": {
+            "Actions": {
+                "ThreeActions": "Три действия",
+                "TwoActions": "Два действия"
+            },
+            "AdjustDegreeOfSuccess": {
+                "Squeeze": {
+                    "CriticalFailureSuccessBetter": "Когда вы выбрасываете критический провал на проверку Протиснуться, вместо этого вы получаете провал, а когда вы выбрасываете успех, вместо этого вы получаете критический успех."
+                }
+            },
+            "AdoptedAncestry": {
+                "Prompt": "Выберите обычную родословную."
+            },
+            "AdvancedGeneralTraining": {
+                "Prompt": "Выберите общую способность 7-го уровня или ниже."
+            },
+            "AerialPiledriver": {
+                "SuccessText": "Цель приземляется @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.",
+                "FailureText": "Вы теряете хватку на цели, и она больше не схвачена или сдерживаема вами.",
+                "CriticalFailureText": "Вы падаете @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}, и цель больше не схвачена или сдерживаема вами."
+            },
+            "AftermathFeats": {
+                "DormantEruptionToggle": "You've Used Thermal Eruption Today",
+                "StoneFistLabel": "Stone Fist"
+            },
+            "Aid": {
+                "Prompt": "Выберите бонус от Помощи."
+            },
+            "Alchemist": {
+                "AlchemicalCrossbow": {
+                    "Prompt": "Выберите бомбу для добавления в арбалет."
+                },
+                "ResearchField": {
+                    "Prompt": "Выберите область исследования."
+                }
+            },
+            "Anadi": {
+                "SpiderOrHybridForm": "В паучьей или гибридной форме"
+            },
+            "AncestralParagon": {
+                "Prompt": "Выберите способность родословной 1-го уровня."
+            },
+            "AncientElf": {
+                "Prompt": "Выберите мультиклассовую способность посвящения."
+            },
+            "AnimalSkin": {
+                "BracersOfArmor": "Шкура животного w/ Наручи брони",
+                "ExplorersClothing": "Шкура животного w/ Одежда исследователя",
+                "MageArmor": "Шкура животного w/ Магический доспех"
+            },
+            "AquaticCombat": {
+                "FireNote": "Вы не можете сотворять огненные заклинания или использовать действия с признаком `огонь` под водой.",
+                "RangedNote": "Атаки дальнего боя, наносящие дробящий или рубящий урон, автоматически промахиваются, если атакующий или цель находятся под водой, а при колющих атаках дальнего боя, совершаемых существом под водой или против цели под водой, шаг дистанции снижается вдвое."
+            },
+            "ArtokussFire": {
+                "Note": "Ваш алхимический огонь наносит дополнительные 1d4 продолжительного урона огнем и существа должны пройти две успешных чистых проверок, чтобы избавиться от состояния (или одна проверка, если была оказана помощь восстановления, которая снижает чистую проверку до КС 10). Огонь горит под водой, и вода не помогает положить конец продолжительному урону."
+            },
+            "Automaton": {
+                "ArcaneLocomotion": {
+                    "Prompt": "Выберите тип движения."
+                },
+                "AutomatonArmament": {
+                    "Prompt": "Выберите безоружный удар."
+                },
+                "CoreCannon": {
+                    "AttackNote": "Вам нужно вручную применить свою наивысшую руну Мощи к этому броску атаки.",
+                    "CriticalHit": "При критическом попадании цель получает [[/r {10}[persistent,fire]]]. Ваша ядерная пушка не добавляет критических эффектов специализации.</p>"
+                },
+                "EnergyBeam": {
+                    "CriticalHit": "При критическом попадании цель получает продолжительный урон огнем, чье значение равно количеству костей урона от оружия. К вашему лучу из глаза не добавляется эффект критической специализации."
+                },
+                "EnhanceableFeats": {
+                    "ArcaneCamouflage": "Арканный камуфляж",
+                    "ArcaneCommunication": "Арканная коммуникация",
+                    "ArcaneEye": "Арканный глаз",
+                    "ArcaneLocomotion": "Арканное передвижение",
+                    "ArcanePropulsion": "Арканная тяга",
+                    "ArcaneSafeguards": "Арканные защиты",
+                    "ArcaneSlam": "Арканное придавливание",
+                    "AstralBlink": "Астральное мерцание",
+                    "AutomatonArmament": "Вооружение автоматона",
+                    "AutomatonLore": "Знания автоматона",
+                    "CoreAttunement": "Сонастройка с ядром",
+                    "CoreRejuvenation": "Оживление ядра",
+                    "EnergyBeam": "Энергетический луч",
+                    "EnlargedChassis": "Увеличенный корпус",
+                    "IntegratedArmament": "Интегрированное вооружение",
+                    "LesserAugmentation": "Небольшое улучшение",
+                    "MagicalResistance": "Магическое сопротивление",
+                    "RainOfBolts": "Ливень болтов",
+                    "ReinforcedChassis": "Укрепленный корпус"
+                },
+                "Enhancement": {
+                    "ArcaneLocomotionClimbSpeed": "Получить Скорость карабканья",
+                    "ArcaneLocomotionIncreaseSpeed": "Увеличить Скорость",
+                    "ArcaneLocomotionSwimSpeed": "Получить Скорость плавания",
+                    "AugmentationPrompt": "Выберите способность для улучшения",
+                    "EnhancementPrompt": "Выберите усовершенствование",
+                    "MagicalResistanceAll": "Получить дополнительные сопротивление",
+                    "MagicalResistanceIncrease": "Улучшить текущее сопротивление"
+                },
+                "HunterAutomaton": {
+                    "ToggleLabel": "Двигаться на четырех конечностях"
+                },
+                "MagicalResistance": {
+                    "Prompt": "Выберите тип энергетического урона"
+                }
+            },
+            "Barbarian": {
+                "Animal": {
+                    "Ape": "Обезьяна",
+                    "Bear": "Медведь",
+                    "Bull": "Бык",
+                    "Cat": "Кошка",
+                    "Deer": "Олень",
+                    "Frog": "Лягушка",
+                    "Prompt": "Выберите животное.",
+                    "Shark": "Акула",
+                    "Snake": "Змея",
+                    "Wolf": "Волк"
+                },
+                "Dragon": {
+                    "NormalRageDamage": "Наносит обычный урон от ярости",
+                    "ToggleLabel": "Драконья ярость",
+                    "Prompt": "Выберите дракона"
+                },
+                "Giant": {
+                    "Prompt": "Выберите тип энергии для Яростного Сопротивления"
+                },
+                "Instinct": {
+                    "Drops": "Способность класса варвара 1 уровня",
+                    "Prompt": "Выберите инстинкт"
+                },
+                "InuredToAlchemy": {
+                    "CriticalSuccess": "Each critical success reduces the stage by 3 for an alchemical poison, drug, or addiction.",
+                    "CriticalSuccessVirulent": "Each critical success reduces the stage by 2 for a virulent alchemical poison, drug, or addiction.",
+                    "Success": "Each of your successful saving throws against an alchemical poison, a drug, or an addiction reduces the stage by 2",
+                    "SuccessVirulent": "Each of your successful saving throws against a virulent alchemical poison, a drug, or an addiction reduces the stage by 1"
+                },
+                "Spirit": {
+                    "NegativeDamage": "Негативный урон",
+                    "PositiveDamage": "Позитивный урон",
+                    "ToggleLabel": "Духовная ярость"
+                },
+                "Superstition": {
+                    "TargetingCaster": "Цель - заклинатель"
+                }
+            },
+            "Bard": {
+                "Muse": {
+                    "Enigma": "Загадка",
+                    "Maestro": "Маэстро",
+                    "Polymath": "Эрудит",
+                    "Prompt": "Выберите музу",
+                    "Warrior": "Воин"
+                }
+            },
+            "Beastkin": {
+                "AnimalSenses": {
+                    "Prompt": "Выберите чувство, доступное присущему вам животному."
+                },
+                "Senses": {
+                    "EcholocationImprecise": "Эхолокация (неточная) 30 футов",
+                    "EcholocationPrecise": "Улучшите свою эхолокацию до точной",
+                    "Scent": "Нюх (неточный) 30 футов",
+                    "TremorsenseImprecise": "Виброчувствительность (неточная) 30 футов",
+                    "TremorsensePrecise": "Улучшите свою виброчувствительность до точной"
+                }
+            },
+            "BlessingOfDefiance": {
+                "Prompt": "Выберите один спасбросок."
+            },
+            "BloodlettingKukri": {
+                "Note": "Если у цели еще не было продолжительного урона кровотечением, когда вы наносите критический удар, вы также получаете [[/r 1d8 #Temporary Hit Points]]{1d8 ВОЗ}."
+            },
+            "BonusLabel": {
+                "NegativeOne": "-1",
+                "PlusOne": "+1",
+                "PlusTwo": "+2",
+                "PlusThree": "+3",
+                "PlusFour": "+4"
+            },
+            "BottledOmen": {
+                "Label": "Use your omen"
+            },
+            "BountyHunterDedication": {
+                "GatherInfoHuntedPrey": "Для @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Сбора информации} относительно вашей добычи"
+            },
+            "BrevicNoble": {
+                "Prompt": "Выберите родословную Бревоя",
+                "Garess": "Garess",
+                "Lebeda": "Lebeda",
+                "Lodovka": "Lodovka",
+                "Medvyed": "Medvyed",
+                "Orlovsky": "Orlovsky",
+                "Surtova": "Surtova"
+            },
+            "CatharticMage": {
+                "EmotionalState": {
+                    "Prompt": "Выберите свою эмоцию катарсиса"
+                },
+                "Love": {
+                    "Toggle": "Вы сотворяете заклинание, чтобы дать преимущество своему эмоциональному фокусу"
+                }
+            },
+            "CelestialResistance": {
+                "Prompt": "Выберите тип энергии, связанный с вашим наследием крови."
+            },
+            "Champion": {
+                "BladeAllyRune": "Выберите руну свойства для вашего клинка-союзника.",
+                "DivineSmite": {
+                    "Label": "Божественное наказание"
+                },
+                "EvilDamage": "Урон злом",
+                "NegativeDamage": "Негативный урон",
+                "TargetReaction": "Цель вызвала реакцию вашего чемпиона"
+            },
+            "ChromaticArmor": {
+                "Prompt": "Выберите цвет",
+                "Acid": "Оранжевый (Кислота)",
+                "Electricity": "Желтый (Электричество)",
+                "Fire": "Красный (Огонь)",
+                "Force": "Фиолетовый (Сила)",
+                "Mental": "Индиго (Ментальный)",
+                "Poison": "Зеленый (Яд)",
+                "Sonic": "Синий (Звук)"
+            },
+            "CeremonyEvenedHand": {
+                            "Prompt": "Выберите безоружную атаку."
+                        },
+                        "Chronoskimmer": {
+                            "DestabilizeFailureLabel": "Дестабилизировать временной поток (Провал)",
+                            "DestabilizeSuccessLabel": "Дестабилизировать временной поток (Успех)",
+                            "StabilizeLabel": "Стабилизировать временной поток"
+                        },
+            "ClanWeapon": {
+                "ClanPistol": "Клановый пистолет (Способность родословной)",
+                "Label": "Клановое оружие",
+                "Prompt": "Выберите клановое оружие."
+            },
+            "Cleric": {
+                "Doctrine": {
+                    "AllowedDrops": "Особенность класса жреца 1-го уровня",
+                    "Prompt": "Выберите доктрину"
+                }
+            },
+            "Conrasu": {
+                "CeremonyEvenedHand": {
+                    "Prompt": "Выберите безоружную атаку."
+                 },
+                "RiteOfPassage": {
+                    "Note": "Когда вы используете навык Акробатики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Балансировать} на <a href=https://clck.ru/ejpcP>узких поверхностях</a> или <a href=https://clck.ru/ejpcB>неровной местности</a> в лесах, и вы преуспеваете в проверке, вместо этого вы получаете крит.успех."
+                }
+            },
+            "Convergent": {
+                "Tactics": "An ally with Convergent Tactics is within reach of the target."
+            },
+            "CorrosiveBody": {
+                "Note": "В первый раз, в каждом раунде, когда вы таким образом наносите урон кислотой существу, вы получаете [[/r 3d6 #Temporary Hit Points]]{3d6 ВОЗ}",
+                "Note9th": "В первый раз, в каждом раунде, когда вы таким образом наносите урон кислотой существу, вы получаете [[/r 5d6 #Temporary Hit Points]]{5d6 ВОЗ}"
+            },            
+            "Cover": {
+                "Prompt": "Выберите вид укрытия.",
+                "Lesser": "Малое",
+                "Standard": "Стандартное",
+                "Greater": "Большое",
+                "Prone": "Ничком"
+            },
+            "CriticalDeck" : {
+                "Effect": {
+                 "Label": "Критический эффект"
+                }
+            },
+            "DancingShield": {
+                "Prompt": "Выберите бонус КБ щита."
+            },
+            "DedicationCraftingEntry": {
+                "Herbalist": "Травник",
+                "FireworkTechnician": "Специалист по фейерверкам",
+                "Poisoner": "Отравитель",
+                "Snarecrafter": "Создатель ловушек",
+                "TalismanDabbler": "Любитель талисманов"
+            },
+            "Defending": {
+                "FireSpell": "Защита от заклинаний огня"
+            },
+            "DeityAndCause": {
+                "AllowedDrops": "Особенность класса Чемпион 1-го уровня",
+                "Prompt": "Выберите побуждение чемпиона"
+            },
+            "DeviantAbilities": {
+                "AwakenedPower": {
+                    "AwakenedLabel": "Пробужденное",
+                    "BlastingBeamsLine": "Взрывные лучи: 60-футовая линия",
+                    "BlastingBeamsAgile": "Взрывные лучи: Быстрые Удары",
+                    "BoneSpikesReach": "Костяные шипы: Досягаемость",
+                    "BoneSpikesPoison": "Костяные шипы: Отравленные",
+                    "ConsumeEnergyRange": "Поглощение энергии: Увеличенная дистанция",
+                    "ConsumeEnergyStrikes": "Поглощение энергии: Усиленные удары",
+                    "DistantWanderingFly": "Дальнее странствие: Полет",
+                    "DistantWanderingQuick": "Дальнее странствие: Ускоренный",
+                    "EerieFlickerTerrify": "Жуткое мерцание: Пугаяющая форма",
+                    "EerieFlickerCompress": "Жуткое мерцание: Сжатое мерцание",
+                    "EnervatingWailSilent": "Обессиливающий вой: Тихий вой",
+                    "EnervatingWailEnfeebling": "Обессиливающий вой: Ослабляющий вой",
+                    "GhostlyGraspGrab": "Хватка привидения: Захват",
+                    "GhostlyGraspPush": "Хватка привидения: Толчок",
+                    "HighSpeedRegenerationRecovery": "Быстрая регенерация: Аварийная регенерация",
+                    "HighSpeedRegenerationSpeed": "Быстрая регенерация: Усиление скорости",
+                    "Prompt": "Выберите пробуждение для девиантной способности.",
+                    "PropulsiveLeapSpeed": "Реактивный прыжок: Увеличение скорости",
+                    "PropulsiveLeapWeapon": "Реактивный прыжок: Самодельное оружие",
+                    "StormingBreathProne": "Штормовое дыхание: Сбивает ничком",
+                    "StormingBreathEscape": "Штормовое дыхание: Скоростной побег",
+                    "TectonicStompStone": "Тектонический топот: Каменное укрытие",
+                    "TectonicStompStun": "Тектонический топот: Ошеломляющий топот",
+                    "TitanSwingBleed": "Титанический замах: Кровотечение",
+                    "TitanSwingProne": "Титанический замах: Отбрасывание"
+                },
+                "BoneSpikes": {
+                    "ReachLabel": "Удлиненные костяные шипы",
+                    "StrikeLabel": "Костяные шипы"
+                },
+                "Dragon": {
+                    "EnergyPrompt": "Выберите энергию, связанную с вашими девиантными способностями дракона"
+                },
+                "TitanSwing": {
+                    "NoteFifteenFeet": "Цель отброшена назад на 15 футов.",
+                    "NoteFiveFeet": "Цель отброшена назад на 5 футов.",
+                    "NoteProne": "Вы отталкиваете цель на удвоенное нормальное расстояние и сбиваете его @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.",
+                    "NoteTenFeet": "Цель отброшена назад на 10 футов."
+                }
+            },
+            "Dhampir": {
+                "Adhyabhau": {
+                    "SaveNote": "Когда вы выбрасываете успех при спасброске Воли против эффектов <a href=https://clck.ru/k2N2K><em>`эмоций`</em></a>, вместо этого вы получаете крит.успех."
+                 },
+                "BloodlettingFangs": {
+                    "AttackNote": "Ваш Удар клыками наносит дополнительные [[/r 1d4[bleed]]] при критическом попадании."
+                }
+            },
+            "DivineAlly": {
+                "AllowedDrops": "особенность класса чемпион",
+                "Prompt": "Выберите божественного союзника."
+            },
+            "DragonDisciple": {
+                "DragonChoice": {
+                    "Black": "Черный дракон",
+                    "Blue": "Синий дракон",
+                    "Brine": "Водный дракон",
+                    "Brass": "Латунный дракон",
+                    "Bronze": "Бронзовый дракон",
+                    "Cloud": "Облачный дракон",
+                    "Crystal": "Кристаллический дракон",
+                    "Forest": "Лесной дракон",
+                    "Copper": "Медный дракон",
+                    "Gold": "Золотой дракон",
+                    "Green": "Зеленый дракон",
+                    "Magma": "Магматический дракон",
+                    "Red": "Красный дракон",
+                    "Sea": "Морской дракон",
+                    "Silver": "Серебряный дракон",
+                    "Sky": "Небесный дракон",
+                    "Sovereign": "Монарший дракон",
+                    "Umbral": "Теневой дракон",
+                    "Underworld": "Подземный дракон",
+                    "White": "Белый дракон"
+                },
+                "Prompt": "Выберите дракона",
+                "ScalesOfTheDragon": {
+                    "BracersOfArmor": "Чешуя дракона w/ Наручи брони",
+                    "ExplorersClothing": "Чешуя дракона w/ Одежда исследователя",
+                    "MageArmor": "Чешуя дракона w/ Магический доспех"
+                }
+            },
+            "Druid": {
+                "DruidicOrder": {
+                    "Prompt": "Выберите орден"
+                }
+            },
+            "Dwarf": {
+                "DeathWardenDwarf": {
+                    "Note": "Когда вы выбрасываете успех против эффекта некромантии, вы вместо этого получаете крит.успех."
+                },
+                "ElementalHeart": {
+                    "Prompt": "Выберите тип урона Стихийного сердца"
+                },
+                "ForgeBlessedShot": {
+                    "Note": "Игнорируйте состояние @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрыт} цели, а также малое, стандартное или большое укрытие."
+                },
+                "KneelForNoGod": {
+                    "Note": "Когда вы выбрасываете крит.провал против спасброска сакрального заклинания, вместо этого вы получаете провал."
+                },
+                "RockRunner": {
+                    "Note": "Когда вы используете навык Акробатики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Балансировать} на <a href=https://clck.ru/ejpcP>узкой поверхностью</a> или <a href=https://clck.ru/ejpcB>неровной землей</a>, вы не @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнуты врасплох}, и когда вы выбрасываете успех при одной из этих проверок Акробатике, вместо этого вы получаете крит.успех."
+                },
+                "SparkFist": {
+                    "Note": "Каждый раз, когда вам удается нанести Удар кулаком, вы получаете [[/r (1+@weapon.system.runes.striking)[fire]]]{урона огнем}."
+                },
+                "TombWatchersGlare": {
+                    "Note": "Когда вы критически попадаете по существу нежити, оно @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблено 1} на 1 раунд"
+                },
+                "VengefulHatred": {
+                    "Prompt": "Выберите родового врага."
+                }
+            },
+            "Elf": {
+                "Atavism": {
+                    "Prompt": "Выберите наследие эльфа."
+                },
+                "BrightnessSeeker": {
+                    "Label": "Воззвать к положительному",
+                    "Prompt": "Выберите результат вашего Предзнаменования.",
+                    "Weal": "Благо",
+                    "WealAndWoe": "Благо и Беда",
+                    "Woe": "Беда"
+                },
+                "DemonbaneWarrior": {
+                    "Note": "Если ваши действия заставляют демона получить урон от его уязвимости греха, увеличьте этот урон на [[/r 2]]"
+                },
+                "UnwaveringMien": {
+                    "Note": "Считайте свои спасброски против эффектов, которые заставили бы вас заснуть, на одну степень успеха лучше."
+                },
+                "Woodcraft": {
+                    "Note": "Находясь в лесу или джунглях, если вы выбрасываете крит.провал при проверке навыка Выживания чтобы @UUID[Compendium.pf2e.actionspf2e.Item.fJImDBQfqfjKJOhk]{Определить направление}, @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Замести следы} или @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Проживания}, вместо этого вы получаете провал, а если вы выбрасываете успех, вы получаете крит.успех."
+                }
+            },
+            "Equipment": {
+                "BoastfulHunter": {
+                    "BoredLabel": "Хвастливому охотнику скучно",
+                    "InsultedLabel": "Хвастливый охотник оскорблен",
+                    "MisfireNote": "Все атаки оскорбленного <em>хвастливого охотника</em> подвергается осечке при @Check[type:flat|dc:5], пока оружия не успокоится."
+                },
+                "BravosBrew": {
+                    "Greater": {
+                        "FearLabel": "Большое варево смельчака (против страха)"
+                    },
+                    "Lesser": {
+                        "FearLabel": "Малое варево смельчака (против страха)"
+                    },
+                    "Moderate": {
+                        "FearLabel": "Среднее варево смельчака (против страха)"
+                    }
+                },
+                "DeckOfDestiny": {
+                    "MatchingSuitPrompt": "Связана ли масть вытянутой карты с проверкой?",
+                    "WealOrWoePrompt": "Выберите Благо или Беда"
+                },
+                "EagleEyeElixir": {
+                    "Greater": {
+                        "SecretLabel": "Большой эликсир орлиного глаза (на поиск скрытых дверей или ловушек)"
+                    },
+                    "Lesser": {
+                        "SecretLabel": "Малый эликсир орлиного глаза (на поиск скрытых дверей или ловушек)"
+                    },
+                    "Major": {
+                        "SecretLabel": "Сильный эликсир орлиного глаза (на поиск скрытых дверей или ловушек)"
+                    },
+                    "Moderate": {
+                        "SecretLabel": "Средний эликсир орлиного глаза (на поиск скрытых дверей или ловушек)"
+                    }
+                },
+                "NosoiCharm": {
+                    "PerformanceLabel": "Nosoi Charm (Play an instrument, orate or sing)",
+                    "RequestLabel": "Nosoi Charm (Request)"
+                },
+                "PhantomShroud": {
+                    "StrikeLabel": "Ghostly Hand"
+                },
+                "ScapularOfShields": {
+                    "CriticalImmunityLabel": "Activate Scapular of Shields to gain critical immunity.",
+                    "ResistAllLabel": "Activate Scapular of Shields to gain resistance to all damage."
+                }
+            },
+            "ExemplaryFinisher": {
+                "Battledancer": "Сразу после финишера вы можете сделать @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Шаг} свободным действием.",
+                "Braggart": "Если враг был временно иммунен к вашему действию @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Деморализовать}, то его временный иммунитет заканчивается.",
+                "Fencer": "Враг @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут врасплох} до вашего следующего хода.",
+                "Gymnast": "Если враг имеет состояние @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаем} или @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}, то вы получаете к броску урона бонус обстоятельства, равный удвоенному количеству костей урона оружия.",
+                "Name": "Образцовый финишер",
+                "Wit": "До начала вашего следующего хода, враг получает штраф обстоятельства -2 на броски атак по вам."
+            },
+            "FanesFourberie": {
+                "Prompt": "Treat Cards as darts or daggers?"
+            },
+            "Fetchling": {
+                "DeepFetchling": {
+                    "Prompt": "Выберите тип энергии для сопротивления"
+                }
+            },
+            "Fighter": {
+                "DoubleSlice": {
+                    "SecondAttackLabel": "Вторая атака Двойного разреза"
+                }
+            },
+            "FighterWeaponMasteryLegend": {
+                "Advanced": {
+                    "axe": "Продвинутые топоры",
+                    "bomb": "Продвинутые бомбы",
+                    "bow": "Продвинутые луки",
+                    "brawling": "Продвинутая драка",
+                    "club": "Продвинутые дубинки",
+                    "dart": "Продвинутые дротики",
+                    "firearm": "Продвинутое огнестрельное",
+                    "flail": "Продвинутые цепы",
+                    "hammer": "Продвинутые молоты",
+                    "knife": "Продвинутые ножи",
+                    "pick": "Продвинутые клевцы",
+                    "polearm": "Продвинутое древковое",
+                    "shield": "Продвинутые щиты",
+                    "sling": "Продвинутые пращи",
+                    "spear": "Продвинутые копья",
+                    "sword": "Продвинутые мечи"
+                },
+                "SimpleMartial": {
+                    "axe": "Простые & Воинские топоры",
+                    "bomb": "Простые & Воинские бомбы",
+                    "bow": "Простые & Воинские луки",
+                    "brawling": "Простая & Воинская драка",
+                    "club": "Простые & Воинские дубинки",
+                    "dart": "Простые & Воинские дротики",
+                    "firearm": "Простое & Воинское огнестрельное",
+                    "flail": "Простые & Воинские цепы",
+                    "hammer": "Простые & Воинские молоты",
+                    "knife": "Простые & Воинские ножи",
+                    "pick": "Простые & Воинские клевцы",
+                    "polearm": "Простое & Воинское древковое",
+                    "shield": "Простые & Воинские щиты",
+                    "sling": "Простые & Воинские пращи",
+                    "spear": "Простые & Воинские копья",
+                    "sword": "Простые & Воинские мечи"
+                }
+            },
+            "Fleshwarp": {
+                "CoatingOfSlime": {
+                    "CriticalHit": "При крит.попадании цель получает [[/r 1d4[persistent,acid]]]"
+                },
+                "LivingWeapon": {
+                    "Prompt": "Выберите часть своей формы, чтобы использовать ее в качестве оружия."
+                },
+                "MutateWeapon": {
+                    "Accuracy": "Получите бонус состояния +1 к атакам",
+                    "Target": "Выберите одно из ваших живых оружий.",
+                    "Bonus": "Выберите бонус",
+                    "Reach": "Получите признак <a href=https://clck.ru/jCdf3><em>`длинное 10 фт.`</em></a>"
+                }
+            },
+            "FollowTheExpert": {
+                "Prompt": "Выберите навык с экспертным владением"
+            },
+            "GameHunterDedication": {
+                "TargetHuntedPrey": "Цель - ваша добыча (только <a href=https://clck.ru/jzePR><em>`животное`</em></a>, <a href=https://clck.ru/jzfay><em>`чудовище`</em></a> или <a href=https://clck.ru/jzqei><em>`дракон`</em></a>)"
+            },
+            "Ganzi": {
+                "Irrepressible": {
+                    "SaveNote": "Когда вы выбрасываете успех в спасброске против эффектов <a href=https://clck.ru/k2N2K><em>`эмоций`</em></a> или <a href=https://clck.ru/jsFaZ><em>`страха`</em></a>, вместо этого вы получаете крит.успех."
+                }
+            },
+            "GeneralTraining": {
+                "Prompt": "Выберите общую способность 1-го уровня."
+            },
+            "Ghoul": {
+                "FullySatiated": "Полностью сыты",
+                "Satiated": "Сыты",
+                "SickeningBite": {
+                    "criticalSuccess": "Когда вы наносите критически успешное попадание челюстями, существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 1}. Это эффект <a href=https://clck.ru/jrjN6><em>`болезни`</em></a>.",
+                    "success": "Если вы сыты, то можете окончить сытость, чтобы дать цели @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 1}"
+                }
+            },
+            "Gnome": {
+                "GrimInsight": {
+                    "SaveNote": "Когда вы выбрасываете успех в спасброске против эффектов <a href=https://clck.ru/jsFaZ><em>`страха`</em></a>, вместо этого вы получаете крит.успех, а источник страха становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут врасплох} для вас до конца вашего следующего хода."
+                }
+            },
+            "Goblin": {
+                "ChosenOfLamashtu": {
+                    "Prompt": "Выберите наследие гоблина."
+                },
+                "ExtraSquishy": {
+                    "Note": "Когда вы выбрасываете успех в @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Протискивании}, вместо этого вы получаете крит.успех."
+                },
+                "RecklessAbandon": {
+                    "Note": "Если вы выбрасываете провал или крит.провал в спасброске против вредного эффекта, вместо этого вы получаете успех."
+                },                
+                "TorchGoblin": {
+                    "Note": "Пока вы получаете продолжительный урон огнем, все ваши атаки в ближнем бою против соседних существ наносят дополнительные [[/r {1}[fire]]]{1 урона огнем} за кость урона оружия."
+                },
+                "ScaldingSpit": {
+                    "BoilingSpit": "Кипящий плевок"
+                }
+            },
+            "GoldenBladeOfMzali": {
+                "ElementalFormLabel": "You have cast elemental form using the Golden Blade of Mzali",
+                "LitLabel": "Golden Blade of Mzali is lit",
+                "PersistentDamageNote": "Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage."
+            },
+            "Gunslinger": {
+                "Way": {
+                    "Prompt": "Выберите путь",
+                    "Spellshot": "Путь магического стрелка (Архетип)"
+                }
+            },
+            "HalfElf": {
+                "EarnedGlory": {
+                    "Note": "Когда вы совершаете проверку Выступления, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Произвести впечатление} на эльфа, то если при броске получаете крит.провал, то вместо этого он становится просто провалом."
+                }
+            },
+            "Halfling": {
+                "Innocuous": {
+                    "Note": "Если вы проваливаете проверку Обмана, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Отвлечь внимание}, то гуманоидные существа не знают что вы пытались отвлечь их, если только при броске вы не получаете крит.провал."
+                },
+                "KeenEyes": {
+                    "Label": "Искать Спрятанное или Необнаруженное существо в пределах 30 футов"
+                },
+                "SureFeet": {
+                    "BalanceNote": "Если при броске вы получаете успех проверки Акробатики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Балансировать}, то вместо этого вы получаете крит.успех. Когда <em>\"Балансируете\"</em>, вы не @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнуты врасплох}.",
+                    "ClimbNote": "Если при броске вы получаете успех проверки Атлетики, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться}, то вместо этого вы получаете крит.успех. Когда <em>\"Карабкаетесь\"</em>, вы не @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнуты врасплох}."
+                }
+            },
+            "HarrowChosen": {
+                "Misaligned": "Перевернутая",
+                "PartialMatch": "Частичное совпадение",
+                "Prompt": "Соответствует ли карта вашему мировоззрению?",
+                "TrueMatch": "Истинное совпадение",
+                "Unmatched": "Нет совпадений"
+            },
+            "HarrowCourt": {
+                "Fiend": {
+                    "ToggleLabel": "Repeating a non-strike action"
+                },
+                "BooksSuitPrompt": "Was the drawn card from Books?"
+            },
+            "HarrowDeck": {
+                "HarrowSuits": {
+                    "Books": "Книги",
+                    "Crowns": "Короны",
+                    "Hammers": "Молоты",
+                    "Keys": "Ключи",
+                    "Shields": "Щиты",
+                    "Stars": "Звезды"
+                },
+                "Prompt": "Выберите масть харро"
+            },
+            "Hobgoblin": {
+                "AgonizingRebuke": {
+                    "Note": "Когда вы успешно @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Деморализуете} врага, он получает [[/r 1d4[mental]]]{1d4 ментального урона} в начале каждого своего хода, пока остается @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган} и продолжает участвовать в сражении с вами. Если вы мастер Запугивания, то урон увеличивается до [[/r 2d4[mental]]]2d4, а если вы легенда, урон увеличивается до [[/r 3d4[mental]]]3d4."
+                },
+                "CantorianReinforcement": {
+                    "Note": "Когда вы получаете успех спасброска против болезни или яда, то снижаете стадию на 2 (или на 1 для вирулентной болезни или яда), а когда получаете критический успех, то снижаете стадию на 3 (или на 2 для вирулентной болезни или яда)."
+                },
+                "WarConditioning": {
+                    "Prompt": "Выберите тип движения."
+                }
+            },
+            "HouseOfPerfection": {
+                "Label": "Дом совершенства",
+                "Prompt": "Выберите дом совершенства.",
+                "UnblinkingFlame": "Вечное пламя",
+                "UnbreakingWaves": "Несокрушимая волна",
+                "UnfoldingWind": "Несворачивающего ветра",
+                "UntwistingIron": "Несгибаемого железа"
+            },
+            "Human": {
+                "SaocAstrology": {
+                    "Prompt": "Выберите штраф или бонус обстоятельства, который вы получали при использования действия <em>\"Астрология Саока\"</em>."
+                },
+                "VikingShieldbearer": {
+                    "Prompt": "Выберите оружие, которому вы обучены владеть."
+                },
+                "WitchWarden": {
+                    "SaveNote": "Если при броске спасброска, против проклятия или заклинания сотворяемого <a href=https://clck.ru/reYVL><em>`ведьмой`</em></a> или <a href=https://clck.ru/pujFK><em>`каргой`</em></a> вы получаете успех, то вместо этого вы получаете крит.успех."
+                }
+            },
+            "HuntPrey": {
+                "TargetHuntedPrey": "Цель - ваша добыча",
+                "SeekHuntedPrey": "Искать добычу",
+                "TrackHuntedPrey": "Выслеживать добычу",
+                "FirstHitDamage": "Первый удар по выслеживаемой добыче",
+                "FirstHitSwitch": "Первый удар по выслеживаемой добыче в этом раунде"
+            },
+            "Ifrit": {
+                "Lavasoul": {
+                    "MagmaSpike": "Магматическое острие",
+                    "MagmaSpikeCriticalSpecialization": "Вместо эффекта обычной критической специализации, цель получает [[/r 1d6[persistent,fire]]]; вы получаете к этому продолжительному урону бонус, равный вашему бонусу предмета к броскам атак безоружными атаками."
+                }
+            },
+            "Inventor": {
+                "Innovation": {
+                    "Armor": {
+                        "AllowedDrops": "уникальный доспех 0 уровня",
+                        "Prompt": "Выберите инновацию доспеха."
+                    },
+                    "Construct": {
+                        "Prompt": "Выберите инновацию конструкта."
+                    },
+                    "Prompt": "Выберите инновацию.",
+                    "Weapon": {
+                        "Prompt": "Выберите инновацию оружия."
+                    }
+                },
+                "Modification": {
+                    "Breakthrough": {
+                        "AllowedDrops": "особенность класса изобретателя 7-го уровня или ниже",
+                        "Prompt": "Выберите прорывную инновацию."
+                    },
+                    "Initial": {
+                        "AllowedDrops": "особенность класса изобретатель 1-го уровня",
+                        "Prompt": "Выберите начальную модификацию."
+                    },
+                    "InnovationCollapsed": "Инновация сложена",
+                    "NonlethalBluntShot": "Несмертельный притупленный выстрел",
+                    "NonlethalModularHead": "Несмертельное модульное навершие",
+                    "NonlethalPacificationTools": "Несмертельные усмиряющие средства"
+                }
+            },
+            "Investigator": {
+                "Methodology": {
+                    "Prompt": "Выберите методику"
+                },
+                "PursueALead": {
+                    "Label": "Расследование связанного субъекта с Расследовать дело"
+                }
+            },
+            "Kobold": {
+                "DragonbloodParagon": {
+                    "Dracomancer": "Дракомант",
+                    "KoboldBreath": "Дыхание кобольда",
+                    "StrongjawKobold": "Крепкая челюсть",
+                    "VenomtailKobold": "Ядохвостный"
+                },
+                "DragonsPresence": {
+                    "Note": "Когда при броске спасброска против эффекта <a href=https://clck.ru/jsFaZ><em>`страха`</em></a>, вы получаете успех, то вместо этого вы получаете критический успех. Когда при броске спасброска против эффекта <a href=https://clck.ru/jsFaZ><em>`страха`</em></a>, вы получаете провал, то вместо этого вы получаете критический провал."
+                }
+            },
+            "Leshy": {
+                "Seedpod": {
+                    "Note": "При критическом попадании семенная коробочка лопается, выпуская запутанную растительность, которая на 1 раунд накладывает на цель штраф обстоятельства -10 футов Скорости. @UUID[Compendium.pf2e.feat-effects.Item.wQDHpOKY3GZqvS2v]{Эффект: Семенная коробочка}"
+                },
+                "ThornedSeedpod": {
+                    "Note": "Когда вы получаете критический успех @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} семенной коробочки, лозы скручиваются и колют вашего врага, нанося [[/r 1d4[persistent,piercing]]]"
+                }
+            },
+            "Lich": {
+                "HandOfTheLich": {
+                    "Note": "Существо @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлено 1} до конца вашего следующего хода, если провалит спасбросок @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)]{Стойкости} против вашего КС заклинаний."
+                }
+            },
+            "LitCandle": "Свеча горит",
+            "LitCandlecap": "Свечная шапка горит",
+            "LitFirePoi": "Горящий пои горит",
+            "LitTorch": "Факел горит",
+            "Lizardfolk": {
+                "GuidedByTheStars": {
+                    "Prompt": "Выберите спасбросок или навык"
+                },
+                "ParthenogenicHatchling": {
+                    "Note": "Каждый из ваших успешных спасбросков против болезни, снижает стадию на 2, или на 1 для вирулентной болезни. Каждый критический успех против длящейся болезни, снижает стадию на 3, или на 2 для вирулентной болезни."
+                }
+            },
+            "MagicalExperiment": {
+                "EnhancedSenses": "Улучшенные чувства",
+                "ResistantSkin": "Устойчивая кожа",
+                "TouchTelepathy": "Сенсорная телепатия"
+            },
+            "Magus": {
+                "ArcaneCascade": {
+                    "WeaponDamage": "Урон оружия"
+                },
+                "HybridStudy": {
+                    "Prompt": "Выберите гибридное обучение"
+                },
+                "SparklingTarge": {
+                    "DefendingLabel": "Защита от магии"
+                }
+            },
+            "MarkForDeath": {
+                "DeceiveMark": "Использовать Обман для @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Финта} помеченного",
+                "SeekMark": "Искать помеченного",
+                "TargetMark": "Цель помечена для смерти"
+            },
+            "Marshal": {
+                "DreadMarshalStance": {
+                    "Title": "Устрашающая стойка маршала",
+                    "Note": "Когда вы наносите критический удар по врагу Ударом, этот враг становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}."
+                }
+            },
+            "MartialProficiency": {
+                "AdvancedAzarketiWeapons": "Продвинутое оружие азаркетов",
+                "AdvancedCatfolkWeapons": "Продвинутое оружие котолюдей",
+                "AdvancedConrasuWeapons": "Продвинутое оружие конрасов",
+                "AdvancedDwarfWeapons": "Продвинутое дварфийское оружие",
+                "AdvancedElfWeapons": "Продвинутое эльфийское оружие",
+                "AdvancedFirearmsCrossbows": "Продвинутое огнестрельное & арбалеты",
+                "AdvancedGeniekinWeapons": "Продвинутое оружие джинникинов",
+                "AdvancedGhoranWeapons": "Advanced Ghoran Weapons",
+                "AdvancedGnollWeapons": "Продвинутое оружие гноллов",
+                "AdvancedGnomeWeapons": "Продвинутое оружие гномов",
+                "AdvancedGoblinWeapons": "Продвинутое оружие гоблинов",
+                "AdvancedGrippliWeapons": "Продвинутое оружие гриппли",
+                "AdvancedGroup": {
+                    "axe": "Продвинутые топоры",
+                    "bomb": "Продвинутые бомбы",
+                    "bow": "Продвинутые луки",
+                    "brawling": "Продвинутая драка",
+                    "club": "Продвинутые дубинки",
+                    "dart": "Продвинутые дротики",
+                    "firearm": "Продвинутое огнестрельное",
+                    "flail": "Продвинутые цепы",
+                    "hammer": "Продвинутые молоты",
+                    "knife": "Продвинутые ножи",
+                    "pick": "Продвинутые клевцы",
+                    "polearm": "Продвинутое древковое",
+                    "shield": "Продвинутые щиты",
+                    "sling": "Продвинутые пращи",
+                    "spear": "Продвинутые копья",
+                    "sword": "Продвинутые мечи"
+                },
+                "AdvancedHalflingWeapons": "Продвинутое оружие полуросликов",
+                "AdvancedHobgoblinWeapons": "Продвинутое оружие хобгоблинов",
+                "AdvancedKoboldWeapons": "Продвинутое оружие кобольдов",
+                "AdvancedOrcWeapons": "Продвинутое оружие орков",
+                "AdvancedTenguWeapons": "Продвинутое оружие тенгу",
+                "AdvancedVanaraWeapons": "Продвинутое оружие ванар",
+                "AdvancedVishkanyaWeapons": "Продвинутое оружие вишканья",
+                "MartialAzarketiWeapons": "Воинское оружие азаркетов",
+                "MartialBombsFirearms": "Воинские бомбы & огнестрельное",
+                "MartialCatfolkWeapons": "Воинское оружие котолюдей",
+                "MartialConrasuWeapons": "Воинское оружие конрасов",
+                "MartialDwarfWeapons": "Воинское дварфийское оружие",
+                "MartialElfWeapons": "Воинское эльфийское оружие",
+                "MartialFirearmsCrossbows": "Воинское огнестрельное & арбалеты",
+                "MartialGeniekinWeapons": "Воинское оружие джинникинов",
+                "MartialGhoranWeapons": "Martial Ghoran Weapons",
+                "MartialGnollWeapons": "Воинское оружие гноллов",
+                "MartialGnomeWeapons": "Воинское оружие гномов",
+                "MartialGoblinWeapons": "Воинское оружие гоблинов",
+                "MartialGrippliWeapons": "Воинское оружие гриппли",
+                "MartialGroup": {
+                    "axe": "Воинские топоры",
+                    "bomb": "Воинские бомбы",
+                    "bow": "Воинские луки",
+                    "brawling": "Воинская драка",
+                    "club": "Воинские дубинки",
+                    "dart": "Воинские дротики",
+                    "firearm": "Воинское огнестрельное",
+                    "flail": "Воинские цепы",
+                    "hammer": "Воинские молоты",
+                    "knife": "Воинские ножи",
+                    "pick": "Воинские клевцы",
+                    "polearm": "Воинское древковое",
+                    "shield": "Воинские щиты",
+                    "sling": "Воинские пращи",
+                    "spear": "Воинские копья",
+                    "sword": "Воинские мечи"
+                },
+                "MartialHalflingWeapons": "Воинское оружие полуросликов",
+                "MartialHobgoblinWeapons": "Воинское оружие хобгоблинов",
+                "MartialKoboldWeapons": "Воинское оружие кобольдов",
+                "MartialOrcWeapons": "Воинское оружие орков",
+                "MartialTenguWeapons": "Воинское оружие тенгу",
+                "MartialVanaraWeapons": "Воинское оружие ванар",
+                "MartialVishkanyaWeapons": "Воинское оружие вишканья",
+                "MonasticArchery": "Монашеская стрельба",
+                "SimpleBombsFirearms": "Простые бомбы & огнестрельное",
+                "SimpleFirearmsCrossbows": "Простое огнестрельное & арбалеты",
+                "SimpleMartialBows": "Простые&Воинские луки",
+                "SimpleMartialTwoHandedMeleeWeapons": "Простое&Воинское двуручное оружие ближнего боя"
+            },
+            "MechanicalTorch": {
+                "Label": "Механический факел горит",
+                "LitCone": "Механический факел горит (конус)",
+                "LitRadius": "Механический факел горит (радиус)"
+            },
+            "Mindmoppet": {
+                "BrokenShell": "Shell is Broken"
+            },
+            "Monk": {
+                "DragonRoar": {
+                    "Label": "Первая атака против напуганного существа"
+                },
+                "OneInchPunch": {
+                    "ThreeActionLabel": "Дюймовый удар (Три действия)",
+                    "TwoActionLabel": "Дюймовый удар (Два действия)"
+                },
+                "SacredKi": {
+                    "Prompt": "Выберите свой урон мировоззрения"
+                },
+                "StunningFist": {
+                    "Note": "Цель должна преуспеть в спасброске @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.monk.value)|traits:incapacitation|overrideTraits:true]{Стойкости} против вашего КС класса или станет @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 1} (или @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 3} при критическом провале)."
+                },
+                "WolfDrag": {
+                    "Note": "Если атака успешна, вы сбиваете цель @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}."
+                }
+            },
+            "MountainStance": {
+                "BracersOfArmor": "Стойка горы w/ Наручи брони",
+                "ExplorersClothing": "Стойка горы w/ Одежда исследователя",
+                "MageArmor": "Стойка горы w/ Магический доспех"
+            },
+            "Multitalented": {
+                "Prompt": "Выберите мультиклассовую способность посвящения."
+            },
+            "Mummy": {
+                "AccursedTouch": {
+                    "Note": {
+                        "Base": "Существо получает [[/r 2d6[persistent,negative]]]. Пока существо получает этот продолжительный урон, оно также @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманено 1}.",
+                        "FourteenthLevel": "Существо получает [[/r 3d6[persistent,negative]]]. Пока существо получает этот продолжительный урон, оно также @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманено 1}.",
+                        "TwentiethLevel": "Существо получает [[/r 4d6[persistent,negative]]]. Пока существо получает этот продолжительный урон, оно также @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманено 1}."
+                    }
+                },
+                "Terrain": {
+                    "Arctic": "Арктическая",
+                    "Desert": "Пустынная",
+                    "Mountain": "Горная",
+                    "Prompt": "Выберите вашу привязанную местность",
+                    "Swamp": "Болотная"
+                }
+            },
+            "Nagaji": {
+                "VenomSpit": {
+                    "CriticalNote": "The target takes [[/r (1+@weapon.system.runes.striking)[persistent,poison]]]{persistent poison damage} equal to the number of weapon damage dice",
+                    "HoodedNote": "The target is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.",
+                    "StrikeLabel": "Venomous Spit"
+                }
+            },
+            "Obcisidaemon": {
+                "ConsumeSoul": {
+                    "EmpowerSpell": "Empower Spell",
+                    "EmpowerWeapon": "Empower Weapon",
+                    "Prompt": "Empower a Spell or Weapon?"
+                }
+            },
+            "Oracle": {
+                "Mystery": {
+                    "Prompt": "Выберите таинство"
+                }
+            },
+            "Orc": {
+                "HoldMark": {
+                    "Axe": "Топор (топор или клевец).",
+                    "Shield": "Шит (молот или щит).",
+                    "Torch": "Факел (бомба или нож).",
+                    "Prompt": "Выберите форму вашей метки холда."
+                },
+                "OrcWarmask": {
+                    "Gods": "Боги",
+                    "Land": "Земля",
+                    "Magic": "Магия",
+                    "Prompt": "Выберите источник силы вашей орочьей маски войны.",
+                    "Unknown": "Неизвестность"
+                }
+            },
+            "OverwhelmingBlow": {
+                "CriticalHit": "Критический удар с Сокрушительным ударом"
+            },
+            "PackAttack": {
+                "Label": "Цель находится в пределах досягаемости по крайней мере двух союзников"
+            },
+            "Poppet": {
+                "WashOut": {
+                    "Note": "Каждый раз, когда вы преуспеваете в спасброске Стойкости против действующего яда, вы снижаете его стадию на 2 или 1 против вирулентного яда. Каждый критический успех, которого вы достигаете против действующего яда, снижает его стадию на 3 или на 2 против вирулентного яда."
+                }
+            },
+            "PowderPunchStance": {
+                "Label": "Первый Удар ближнего боя в этом раунде",
+                "Note": "Цель отбраысывается на дополнительные 5 футов."
+            },
+            "PreciseStrike": {
+                "Finisher": "Финишер"
+            },
+            "Prompt": {
+                "AdvancedMulticlassFeat": "Выберите способность класса чей уровень не выше половины уровня вашего персонажа.",
+                "Alignment": "Выберите мировоззрение",
+                "CantripOrNonCantrip": "Выберите заклинание чары или не-чары.",
+                "ClassDCAbilityScore": "Выберите характеристику для КС класса.",
+                "ConsciousMind": "Выберите сознание.",
+                "CreatureSize": "Выберите размер существа.",
+                "DamageType": "Выберите тип урона.",
+                "DegreeOfSuccess": "Выберите степень успеха",
+                "Deity": "Выберите божество.",
+                "DeitysDomain": "Выберите домен божества.",
+                "DragonBreathWeapon": "Выберите дракона для Атаки дыхания дракона.",
+                "Element": "Выберите элемент.",
+                "EnergyType": "Выберите тип энергии.",
+                "EvolutionFeat": "Выберите вашу первую способность эволюции.",
+                "Feat": "Выберите способность.",
+                "FirstImplement": "Выберите ваше первое орудие.",
+                "Lesson": "Выберите урок.",
+                "LevelOneClassFeat": "Выберите способность класса 1-го уровня.",
+                "LevelOneOrTwoClassFeat": "Выберите способность класса 1-го или 2-го уровня.",
+                "PathToPerfection": "Выберите путь совершенства.",
+                "Rune": "Выберите руну.",
+                "SecondImplement": "Выберите ваше второе орудие.",
+                "Shillelagh": "Выберите дубинку или посох.",
+                "Skill": "Выберите навык.",
+                "SkillFeat": "Выберите способность навыка.",
+                "SubconsciousMind": "Выберите подсознание.",
+                "ThirdImplement": "Выберите ваше третье орудие.",
+                "VersatileTrait": "Выберите тип универсального урона.",
+                "UnarmedAttack": "Выберите безоружную атаку.",
+                "Weapon": "Выберите оружие.",
+                "WeaponGroup": "Выберите группу оружия.",
+                "WeaponOrUnarmed": "Выберите оружие или безоружный удар.",
+                "WildShape": "Выберите эффект формы."
+            },
+            "Psychic": {
+                "UnleashPsyche": {
+                    "DamageLabel": "Сотворяете заклинание при помощи экстрасенсорного заклинательства"
+                }
+            },
+            "Ranger": {
+                "HamstringingStrike": {
+                    "Note": "If you hit your prey, the creature takes a -5-foot status penalty to Speed. If you critically hit your prey, the creature takes a -10-foot status penalty to Speed.\n@UUID[Compendium.pf2e.feat-effects.Item.ESnzqtwSgahLcxg2]{Effect: Hamstringing Strike}",
+                    "Prompt": "Select a hit result."
+                },
+                "HuntersEdge": {
+                    "Prompt": "Выберите преимущество охотника.",
+                    "FirstAttack": "Первая атака по выслеживаемой добыче в этом раунде"
+                }
+            },
+            "Ratfolk": {
+                "LabRat": {
+                    "Note": "Если вы преуспеваете в спасброске против эликсира или яда, вместо этого вы получаете критический успех."
+                },
+                "WarrenNavigator": {
+                    "Note": "Когда вы используете Определить направление, вы получаете результат на одну ступень успешнее, чем вы получили при броске."
+                }
+            },
+            "Rogue": {
+                "DistractingFeint": {
+                    "Text": "Пока существо застигнуто врасплох из-за Финта, оно также получает штраф обстоятельства -2 к проверкам Восприятия и спасброскам Рефлекса. @UUID[Compendium.pf2e.feat-effects.Item.7hRgBo0fRQBxMK7g]{Эффект: Отвлекающий финт}"
+                },
+                "EldritchTrickster": {
+                    "Prompt": "Выберите мультиклассовый архетип заклинателя."
+                },
+                "Racket": {
+                    "Prompt": "Выберите род деятельности."
+                },
+                "TrainSkill": {
+                    "Prompt": "Выберите навык для обучения."
+                }
+            },
+            "SaveSuccessToCriticalSuccess": {
+                "Fortitude": "Когда вы выбрасываете успех в спасброске Стойкости, вместо этого вы получаете критический успех.",
+                "Reflex": "Когда вы выбрасываете успех в спасброске Рефлекса, вместо этого вы получаете критический успех.",
+                "Will": "Когда вы выбрасываете успех в спасброске Воли, вместо этого вы получаете критический успех."
+            },
+            "ScionOfDomora": {
+                "GuardiansEmbrace": {
+                    "PhysicalAttackLabel": "Защита от физической атаки",
+                    "ProtectionLabel": "Получите сопротивление против физической атаки"
+                },
+                "SpiritualFlurryNote": "Цели @Compendium[pf2e.conditionitems.Item.Flat-Footed]{Застигнуты врасплох} до конца вашего текущего хода."
+            },
+            "Shisk": {
+                "PiercingQuills": {
+                    "Note": "Ваша безоружная атака иглами наносит @Localize[PF2E.PersistentDamage.Bleed1d4.success] при критическом успехе."
+                }
+            },
+            "Shoony": {
+                "EsteemedVisitor": {
+                    "Note": "While you are in a settlement, when you roll a critical failure on a Diplomacy check to Gather Information or Make an Impression, you get a failure instead."
+                },
+                "FishseekerShoony": {
+                    "Note": "If you roll a success on an attempt to Grab an Edge, you get a critical success instead; if you roll a critical failure, you get a failure instead."
+                },
+                "Quills": "Quills"
+            },
+            "SkillMastery": {
+                "ExpertPrompt": "Выберите навык, чтобы стать экспертом.",
+                "MasterPrompt": "Выберите навык, чтобы стать мастером."
+            },
+            "SmokingSword": {
+                "StokeFlames": "Stoke Flames"
+            },
+            "SneakAttack": "Внезапная атака",
+            "SnipersAim": {
+                "Note": "Игнорируете состояние `скрыт` цели."
+            },
+            "SnipingDuoDedication": {
+                "Label": "Партнер снайперского дуэта поразил цель Ударом в этом раунде"
+            },
+            "Sorcerer": {
+                "Bloodline": {
+                    "Prompt": "Выберите наследие крови."
+                }
+            },
+            "SoulWarden": {
+                "SafeguardSoul": {
+                    "Label": "Защита от манипуляций с вашей душой"
+                },
+                "SpiralSworn": {
+                    "Label": "Цель владеет заточенной душой, или вы видели ее создающей или повелевающей нежитью"
+                },
+                "UndeadNearby": "Нежить поблизости"
+            },
+            "SpecialtyCrafting": {
+                "Alchemy": "Алхимия",
+                "Artistry": "Художество",
+                "Blacksmithing": "Кузнечное дело",
+                "Bookmaking": "Изготовление книг",
+                "Glassmaking": "Производство стекла",
+                "Leatherworking": "Кожевничество",
+                "Pottery": "Гончарное дело",
+                "Prompt": "Выберите специализацию.",
+                "Shipbuilding": "Кораблестроение",
+                "Stonemasonry": "Каменная кладка",
+                "Tailoring": "Портняжное дело",
+                "Weaving": "Ткачество",
+                "Woodworking": "Деревообработка"
+            },
+            "SpellEffectEvolutionSurge": {
+                "Prompt": "Выберите эволюцию",
+                "Sight": "Сумеречное зрение и ночное зрение",
+                "Amphibious": "Скорость плавания",
+                "Speed": "Бонус состояния +20 футов к Скорости",
+                "Climb": "Скорость карабканья",
+                "Fly": "Скорость полета"
+            },
+            "SpellEffectProtection": {
+                "Prompt": "Выберите от какого признака мировоззрения вы защищаетесь."
+            },
+            "Spellheart": {
+                "BeastmastersSigil": {
+                    "AdjacentLabel": "Target adjacent to beastmaster's sigil summon"
+                }
+            },
+            "SpellmastersResilience": {
+                "Prompt": "Выберите магическую традицию, к которой вы получите сопротивление."
+            },
+            "Sprite": {
+                "LuminousSprite": {
+                    "Light": "Пролить свет"
+                },
+                "SpritesSpark": {
+                    "Draxie": "Эйфорическая искра",
+                    "LuminousSprite": "Светящаяся искра",
+                    "Grig": "Диссонирующая искра",
+                    "Melixie": "Жалящий бросок",
+                    "Nyktera": "Импульс ультразвука",
+                    "Pixie": "Пыль пикси"
+                }
+            },
+            "Stance": {
+                "Attack": {
+                    "CobraFang": "Клык кобры",
+                    "CraneWing": "Крыло журавля",
+                    "DragonTail": "Хвост дракона",
+                    "FallingStone": "Падающий камень",
+                    "FireTalon": "Fire Talon",
+                    "FlashingSpark": "Сверкающая искра",
+                    "FlowingWave": "Текучая волна",
+                    "GorillaSlam": "Удары гориллы",
+                    "IronSweep": "Железный размах",
+                    "LashingBranch": "Извивающаяся ветвь",
+                    "ShadowGrasp": "Теневая хватка",
+                    "SkywardSlash": "Skyward Slash",
+                    "StingingLash": "Stinging Lash",
+                    "StumblingSwing": "Спотыкающийся замах",
+                    "TigerClaw": "Коготь тигра",
+                    "WindCrash": "Грохот ветра",
+                    "WolfJaws": "Пасть волка"
+                }
+            },
+            "SteadyBalance": {
+                "Note": "Если вы выбрасываете успех с помощью действия \"Балансировать\", вместо этого вы получаете критический успех."
+            },
+            "SterlingDynamo": {
+                "AutomaticPercussive": "Автоматическое динамо ударной перкуссии",
+                "AutomaticPower": "Автоматическое динамо силового привода",
+                "Label": "Стерлинговое динамо",
+                "ManualPercussive": "Ручное динамо ударной перкуссии",
+                "ManualPower": "Ручное динамо силового привода"
+            },
+            "SubstituteRoll": {
+                "Assurance": "Уверенность",
+                "EffectType": "{type} ({substitution})"
+            },
+            "Suli": {
+                "Dualborn": {
+                    "FirstElement": "Выберите свой первый элемент.",
+                    "SecondElement": "Выберите свой второй элемент."
+                },
+                "ElementalAssault": {
+                    "Prompt": "Выберите элемент."
+                }
+            },
+            "Swashbuckler": {
+                "Panache": "Вы получаете @UUID[Compendium.pf2e.feat-effects.Item.uBJsxCzNhje8m8jj]{Кураж}.",
+                "Style": {
+                    "Prompt": "Выберите стиль."
+                }
+            },
+            "TOTMToggle": {
+                "FirstRangeIncrement": "Включить умения, для которых требуется цель в пределах первого шага дистанции.",
+                "FlatFooted": "Включить умения, для которых требуется застигнутая врасплох цель",
+                "Incorporeal": "Включить умения, для которых требуется бестелесная цель",
+                "Vampire": "Включить умения, для которых требуется цель - вампир",
+                "Undead": "Включить умения, для которых требуется цель - нежить"
+            },
+            "Target": {
+                "AgainstDemons": "Против демонов",
+                "AgainstDevils": "Против дьяволов",
+                "AgainstHumanoids": "Против гуманоидов",
+                "Necromancer": "Цель - некромант"
+            },
+            "Tattoo": {
+                "WildwoodInk": {
+                    "Greater": {
+                        "InForestLabel": "Wildwood Ink (Greater) (In Forest)"
+                    },
+                    "Major": {
+                        "InForestLabel": "Wildwood Ink (Major) (In Forest)"
+                    },
+                    "Normal": {
+                        "InForestLabel": "Wildwood Ink (In Forest)"
+                    }
+                }
+            },
+            "TerrainExpertise": {
+                "Prompt": "Выберите местность"
+            },
+            "Thaumaturge": {
+                "Implement": {
+                    "Amulet": "Амулет",
+                    "Bell": "Колокол",
+                    "Chalice": "Чаша",
+                    "Lantern": "Фонарь",
+                    "Mirror": "Зеркало",
+                    "Regalia": "Регалия",
+                    "Tome": "Фолиант",
+                    "Wand": "Волшебная палочка",
+                    "Weapon": "Оружие"
+                },
+                "TalismanEsoterica": "Эзотерика талисманов"
+            },
+            "ToggleProperty": {
+                "Triangulate": "Корректировщик может видеть цель",
+                "GourdHead": "Тыквоголовый: Увеличьте КС Восприятия",
+                "TagTeam": "Фланкируете с другим членом тайного общества"
+            },
+            "TrapFinder": {
+                "DefendingLabel": "Искатель ловушек (защита против ловушек)",
+                "SearchLabel": "Искатель ловушек (поиск ловушек)"
+            },
+            "TrinityGeodeLabel": "Жеод троицы",
+            "TwinnedDefense": {
+                "Prompt": "Вы владеете оружием с признаком `парирование`?"
+            },
+            "TwoHanded": {
+                "BastardSword": "Использовать меч-бастард двумя руками",
+                "BattleLute": "Использовать боевую лютню двумя руками",
+                "Broom": "Использовать метлу двумя руками",
+                "Cane": "Использовать трость двумя руками",
+                "Katana": "Использовать катану двумя руками",
+                "Khakkhara": "Использовать хаккару двумя руками",
+                "RhokaSword": "Использовать меч рока двумя руками",
+                "Staff": "Использовать посох двумя руками"
+            },
+            "UndeadSlayer": {
+                "SlayersPresence": {
+                    "Note": "Цель @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бежит} в течение 1 раунда."
+                }
+            },
+            "Vampire": {
+                "ViciousFangs": {
+                    "Note": {
+                        "Base": "Ваш Удар клыками наносит дополнительные [[/r 1d6[bleed]]].",
+                        "FourteenthLevel": "Ваш Удар клыками наносит дополнительные [[/r 2d6[bleed]]].",
+                        "TwentiethLevel": "Ваш Удар клыками наносит дополнительные [[/r 3d6[bleed]]]."
+                    }
+                }
+            },
+            "VirtuosicPerformer": {
+                "Acting": "Выступление",
+                "Comedy": "Комедия",
+                "Dance": "Танец",
+                "Keyboards": "Клавишные",
+                "Oratory": "Ораторство",
+                "Percussion": "Ударные",
+                "Prompt": "Выберите специализацию Выступления",
+                "Singing": "Пение",
+                "Strings": "Струнные",
+                "Winds": "Духовые"
+            },
+            "Vishkanya": {
+                "VenomResistantVishkanya": {
+                    "PoisonSaveNote": "Each of your successful saving throws against a poison affliction reduces its stage by 2. Each critical success against an ongoing poison reduces its stage by 3.",
+                    "VirulentSaveNote": "Each of your successful saving throws against a virulent poison affliction reduces its stage by 1. Each critical success against an ongoing virulent poison reduces its stage by 2."
+                }
+            },
+            "VitalityManipulationStance": {
+                "Note": "When you use Stunning Fist, instead of saving against being stunned, you can choose to have the target make a @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)] save against your class DC with the following results. You must choose to do this before the target rolls its save.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target's muscles become temporarily weaker. For 1 round, the target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}, and any time it attempts to take an action with the manipulate trait, the action is disrupted unless it succeeds at a flat check with a DC equal to 5 + its enfeebled value.</p><p><strong>Failure</strong> As success, but the duration is 1 minute.</p><p><strong>Critical Failure</strong> As success, but the duration is 1 minute, the flat check is DC 11, and the target takes -10-foot status penalty to all Speeds for the duration.</p>",
+                "StrikeLabel": "Vitality Blast"
+            },
+            "WardenHuman": {
+                "Fortitude": "Expert in Fortitude saves",
+                "HitPoints": "4 Hit Points",
+                "MediumArmor": "Trained in Medium Armor"
+            },
+            "WardingRune": {
+                "Prompt": "Выберите школу магии отличную от прорицания."
+            },
+            "WellspringMage": {
+                "CriticalSuccess": "Вы временно восстанавливаете израсходованный слот заклинания любого уровня на свой выбор. Этот временный слот длится 1 минуту, и если вы не потратите его к этому времени, то испытываете мгновенный @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Прилив истока}.",
+                "Failure": "Вы производите @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Прилив истока}, с уровнем заклинания выбираемым случайно из числа 3-х наивысших уровней слотов заклинаний (или всех ваших заклинаний если у вас их меньше 3).",
+                "Initiative": "Когда вы бросаете инициативу для нетривиального боевого столкновения, а также в других стрессовых ситуациях по выбору Мастера, магия выплескивается из вас. Совершите чистую проверку @Check[type:flat|dc:6|traits:wellspring-magic]{КС 6}.",
+                "Success": "Вы временно восстанавливаете израсходованный слот заклинания случайным образом определенного уровня слота заклинания из числа 3-х наивысших уровней заклинаний (или всех ваших уровней слотов заклинаний, если у вас их меньше 3). Этот слот длится 3 раунда вместо 1 минуты, и если вы не потратите его к этому времени, то испытываете мгновенный @UUID[Compendium.pf2e.rollable-tables.RollTable.N0pDFNCffTe2Du39]{Прилив истока}."
+            },
+            "WildMorph": {
+                "ElementalMatter": "Стихийная материя",
+                "LongVines": "Длинные лозы",
+                "Prompt": "Выберите трансформацию.",
+                "PromptTwo": "Выберите вторую трансформацию.",
+                "PromptThree": "Выберите третью трансформацию.",
+                "WildClaws": "Дикие когти",
+                "WildJaws": "Дикие челюсти",
+                "Wings": "Крылья"
+            },
+            "Witch": {
+                "Patron": {
+                    "Prompt": "Выберите покровителя."
+                }
+            },
+            "Wizard": {
+                "ArcaneSchool": {
+                    "Prompt": "Выберите арканную школу."
+                },
+                "ArcaneThesis": {
+                    "Prompt": "Выберите арканный тезис."
+                },
+                "Metamagic1": {
+                    "Prompt": "Выберите способность метамагии волшебника 1-го уровня."
+                }
+            },
+            "Zombie": {
+                "Deteriorated": "Испорчено"
+            }
+        },
+        "Terrain": {
+            "Aquatic": "Водная",
+            "Arctic": "Арктика",
+            "Desert": "Пустыня",
+            "Forest": "Лес",
+            "Mountain": "Горы",
+            "Plains": "Равнины",
+            "Sky": "Небо",
+            "Swamp": "Болото",
+            "Underground": "Подземелье"
+        },
+        "UI": {
+            "RuleElements": {
+                "ChoiceSet": {
+                    "Decline": "Отклонить",
+                    "DragHomebrewItem": "Перетащите сюда элемент домашних правил, если вы используете его вместо вышеуказанных опций",
+                    "HomebrewItem": "Элемент домашних правил",
+                    "NoLabel": "Нет",
+                    "Prompt": "Сделайте выбор.",
+                    "SaveLabel": "Сохранить",
+                    "SkillLabel": "Навык",
+                    "YesLabel": "Да"
+                },
+                "EffectTarget": {
+                    "Prompt": "Выберите цель этого эффекта."
+                },
+                "GrantItem": {
+                    "AlreadyHasItem": "У {actor} уже есть {item}, поэтому он не был добавлен снова."
+                },
+                "MarkTarget": {
+                    "TargetToken": "Наведите указатель мыши на токен и нажмите T. Нажмите Escape для отмены.",
+                    "Timeout": "Создание эффекта отменено из-за отсутствия цели."
+                },
+                "Prompt": {
+                    "NoSelectionMade": "Выбор не был сделан: {item} неактивен.",
+                    "NoValidOptions": "У {actor} нет допустимых параметров для {item}."
+                }
+            }
+        }
+    }
+}

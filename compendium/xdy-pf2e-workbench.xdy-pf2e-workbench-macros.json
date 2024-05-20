@@ -1,0 +1,17 @@
+{
+	"label": "Макросы PF2e Workbench",
+	"entries": {
+		"Basic Action Macros": {
+			"name": "Макрос базовых действий"
+		},
+		"Build Npc Spellbook Journal": {
+			"name": "Создать книгу заклинаний NPC"
+		},
+		"Refocus": {
+			"name": "Сфокусироваться"
+		},
+		"Whirlwind Strike": {
+			"name": "Ураганный удар"
+		}
+	}
+}

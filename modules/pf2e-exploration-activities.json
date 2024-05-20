@@ -1,0 +1,21 @@
+{
+    "pf2e-exploration-activities": {
+        "gm-activity": {
+            "ui-notification": "Вы должны выбрать хотя бы один токен PC",
+            "content": "Мастер запросил Активности исследования"
+        },
+        "player-exploration": {
+            "ui-notifications": "Вы должны выбрать хотя бы один токен PC",
+            "choose": "Выберите активность: ",
+            "common": "Обычные",
+            "additional": "Дополнительные",
+            "title": "Активность исследования",
+            "select": "Выбрать",
+            "will": "<h3>Я выбрал использовать <b>",
+            "cancel": "Отмена",
+            "will-cancel": "<h3>Я выбрал ничего особенного не делать.</h3>",
+            "avoid-notice": ""
+        },
+        "scripts": {}
+    }
+}

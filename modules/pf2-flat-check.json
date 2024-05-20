@@ -1,0 +1,9 @@
+{
+    "pf2e-flat-check": {
+        "settings": {
+            "hideRollValue": {
+                "name": "Показать текст \"Успех\" или \"Провал\""
+            }
+        }
+    }
+}

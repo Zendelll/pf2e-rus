@@ -1,0 +1,13 @@
+{
+	"label": "AC Снаряжение",
+	"entries": {
+		"Heavy Barding": {
+			"name": "Тяжелый бард",
+			"description": ""
+		},
+		"Light Barding": {
+			"name": "Легкий бард",
+			"description": ""
+		}
+	}
+}

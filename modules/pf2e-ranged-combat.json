@@ -1,0 +1,201 @@
+{
+    "pf2e-ranged-combat": {
+        "config": {
+            "schemaVersion": {
+                "name": "Версия схемы",
+                "hint": "Текущая версия данных, относящихся к этому модулю"
+            },
+            "postFullAction": {
+                "name": "Опубликовать полное действие из макросов",
+                "hint": "При запуске макросов, имитирующих выполнение действий, опубликуйте полное описание действия в чате."
+            },
+            "postFullAmmunition": {
+                "name": "Опубликовать полное описание боеприпасов",
+                "hint": "При стрельбе из оружия дальнего боя нестандартными боеприпасами, опубликуйте боеприпас в чате."
+            },
+            "preventFireNotLoaded": {
+                "name": "Запрет на стрельбу оружия, если оно не заряжено",
+                "hint": "Для оружия с перезарядкой не менее 1, предотвращайте броски атаки с использованием этого оружия, если у вас нет эффекта заряженности для этого оружия."
+            },
+            "advancedAmmunitionSystemPlayer": {
+                "name": "Усовершенствованная система боеприпасов (Игрок)",
+                "hint": "Отслеживание заряженных боеприпасов для перезаряжаемого и многозарядного оружия. Это переопределяет Запрет на стрельбу из оружия, если оно не заряжено."
+            },
+            "advancedThrownWeaponSystemPlayer": {
+                "name": "Усовершенствованная система метания (Игрок)",
+                "hint": "Обрабатывать метательное оружие, выпадающее после использования, и требовать, чтобы другое оружие было выхвачено перед следующей атакой."
+            },
+            "requiredPermissionToShowMessages": {
+                "name": "Минимальное разрешение на просмотр сообщений",
+                "hint": "Некоторые функции этого модуля отправляют сообщения в чат, например Перезарядку. Это скроет эти сообщения для игроков без необходимого разрешения по отношению к актеру, выполняющему действие."
+            },
+            "hideTokenIcons": {
+                "name": "Скрыть значки эффектов токена",
+                "hint": "Скрыть значки токенов для эффектов, созданных этим модулем."
+            }
+        },
+        "huntPrey": {
+            "warningNoAction": "{token} не имеет действия Выслеживать добычу.",
+            "unknownToken": "Неизвестный токен",
+            "maxTargetsOne": "одну",
+            "maxTargetsTwo": "две",
+            "maxTargetsThree": "три",
+            "shareWithTwo": "Может поделиться эффектом с двумя союзниками.",
+            "shareWithOne": "Может поделиться эффектом с одним союзником.",
+            "huntThreeTargets": "{token} делает {target1}, {target2} и {target3} своей добычей.",
+            "huntTwoTargets": "{token} делает {target1} и {target2} своей добычей.",
+            "huntOneTarget": "{token} делает {target1} своей добычей.",
+            "warningNoTarget": "Цель не выбрана.",
+            "warningTooManyTargets": "Вы можете выслеживать всего {maxTargets} добыч."
+        },
+        "thrownWeapons": {
+            "warningNotEquipped": "{weapon} не экипировано!",
+            "warningNoAmmoLeft": "У вас не осталось {weapon}!"
+        },
+        "npcWeaponSystem": {
+            "warningNpcOnly": "Вы можете использовать это только на NPC.",
+            "dialog": {
+                "title": "Конфигурация оружия NPC",
+                "hint": "Здесь вы можете настроить NPC для использование с модулем PF2e Ranged Combat.",
+                "legendGeneral": "Общий",
+                "enableAmmunition": "Включить Усовершенствованную систему боеприпасов",
+                "enableThrown": "Включить Усовершеннствованную систему метания",
+                "legendMapping": "Сопоставление оружия",
+                "mappingHint": "Вы можете сопоставить каждую атаку вашего NPC с оружием и боеприпасами, чтобы модуль рассматривал их как оружие PC.",
+                "labelWeapon": "Оружие",
+                "weaponTypeMelee": "Ближний бой",
+                "weaponTypeRanged": "Дальний бой",
+                "labelAmmunition": "Боеприпас",
+                "done": "Принять",
+                "cancel": "Отмена"
+            }
+        },
+        "ammunitionSystem": {
+            "fireWeapon": "{actor} стреляет {ammunition}.",
+            "fireWeaponRepeating": "{actor} использует {ammunition} ({remaining}/{capacity} осталось).",
+            "fireConjuredRound": "{actor} стреляет воплощенным снарядом.",
+            "utils": {
+                "warningFullyLoaded": "{weapon} уже полностью заряжено.",
+                "warningLoaded": "{weapon} уже заряжено."
+            },
+            "ammunitionSelect": {
+                "title": "Выбор боеприпасов",
+                "header": "Выберите, на какие боеприпасы переключиться.",
+                "loadedAmmunition": "Заряженные боеприпасы"
+            },
+            "check": {
+                "weaponNotLoaded": "{weapon} не заряжено.",
+                "magazineNotLoaded": "У {weapon} не заряжен магазин.",
+                "magazineEmpty": "Магазин {weapon} пуст.",
+                "chamberNotLoaded": "Текущий патронник {weapon} не заряжен.",
+                "bothBarrelsNotLoaded": "У {weapon} не заряжены оба ствола.",
+                "bothBarrelsNotEnough": "У {weapon} недостаточно боеприпасов для стрельбы из обеих стволов.",
+                "noAmmunitionSelected": "У {weapon} не выбраны боеприпасы",
+                "noAmmunitionRemaining": "У {weapon} не осталось боеприпасов"
+            },
+            "actions": {
+                "conjureBullet": {
+                    "conjuredRound": "Воплощенный снаряд",
+                    "warningNoAction": "{token} не имеет действия Наколдовать пулю.",
+                    "noReloadableWeapons": "У вас нет перезаряжаемого оружия.",
+                    "warningSingleRound": "{weapon} Можно зарядить только одним воплощенным снарядом.",
+                    "chatMessage": "{token} использует Наколдовать Пулю чтобы зарядить {weapon}.",
+                    "chatActionName": "Воплощенная пуля"
+                },
+                "consolidateAmmunition": {
+                    "chatMessage": "{token} объединяет свои боеприпасы.",
+                    "infoAlreadyConsolidated": "Ваши повторяющиеся боеприпасы уже объединены!"
+                },
+                "nextChamber": {
+                    "noCapacityWeapons": "У вас нет оружия с признаком `вместимость`.",
+                    "warningNotLoaded": "{weapon} не заряжено!",
+                    "warningAlreadyLoaded": "Патронник {weapon} уже заряжен выбранным {ammunition}!",
+                    "chatMessageSelectChamber": "{token} выбирает патронник с заряженным {ammunition} на {weapon}.",
+                    "warningAlreadySelected": "У {weapon} уже выбран заряженный патронник!",
+                    "chatMessageSelectNextChamber": "{token} выбирает следующий заряженный патронник на {weapon}."
+                },
+                "reloadMagazine": {
+                    "warningAdvancedAmmunitionNeeded": "PF2e Ranged Combat - Перезарядка магазина может использоваться только в том случае, если включена Усовершенствованная система боеприпасов.",
+                    "warningNpcNotSupported": "PF2e Ranged Combat - Перезарядка магазина в настоящее время не поддерживается для NPC.",
+                    "warningNoRepeatingWeapons": "У вас нет многозарядного оружия.",
+                    "warningFullyLoaded": "{weapon} уже заряжено полным магазином.",
+                    "warningAlreadyMoreAmmo": "Текущий магазин {weapon} уже заряжен боеприпасами в количестве {ammo}",
+                    "tokenLoadsAmmo": "{token} заряжает {weapon} {ammo} боеприпасами ({charges}/{maxCharges}).",
+                    "warningNoCompatibleAmmunition": "У вас нет снаряженных боеприпасов, совместимых с {weapon}.",
+                    "noAmmunitionSelectNew": "Вы не выбрали боеприпасы для вашего {weapon}.</p><p>Выберите боеприпасы для заряжания.",
+                    "warningNotEnoughAmmunition": "У вас недостаточно боеприпасов для перезарядки {weapon}.",
+                    "notEnoughAmmunitionSelectNew": "Выбранные вами боеприпасы для {weapon} пусты.</p><p>Выберите новые боеприпасы для заряжания."
+                },
+                "reload": {
+                    "warningNoReloadableWeapons": "У вас нет перезаряжаемого оружия.",
+                    "warningNoMagazineLoaded": "У {weapon} нет заряженного магазина!",
+                    "warningMagazineEmpty": "Магазин {weapon} пуст!",
+                    "warningAlreadyLoaded": "{weapon} уже заряжено.",
+                    "warningAlreadyFullyLoaded": "{weapon} уже полностью заряжено.",
+                    "warningAlreadyLoadedWithAmmo": "{weapon} уже заряжено {ammo} боеприпасами.",
+                    "warningNoCompatibleAmmunition": "У вас нет снаряженных боеприпасов совместимых с {weapon}.",
+                    "noAmmunitionSelectNew": "Вы не выбрали боеприпасы для вашего {weapon}.</p><p>Выберите боеприпасы для заряжания.",
+                    "warningNotEnoughAmmunition": "Недостаточно боеприпасов для перезарядки {weapon}.",
+                    "notEnoughAmmunitionSelectNew": "Выбранные вами боеприпасы для {weapon} пусты.</p><p>Выберите новые боеприпасы для заряжания.",
+                    "tokenReloadsWeapon": "{token} перезаряжает {weapon}",
+                    "withAmmunition": "с {ammunition}."
+                },
+                "switchAmmunition": {
+                    "warningNoWeaponUsesAmmunition": "У вас нет оружия, использующего боеприпасы.",
+                    "warningNoCompatibleAmmunitionAvailable": "У вас нет снаряженных боеприпасов, совместимых с вашим {weapon}.",
+                    "noCompatibleAmmunitionSelectNew": "Выберите боеприпасы для переключения.",
+                    "dialogTitle": "Выбор боеприпасов"
+                },
+                "unload": {
+                    "warningNotLoaded": "{weapon} не заряжено!",
+                    "tokenUnloadsAmmunitionFromWeapon": "{token} разряжает {ammunition} из {weapon}.",
+                    "tokenUnloadsWeapon": "{token} разряжает {weapon}",
+                    "noLoadedWeapons": "У вас нет заряженного оружия."
+                }
+            }
+        },
+        "utils": {
+            "singleCharacterSelected": "Вы должны выбрать одного персонажа.",
+            "warningDialog1": "Вы не можете стрелять из этого оружия потому что:",
+            "warningDialog2": "Это особенность модуля PF2e Ranged Combat.",
+            "warningDialog3": "Вы можете узнать, как использовать модуль <a href=\"https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/blob/main/README.md\">здесь</a>.",
+            "buttonOK": "ОК",
+            "buttonDoNotShowAgain": "ОК (Больше не показывать)",
+            "migration": {
+                "multipleAmmunitions.consoleInfo": "PF2e Ranged Combat - Выполняется миграция 1: Обновление множественных боеприпасов",
+                "thrownWeaponGroups.consoleInfo": "PF2e Ranged Combat - Выполняется миграция 2: Группы метательного оружия",
+                "huntedPrey.consoleInfo": "PF2e Ranged Combat - Выполняется миграция 3: Массив выслеживаемой добычи"
+            }
+        },
+        "actions": {
+            "alchemicalCrossbow": {
+                "warningAlreadyLoaded": "{weapon} {token} уже заряжено {bomb}.",
+                "bombWillBeReturned": "{bomb} будет возвращена в ваш инвентарь.",
+                "usesWillBeWasted": "Оставшееся использование {bomb} будет потрачено впустую.",
+                "loadInsteadDialogTitle": "{weapon} уже заряжено",
+                "weaponIsLoadedWithCharges": "{weapon} заряжен {bomb} с {charges}/{maxCharges} оставшихся использований.",
+                "loadInstead": "Хотите вместо этого зарядить {bomb}?",
+                "buttonLoad": "Зарядить",
+                "buttonDoNotLoad": "Не заряжать",
+                "lesser": "Малый",
+                "tokenLoadsWeaponWithBomb": "{token} заряжает {weapon} {bomb}.",
+                "warningWeaponNotLoaded": "{weapon} {token} не заряжено алхимической бомбой.",
+                "shouldUnloadDialogTitle": "{bomb} сброшена",
+                "shouldUnloadDialogRestWasted": "Оставшиеся использования будут потрачены впустую",
+                "shouldUnloadInstead": "Вы уверены, что хотите разрядить {bomb} из {weapon}?",
+                "buttonUnload": "Разрядить",
+                "buttonDoNotUnload": "Не разряжать",
+                "tokenUnloadsBombFromWeapon": "{token} разряжает {bomb} из {weapon}.",
+                "warningNoAlchemicalCrossbow": "{token} не имеет Алхимического арбалета.",
+                "warningNoLesserAlchemicalBombs": "{token} не имеен малых алхимических бомб, наносящих энергетический урон."
+            },
+            "alchemicalShot": {
+                "warningNoFeat": "{token} не имеет способности Алхимический заряд.",
+                "warningNotWieldingProperWeapon": "{token} не вооружен огнестрельным оружием или арбалетом.",
+                "warningNoAlchenicalBombs": "{token} не имеет алхимических бомб.",
+                "tokenPoursBombIntoWeapon": "{token} выливает содержимое {bomb} в {weapon}.",
+                "alchemicalShot": "Алхимический заряд"
+            }
+        }
+    }
+}

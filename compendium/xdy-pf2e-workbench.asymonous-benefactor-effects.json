@@ -1,0 +1,37 @@
+{
+	"label": "PF2e asymonous-benefactor-effects",
+	"entries": {
+		"Spell Effect: Inspire Courage (3 rounds)": {
+			"name": "Эффект заклинания: Вдохновить на смелость (3 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.IAjvwqgiDr3qGYxY]{Вдохновлением на смелость}</em></p>\n<p>Вы вдохновляете своих союзников ободряющими словами или мелодиями. Вы и все союзники в области получаете бонус состояния +1 к броскам атак, броскам урона и спасброскам против эффектов 'страха'.</p>"
+		},
+		"Spell Effect: Inspire Courage (4 rounds)": {
+			"name": "Эффект заклинания: Вдохновить на смелость (4 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.IAjvwqgiDr3qGYxY]{Вдохновлением на смелость}</em></p>\n<p>Вы вдохновляете своих союзников ободряющими словами или мелодиями. Вы и все союзники в области получаете бонус состояния +1 к броскам атак, броскам урона и спасброскам против эффектов 'страха'.</p>"
+		},
+		"Spell Effect: Inspire Defense (3 rounds)": {
+			"name": "Эффект заклинания: Вдохновить на защиту (3 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.bH0kPuf7UKxRvi2P]{Вдохновлением на защиту}</em></p>\n<p>Вы и все ваши союзники в области получаете бонус состояния +1 к КБ и спасброскам, а также сопротивление физическому урону, равное половине уровня заклинания.</p>\n<p><em><br>Заметка:</br> сопротивление не добавляется автоматически.</em></p>"
+		},
+		"Spell Effect: Inspire Defense (4 rounds)": {
+			"name": "Эффект заклинания: Вдохновить на защиту (4 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.bH0kPuf7UKxRvi2P]{Вдохновлением на защиту}</em></p>\n<p>Вы и все ваши союзники в области получаете бонус состояния +1 к КБ и спасброскам, а также сопротивление физическому урону, равное половине уровня заклинания.</p>\n<p><em><br>Заметка:</br> сопротивление не добавляется автоматически.</em></p>"
+		},
+		"Spell Effect: Song of Strength (3 rounds)": {
+			"name": "Эффект заклинания: Песня силы (3 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{Песней силы}</em></p>\n<p>Вы поддерживаете физическую силу своих союзников душевными наставлением. Вы и ваши союзники получаете бонус состояния +1 к проверкам Атлетики и КС против действий навыка Атлетики, таких как @UUID[Compendium.pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Разоружить}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Толкнуть} и @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Опрокинуть}.</p>\n<p><em>Заметка: Бонус к КС не добавляется автоматически.</em></p>"
+		},
+		"Spell Effect: Song of Strength (4 rounds)": {
+			"name": "Эффект заклинания: Песня силы (4 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{Песней силы}</em></p>\n<p>Вы поддерживаете физическую силу своих союзников душевными наставлением. Вы и ваши союзники получаете бонус состояния +1 к проверкам Атлетики и КС против действий навыка Атлетики, таких как @UUID[Compendium.pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Разоружить}, @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Толкнуть} и @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Опрокинуть}.</p>\n<p><em>Заметка: Бонус к КС не добавляется автоматически.</em></p>"
+		},
+		"Spell Effect: Triple Time (3 rounds)": {
+			"name": "Эффект заклинания: Трехдольный размер (3 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.c8R2fpk88fBwJ1ie]{Трехдольным размером}</em></p>\n<p>Вы получаете бонус состояния +10 футов к Скорости.</p>"
+		},
+		"Spell Effect: Triple Time (4 rounds)": {
+			"name": "Эффект заклинания: Трехдольный размер (4 раунда)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.c8R2fpk88fBwJ1ie]{Трехдольным размером}</em></p>\n<p>Вы получаете бонус состояния +10 футов к Скорости.</p>"
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "pf2e-extempore-effects": {
+    "hiddenFromPlayerText": "Скрыто от игрока?",
+    "openSheetInstructionShift": "[Shift + Left Click] открыть лист",
+    "openSheetInstructionCtrl": "[Ctrl + Left Click] открыть лист",
+    "contextMenuExtemporeEffect": "Экспромт-эффект",
+    "contextMenuApplyEffect": "Применить эффект",
+    "addedPrefixToExpendedEffectName": "Израсходовано: ",
+    "addedPrefixToEffectName": "Эффект: ",
+    "addedPrefixToEffectDescription": "<h2>(Сгенерированный эффект)</h2>\n",
+    "nameOfQuickUntitledEffect": "Quick_untitled_effect",
+    "descriptionOfQuickUntitledEffect": "<h2>(Сгенерированный эффект)</h2>\nНапишите здесь все, что вы хотите!",
+    "settings": {
+      "randomize-image-if-default": {
+        "name": "Cлучайные изображения",
+        "hint": "По умолчанию да. При создании эффекта из сообщения, в котором есть элемент, но нет актера (или есть актер\n с изображением по умолчанию), и это элемент имеет изображение по умолчанию, вместо этого выберите случайное красочное изображение эффекта."
+      },
+      "hidden-by-default": {
+        "name": "Cкрытые эффекты",
+        "hint": "По умолчанию нет. При создании эффекта с модулем в качестве Мастера, он не будет по умолчанию \"скрыт для игроков\".\n Удерживание кнопки Ctrl/Alt во время создания эффекта приведет к обратному эффекту (по умолчанию он будет скрыт)."
+      },
+      "quick-add-empty-effect": {
+        "name": "Быстрое добавление пустого эффекта",
+        "hint": "Создайте новый пользовательский эффект со случайной иконкой, примененный к выбранному в данный момент токену."
+      },
+      "open-effect-sheet-shortcut": {
+        "name": "Набор клавиш для открытия листа эффектов",
+        "hint": "Если не отключено, вы можете использовать этот набор клавиш, чтобы открыть лист эффекта при создании импровизированного эффекта и при использовании панели эффектов.",
+        "choice_shift_left_click": "Shift + Left-Click",
+        "choice_ctrl_left_click": "Ctrl + Left-Click",
+        "choice_disabled": "Отключено"
+      },
+      "notifications-for-expired-effects": {
+        "name": "Уведомления о событиях с истекшим сроком",
+        "hint": "По истечении срока действия эффектов будет отправлено уведомление и сообщение в чат в качестве напоминания",
+        "choice_all_effects": "Все эффекты",
+        "choice_only_unidentified": "Только секретные (неопознанные) эффекты",
+        "choice_disabled": "Отключено"
+      }
+    },
+    "errorMultipleTokensCustomEffect": "Вам нужно выбрать один токен, чтобы применить пользовательский новый эффект.",
+    "errorNoTokensSelected": "Для применения эффекта необходимо выбрать токен(ы).",
+    "errorItemNotFound": "Элемент не найден в сообщении PF2e."
+  }
+}

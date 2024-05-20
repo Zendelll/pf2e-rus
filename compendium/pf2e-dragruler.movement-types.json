@@ -1,0 +1,29 @@
+{
+	"label": "PF2e Типы движения",
+	"entries": {
+		"Burrow": {
+			"name": "Рытье",
+			"description": ""
+		},
+		"Climb": {
+			"name": "Карабканье",
+			"description": ""
+		},
+		"Flying": {
+			"name": "Полет",
+			"description": ""
+		},
+		"Land": {
+			"name": "Наземный",
+			"description": ""
+		},
+		"Movement Type": {
+			"name": "Тип движения",
+			"description": ""
+		},
+		"Swim": {
+			"name": "Плавание",
+			"description": ""
+		}
+	}
+}

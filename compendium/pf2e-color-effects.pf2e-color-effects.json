@@ -1,0 +1,153 @@
+{
+	"label": "PF2E Эффекты маркеров токена",
+	"entries": {
+		"Action Counter": {
+			"name": "Счетчик действий",
+			"description": ""
+		},
+		"Action Tracker": {
+			"name": "Отслеживание действий",
+			"description": ""
+		},
+		"Apply Color": {
+			"name": "Применить цвет",
+			"description": ""
+		},
+		"Apply Color (H)": {
+			"name": "Применить цвет (H)",
+			"description": ""
+		},
+		"Blue": {
+			"name": "Синий",
+			"description": ""
+		},
+		"Blue (H)": {
+			"name": "Синий (H)",
+			"description": ""
+		},
+		"Blue Aura": {
+			"name": "Синяя аура",
+			"description": ""
+		},
+		"Color Aura": {
+			"name": "Цветная аура",
+			"description": ""
+		},
+		"ColorCounter": {
+			"name": "Цветной счетчик",
+			"description": ""
+		},
+		"ColorCounter (H)": {
+			"name": "Цветной счетчик (H)",
+			"description": ""
+		},
+		"Counter": {
+			"name": "Счетчик",
+			"description": ""
+		},
+		"Counter (H)": {
+			"name": "Счетчик (H)",
+			"description": ""
+		},
+		"Custom Aura": {
+			"name": "Пользовательская аура",
+			"description": ""
+		},
+		"ExpandedCounter": {
+			"name": "Расширенный счетчик",
+			"description": ""
+		},
+		"ExpandedCounter (H)": {
+			"name": "Расширенный счетчик (H)",
+			"description": ""
+		},
+		"Green": {
+			"name": "Зеленый",
+			"description": ""
+		},
+		"Green (H)": {
+			"name": "Зеленый (H)",
+			"description": ""
+		},
+		"Green Aura": {
+			"name": "Зеленая аура",
+			"description": ""
+		},
+		"Incremental Counter": {
+			"name": "Возрастающий счетчик",
+			"description": ""
+		},
+		"Incremental Counter (H)": {
+			"name": "Возрастающий счетчик (H)",
+			"description": ""
+		},
+		"Incremental ExpandedCounter": {
+			"name": "Возрастающий расширенный счетчик",
+			"description": ""
+		},
+		"Incremental ExpandedCounter (H)": {
+			"name": "Возрастающий расширенный счетчик (H)",
+			"description": ""
+		},
+		"Orange": {
+			"name": "Оранжевый",
+			"description": ""
+		},
+		"Orange (H)": {
+			"name": "Оранжевый (H)",
+			"description": ""
+		},
+		"Orange Aura": {
+			"name": "Оранжевая аура",
+			"description": ""
+		},
+		"Purple": {
+			"name": "Фиолетовый",
+			"description": ""
+		},
+		"Purple (H)": {
+			"name": "Фиолетовый (H)",
+			"description": ""
+		},
+		"Purple Aura": {
+			"name": "Фиолетовая аура",
+			"description": ""
+		},
+		"Reaction used": {
+			"name": "Использованная реакция",
+			"description": ""
+		},
+		"Reaction Used (2)": {
+			"name": "Использованная реакция (2)",
+			"description": ""
+		},
+		"Reaction Used (Shield)": {
+			"name": "Использованная реакция (Щит)",
+			"description": ""
+		},
+		"Red": {
+			"name": "Красный",
+			"description": ""
+		},
+		"Red (H)": {
+			"name": "Красный (H)",
+			"description": ""
+		},
+		"Red Aura": {
+			"name": "Красная аура",
+			"description": ""
+		},
+		"Yellow": {
+			"name": "Желтый",
+			"description": ""
+		},
+		"Yellow (H)": {
+			"name": "Желтый (H)",
+			"description": ""
+		},
+		"Yellow Aura": {
+			"name": "Желтая аура",
+			"description": ""
+		}
+	}
+}

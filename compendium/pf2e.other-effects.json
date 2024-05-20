@@ -1,0 +1,137 @@
+{
+	"label": "К2. Другие эффекты",
+	"entries": {
+		"Effect: Aquatic Combat": {
+			"name": "Эффект: Водный бой",
+			"description": "<p>Используйте эти правила для сражений в воде или под водой:</p>\n<ul>\n<li>Вы @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуты врасплох}, если только у вас нет Скорости плавания</li>\n<li>Вы получаете сопротивление 5 к кислоте и огню</li>\n<li>Вы получаете штраф обстоятельства -2 к режущим или дробящим атакам ближнего боя проходящим через воду</li>\n<li>Дистанционные атаки, наносящие дробящий или рубящий урон автоматически промахиваются, если атакующий или цель под водой, а колющие дистанционные атаки совершенные существами под водой или против подводных целей имеют вдвое уменьшенный шаг дистанции</li>\n<li>Под водой вы не можете сотворять огненные заклинания или использовать действия с признаком <a href=https://clck.ru/jompy><em>`огонь`</em></a></li>\n<li>На усмотрение Мастера, некоторые наземные действия могут не работать под водой или когда держитесь на поверхности воды</li>\n</ul>"
+		},
+		"Effect: Follow The Expert": {
+			"name": "Эффект: Повторять за экспертом",
+			"description": ""
+		},
+		"Effect: Aid": {
+			"name": "Эффект: Помощь",
+			"description": "<p>Вы получаете бонус обстоятельства к проверке, основанный на результате проверки \"Помощи\" вашего союзника.</p>"
+		},
+		"Effect: Scouting": {
+			"name": "Эффект: Разведывать",
+			"description": ""
+		},
+		"Effect: Scouting (Incredible Scout)": {
+			"name": "Эффект: Разведывать (Невероятный разведчик)",
+			"description": ""
+		},
+		"Effect: Cover": {
+			"name": "Эффект: Укрытие",
+			"description": "<p>Когда вы за препятствием, которое может блокировать оружие, защищать от взрывов и затруднить ваше обнаружение, то вы находитесь за укрытием. Стандартное укрытие дает вам бонус обстоятельства +2 к КБ, спасброскам Рефлекса против эффектов по области и к проверкам Скрытности для действий @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться}, @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться} или другим образом избегать обнаружения. Вы можете получить преимущество как от большого укрытия, использовав простое действие @UUID[Compendium.pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}, увеличивая бонус обстоятельства до +4. Если укрытие не особенно надежное, обычно являющееся существом, то вы получаете небольшое укрытие, которое дает бонус обстоятельства +1 к КБ. Существо со стандартным укрытием или большим укрытием может попытаться использовать Скрытность, чтобы \"Спрятаться\", но небольшого укрытия для этого недостаточно.</p>"
+		},
+		"Effect: -1 circumstance penalty to attack rolls until you score a critical hit": {
+			"name": "Эффект: Штраф обстоятельства -1 к броскам атак, пока не совершите критический удар",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.kjoBsS79JcjUUPnr]{Critical Fumble Deck #38}, @UUID[Compendium.pf2e.criticaldeck.qD8KoshDJsayGbCB]{Critical Fumble Deck #40}, @UUID[Compendium.pf2e.criticaldeck.mcniWnifXwXkZocv]{Critical Fumble Deck #41}, @UUID[Compendium.pf2e.criticaldeck.8D8NPBNMxQftBmyd]{Critical Fumble Deck #46}</strong></p>\n<p>Вы получаете штраф обстоятельства -1 к броскам атак, пока не совершите критический удар</p>"
+		},
+		"Effect: -10-foot circumstance penalty to all Speeds": {
+			"name": "Эффект: -10 футов штраф состояния ко всем Скоростям",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.dP4Zy3ILcjWRx6ZO]{Critical Hit Deck #45}</strong></p>\n<p>Цель получает -10 футов штраф состояния ко всем Скоростям</p>"
+		},
+		"Effect: -10-foot circumstance penalty to your land Speed": {
+			"name": "Эффект: -10 футов штраф обстоятельства к наземной Скорости",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.qD4ybNUceFacSJGu]{Critical Fumble Deck #3}, @UUID[Compendium.pf2e.criticaldeck.DpY6k60UrpvKgjx2]{Critical Fumble Deck #4}, @UUID[Compendium.pf2e.criticaldeck.99BxUbTtFlyPWkq5]{Critical Fumble Deck #7}</strong></p>\n<p>-10 футов штраф обстоятельства к наземной Скорости</p>"
+		},
+		"Effect: -10-foot status penalty to your land Speed": {
+			"name": "Эффект: -10 футов штраф состояния к наземной Скорости",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.maXudTqcDiAj86Ym]{Critical Hit Deck #6}, @UUID[Compendium.pf2e.criticaldeck.A0gsgMjgDpkOXtYp]{Critical Hit Deck #12}, @UUID[Compendium.pf2e.criticaldeck.wHwwHq9RcOUvwFeB]{Critical Hit Deck #22}, @UUID[Compendium.pf2e.criticaldeck.wCsoyffDxSWQ2c8o]{Critical Hit Deck #46}, @UUID[Compendium.pf2e.criticaldeck.bZF7zf43UBxS188h]{Critical Hit Deck #48}</strong></p>\n<p>-10 футов штраф состояния к наземной Скорости</p>"
+		},
+		"Effect: -15-foot status penalty to your land Speed": {
+			"name": "Эффект: -15 футов штраф состояния к своей наземной Скорости",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.nI9pM4SeM39SRVaR]{Critical Hit Deck #41}</strong></p>\n<p>-15 футов штраф состояния к своей наземной Скорости</p>"
+		},
+		"Effect: -2 circumstance penalty to attack rolls": {
+			"name": "Эффект: Штраф обстоятельства -2 к броскам атак",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.wga13mR4vo73tbTY]{Critical Fumble Deck #10}, @UUID[Compendium.pf2e.criticaldeck.xsBlA35rvfHSzJe4]{Critical Fumble Deck #15}, @UUID[Compendium.pf2e.criticaldeck.1urnmEt4sn4ATDRL]{Critical Hit Deck #29}, @UUID[Compendium.pf2e.criticaldeck.NNfsKAHcKvTuyha4]{Critical Hit Deck #36}</strong></p>\n<p>Штраф обстоятельства -2 к броскам атак</p>"
+		},
+		"Effect: -2 circumstance penalty to attack rolls made with this attack until healed": {
+			"name": "Эффект: Штраф обстоятельства -2 к броскам атак этой атаки, пока не исцелен",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.HERWPcFlzK2FTPLJ]{Critical Fumble Deck #47}</strong></p>\n<p>ШШтраф обстоятельства -2 к броскам атак этой атаки, пока не исцелен</p>"
+		},
+		"Effect: -2 circumstance penalty to attack rolls until healed": {
+			"name": "Эффект: Штраф обстоятельства -2 к броскам атак, пока не будете исцелены",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.LY6T2YgrSoI79BDR]{Critical Fumble Deck #8}</strong></p>\n<p>Штраф обстоятельства -2 к броскам атак, пока не будете исцелены</p>"
+		},
+		"Effect: -2 circumstance penalty to attack rolls with this weapon": {
+			"name": "Эффект: Штраф обстоятельства -2 к броскам атак этого оружия",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.EP333dUdoJ8xdkzq]{Critical Fumble Deck #5}, @UUID[Compendium.pf2e.criticaldeck.YRY6c3WdBEuKiOCv]{Critical Fumble Deck #42}</strong></p>\n<p>Штраф обстоятельства -2 к броскам атак этого оружия</p>"
+		},
+		"Effect: -2 circumstance penalty to checks and saving throws until healed": {
+			"name": "Эффект: Штраф обстоятельства -2 к проверкам и спасброскам, пока не исцелены",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.IvDJkDpe3JxMHaj1]{Critical Fumble Deck #28}</strong></p>\n<p>Штраф обстоятельства -2 к проверкам и спасброскам, пока не исцелены</p>"
+		},
+		"Effect: -2 circumstance penalty to ranged attacks": {
+			"name": "Эффект: Штраф обстоятельства -2 к дальним атакам",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.Wn47ZhXINo7jz8JZ]{Critical Fumble Deck #2}</strong></p>\n<p>Штраф обстоятельства -2 к дальним атакам</p>"
+		},
+		"Effect: -2 circumstance penalty to spell attack rolls and spell DC's": {
+			"name": "Эффект: Штраф обстоятельства -2 к броскам атак заклинаниями и КС заклинаний",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.NNfsKAHcKvTuyha4]{Critical Fumble Deck #36}</strong></p>\n<p>Штраф обстоятельства -2 к броскам атак заклинаниями и КС заклинаний</p>"
+		},
+		"Effect: -5-foot circumstance penalty to your land Speed": {
+			"name": "Эффект: Штраф обстоятельства -5 футов к наземной Скорости",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.WGBL7l5DatQnszg7]{Critical Fumble Deck #35}</strong></p>\n<p>Штраф обстоятельства -5 футов к своей наземной Скорости</p>"
+		},
+		"Effect: -5-foot status penalty to your land Speed": {
+			"name": "Эффект: Штраф состояния -5 футов к наземной Скорости",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.maXudTqcDiAj86Ym]{Critical Hit Deck #6}, @UUID[Compendium.pf2e.criticaldeck.2CCPMTk5DlZslpOp]{Critical Hit Deck #18}, @UUID[Compendium.pf2e.criticaldeck.QR3e1uCNURvxDzbV]{Critical Hit Deck #50}</strong></p>\n<p>Штраф состояния -5 футов к своей наземной Скорости</p>"
+		},
+		"Effect: +1 circumstance bonus to attack rolls for 3 rounds": {
+			"name": "Эффект: Бонус обстоятельства +1 к броскам атак в течение 3 раундов",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.TbXmAqEzgW1nZV2r]{Critical Fumble Deck #49}</strong></p>\n<p>Бонус обстоятельства +1 к броскам атак в течение 3 раундов, но вы @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуты врасплох}</p>"
+		},
+		"Effect: +2 circumstance bonus to AC": {
+			"name": "Эффект: Бонус обстоятельства +2 к КБ",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.Wn47ZhXINo7jz8JZ]{Critical Fumble Deck #2}, @UUID[Compendium.pf2e.criticaldeck.YcQEfWxkmpMWXUz4]{Critical Hit Deck #49}</strong></p>\n<p>Бонус обстоятельства +2 к КБ</p>"
+		},
+		"Effect: +2 circumstance bonus to attack rolls": {
+			"name": "Эффект: Бонус обстоятельства +2 ко всем броскам атаки",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.bzIzGjyNUc52lhCS]{Critical Hit Deck #4}, @UUID[Compendium.pf2e.criticaldeck.pjR0QGXE58oWS8uU]{Critical Hit Deck #7}, @UUID[Compendium.pf2e.criticaldeck.gdYlgrtfGK8mAoXK]{Critical Hit Deck #9}</strong></p>\n<p>Бонус обстоятельства +2 ко всем броскам атаки</p>"
+		},
+		"Effect: +2 status bonus to AC and all saving throws": {
+			"name": "Эффект: Бонус состояния +2 к КБ и всем спасброскам",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.iZYZTEtihsVkbRKR]{Critical Hit Deck #8}</strong></p>\n<p>Бонус состояния +2 к КБ и всем спасброскам</p>"
+		},
+		"Effect: +2 status bonus to attack rolls": {
+			"name": "Эффект: Бонус состояния +2 к броскам атак",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.wcqXFhggTcAutBk6]{Critical Fumble Deck #29}</strong></p>\n<p>Бонус состояния +2 к броскам атак</p>"
+		},
+		"Effect: +2 status bonus to saving throws against spells for 1 min": {
+			"name": "Эффект: Бонус состояния +2 к спасброскам против заклинаний на 1 минуту",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.yBE9e9l5KW7SdHZH]{Critical Fumble Deck #31}</strong></p>\n<p>Бонус состояния +2 к спасброскам против заклинаний на 1 минуту</p>"
+		},
+		"Effect: +4 circumstance bonus to AC against your ranged attacks": {
+			"name": "Эффект: Бонус обстоятельства +4 к КБ против ваших дальних атак",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.4MkOtc3bBYsBGF97]{Critical Fumble Deck #6}</strong></p>\n<p>Бонус обстоятельства +4 от Укрытия к КБ против ваших дальних атак</p>"
+		},
+		"Effect: Adverse Subsist Situation": {
+			"name": "Эффект: Неблагоприятная жизненная ситуация",
+			"description": "<p>Вы привлекаете неприятности, едите то, что не стоит есть, или другим образом ухудшаете ситуацию. Вы получаете штраф обстоятельства -2 к проверкам Проживания на 1 неделю. Вы совсем не нашли еды; если у вас нет запасов, то вам грозит голод или смерть от жажды, если продолжите проваливать проверку.</p>"
+		},
+		"Effect: Dazzled until end of your next turn": {
+			"name": "Эффект: Ослеплены до конца вашего следующего хода",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.mwz1Ukw9laGyRocF]{Critical Fumble Deck #51}, @UUID[Compendium.pf2e.criticaldeck.dvL063pJYJpCMsA6]{Critical Fumble Deck #52}</strong></p>\n<p>Вы @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплены} до конца вашего следующего хода</p>"
+		},
+		"Effect: Deafened until end of your next turn": {
+			"name": "Эффект: Оглушены до конца вашего следующего хода",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.mcniWnifXwXkZocv]{Critical Fumble Deck #41}</strong></p>\n<p>Вы @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглушены} до конца вашего следующего хода</p>"
+		},
+		"Effect: Flat-Footed until end of your next turn": {
+			"name": "Эффект: Застигнуты врасплох до конца вашего следующего хода",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.IrUeMJoKEYUSJKs1]{Critical Fumble Deck #19}, @UUID[Compendium.pf2e.criticaldeck.gWa7wGUfUvYoIK8z]{Critical Fumble Deck #20}, @UUID[Compendium.pf2e.criticaldeck.I5omhoK6rqfCZiUZ]{Critical Fumble Deck #21}, @UUID[Compendium.pf2e.criticaldeck.Ps9VYxI2zJPG6PEV]{Critical Fumble Deck #22}, @UUID[Compendium.pf2e.criticaldeck.qD8KoshDJsayGbCB]{Critical Fumble Deck #40}</strong></p>\n<p>Вы @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуты врасплох} до конца вашего следующего хода</p>"
+		},
+		"Effect: Mounted": {
+			"name": "Эффект: Верхом",
+			"description": "<p>Вы получаете штраф обстоятельства -2 к спасброскам Рефлекса, пока вы верхом.</p>"
+		},
+		"Effect: Resistance 5 to all damage": {
+			"name": "Эффект: Сопротивление 5 ко всему урону",
+			"description": "<p><strong>Эффект, применяемый @UUID[Compendium.pf2e.criticaldeck.TYTNFtVvFqFBM8oy]{Critical Fumble Deck #43}</strong></p>\n<p>сопротивление 5 ко всему урону</p>"
+		}
+	}
+}

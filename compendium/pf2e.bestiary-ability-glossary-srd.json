@@ -1,0 +1,201 @@
+{
+	"label": "Ю1. Глоссарий умений Бестиария",
+	"entries": {
+		"+1 Status to All Saves vs. Magic": {
+			"name": "Состояния +1 ко всем спасброскам против магии",
+			"description": ""
+		},
+		"Aura": {
+			"name": "Аура",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Aura]</p>"
+		},
+		"Shield Block": {
+			"name": "Блок щитом",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+		},
+		"Disease": {
+			"name": "Болезнь",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Disease]</p>"
+		},
+		"Throw Rock": {
+			"name": "Бросок камня",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ThrowRock]</p>"
+		},
+		"Buck": {
+			"name": "Брыкаться",
+			"description": "<p>@Check[type:reflex]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+		},
+		"Fast Healing": {
+			"name": "Быстрое исцеление",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+		},
+		"Tremorsense": {
+			"name": "Виброчувствительность",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+		},
+		"Sneak Attack": {
+			"name": "Внезапная атака",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+		},
+		"Aquatic Ambush": {
+			"name": "Водная засада",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
+		},
+		"Attack of Opportunity": {
+			"name": "Возможность для атаки",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		"Wavesense": {
+			"name": "Волночувствительность",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
+		},
+		"Lifesense": {
+			"name": "Жизнечувствительность",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+		},
+		"At-Will Spells": {
+			"name": "Заклинания по желанию",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+		},
+		"Grab": {
+			"name": "Захват",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+		},
+		"Troop Defenses": {
+			"name": "Защита отряда",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+		},
+		"Change Shape": {
+			"name": "Изменение формы",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+		},
+		"Retributive Strike": {
+			"name": "Карающий удар",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.RetributiveStrike]</p>"
+		},
+		"Coven": {
+			"name": "Ковен",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
+		},
+		"All-Around Vision": {
+			"name": "Круговое зрение",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+		},
+		"Nimble Dodge": {
+			"name": "Ловкое уклонение",
+			"description": "<p><strong>Триггер:</strong> Существо целится в вас атакой и вы можете видеть атакующего.</p>\n<p><strong>Требования:</strong> Вы не @Compendium[pf2e.conditionitems.D5mg6Tc7Jzrj6ro7]{Перегружены}</p>\n<hr />\n<p>Вы ловко уворачиваетесь, получая против спровоцировавшей атаки бонус обстоятельства +2 КБ.</p>"
+		},
+		"Power Attack": {
+			"name": "Мощная атака",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.PowerAttack]</p>"
+		},
+		"Thoughtsense": {
+			"name": "Мыслечувствительность",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Thoughtsense]</p>"
+		},
+		"Negative Healing": {
+			"name": "Негативное исцеление",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+		},
+		"Knockdown": {
+			"name": "Нокдаун",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+		},
+		"Darkvision": {
+			"name": "Ночное зрение",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+		},
+		"Scent": {
+			"name": "Нюх",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+		},
+		"Engulf": {
+			"name": "Поглотить",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+		},
+		"Catch Rock": {
+			"name": "Поймать камень",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.CatchRock]</p>"
+		},
+		"Constant Spells": {
+			"name": "Постоянные заклинания",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+		},
+		"Form Up": {
+			"name": "Построение",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>"
+		},
+		"Swallow Whole": {
+			"name": "Проглотить целиком",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+		},
+		"Rend": {
+			"name": "Раздирать",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+		},
+		"Swarm Mind": {
+			"name": "Разум роя",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
+		},
+		"Trample": {
+			"name": "Растоптать",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+		},
+		"Regeneration": {
+			"name": "Регенерация",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		"Light Blindness": {
+			"name": "Световая слепота",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+		},
+		"Ferocity": {
+			"name": "Свирепость",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+		},
+		"Constrict": {
+			"name": "Сжимать",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+		},
+		"Greater Constrict": {
+			"name": "Сильно сжимать",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+		},
+		"Greater Darkvision": {
+			"name": "Сильное ночное зрение",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
+		},
+		"Low-Light Vision": {
+			"name": "Сумеречное зрение",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+		},
+		"Telepathy": {
+			"name": "Телепатия",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+		},
+		"Push": {
+			"name": "Толчок",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
+		},
+		"Improved Grab": {
+			"name": "Улучшенный захват",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+		},
+		"Improved Knockdown": {
+			"name": "Улучшенный нокдаун",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>"
+		},
+		"Improved Push": {
+			"name": "Улучшенный толчок",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>"
+		},
+		"Frightful Presence": {
+			"name": "Устрашающее присутствие",
+			"description": "<p>@Template[type:emanation|distance:0]{0 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура} @Check[type:will]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+		},
+		"Poison": {
+			"name": "Яд",
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Poison]</p>"
+		}
+	}
+}

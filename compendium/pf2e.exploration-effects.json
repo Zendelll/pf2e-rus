@@ -1,0 +1,17 @@
+{
+	"label": "К2. Эффекты исследования",
+	"entries": {
+		"Effect: Follow The Expert": {
+			"name": "Эффект: Повторять за экспертом",
+			"description": ""
+		},
+		"Effect: Scouting": {
+			"name": "Эффект: Разведывать",
+			"description": ""
+		},
+		"Effect: Scouting (Incredible Scout)": {
+			"name": "Эффект: Разведывать (Невероятный разведчик)",
+			"description": ""
+		}
+	}
+}

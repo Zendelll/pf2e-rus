@@ -1,0 +1,9 @@
+{
+    "pf2e_bardic_inspiration.inspire_base": "Вдохновение барда",
+    "pf2e_bardic_inspiration.inspire_courage": "Вдохновить на смелость",
+    "pf2e_bardic_inspiration.inspire_courage_heroics_success": "Вдохновить на смелость +2",
+    "pf2e_bardic_inspiration.inspire_courage_heroics_critical": "Вдохновить на смелость +3",
+    "pf2e_bardic_inspiration.inspire_defense": "Вдохновить на защиту",
+    "pf2e_bardic_inspiration.inspire_defense_heroics_success": "Вдохновить на защиту +2",
+    "pf2e_bardic_inspiration.inspire_defense_heroics_critical": "Вдохновить на защиту +3"
+}

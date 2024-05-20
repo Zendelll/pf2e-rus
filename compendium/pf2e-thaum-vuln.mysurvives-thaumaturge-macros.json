@@ -1,0 +1,20 @@
+{
+	"label": "Макросы MySurvive's для Тауматурга",
+	"entries": {
+		"Exploit Vulnerability": {
+			"name": "Эксплуатировать уязвимость"
+		},
+		"Force EV": {
+			"name": "Насильно ЭУ"
+		},
+		"Cursed Effigy": {
+			"name": "Проклятое чучело"
+		},
+		"Share Weakness": {
+			"name": "Поделиться слабостью"
+		},
+		"Twin Weakness": {
+			"name": "Двойная слабость"
+		}
+	}
+}

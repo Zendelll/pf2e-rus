@@ -1,0 +1,283 @@
+{
+  "tokenActionHud": {
+    "accept": "Принять",
+    "addToCombat": "Добавить в бой",
+    "blockListLabel": "Запрещенный список: скрыть / Разрешенный список: показать",
+    "cancel": "Отменить",
+    "collapseHud": "Скрыть HUD",
+    "combat": "Бой",
+    "compendiumEntry": "Запись сборника",
+    "compendiumMacro": "Макрос сборника",
+    "compendiumPlaylist": "Плейлист сборника",
+    "editHud": "Редактировать HUD",
+    "endTurn": "Завершить ход",
+    "expandHud": "Раскрыть HUD",
+    "handlerNotFound": "не найден, возвращаемся к основному броску.",
+    "lockHud": "Закрепить HUD",
+    "macro": "Макрос",
+    "macros": "Макросы",
+    "makeInvisible": "Сделать невидимым",
+    "makeVisible": "Сделать видимым",
+    "pushLabelExplanation": "Показывать категории с какой стороны?",
+    "removeFromCombat": "Удалить из боя",
+    "title": "Token Action HUD",
+    "toggleHud": "Переключить HUD",
+    "token": "Токен",
+    "unlockHud": "Открепить HUD",
+    "utility": "Полезности",
+    "settings": {
+      "activeCssAsText": {
+        "hint":  "Помечать активные действия звездочкой",
+        "name": "Пометить активные действия звездочкой"
+      },
+      "allow": {
+        "hint": "Настройка мастера: Разрешить пользователям с этой ролью (и выше) использовать HUD (Требуется перезагрузка)",
+        "name": "Разрешить HUD",
+        "choices" : {
+          "4": "Мастер",
+          "3": "Ассистент мастера",
+          "2": "Доверенный игрок",
+          "1": "Игрок"
+        }
+      },
+      "alwaysShowHud": {
+        "hint": "Показывать HUD назначенного пользователю персонажа, даже если токен не выбран",
+        "name": "Всегда показывать HUD"
+      },
+      "background": {
+        "hint": "Установить цвет фона HUD. Эта настройка игнорируется пользовательским стилем интерфейса Dorako UI и требует наличия одного модуля из: 'Color Picker', 'Color Settings', или 'libThemer'",
+        "name": "Цвет фона HUD"
+      },
+      "buttonBackgroundColor": {
+        "hint": "Установить цвет фона кнопки HUD. Эта настройка игнорируется пользовательским стилем интерфейса Dorako UI и требует наличия одного модуля из: 'Color Picker', 'Color Settings', или 'libThemer'",
+        "name": "Цвет фона кнопки"
+      },
+      "clickOpenCategory": {
+        "hint": "Открывайте категории щелчком мышки, вместо наведения курсора",
+        "name": "Нажмите, чтобы открыть категории"
+      },
+      "customStyle": {
+        "hint": "Настроить стиль HUD. Чтобы включить, установите для параметра 'Стиль' значение 'Пользовательский'",
+        "label": "Настроить стиль",
+        "name": "Настройка стиля",
+        "form": {
+          "title": "Token Action HUD | Настройка стиля",
+          "active": "Когда активно",
+          "buttons": "Кнопки",
+          "hovered": "При наведении",
+          "text": "Текст & Иконки",
+          "toggleable": "Переключаемый",
+          "reset": "Сбросить настройки по умолчанию",
+          "save": "Сохранить",
+          "backgroundColor": {
+            "label": "Цвет фона"
+          },
+          "buttonHeight": {
+            "label": "Высота",
+            "units": "(Пиксели)"
+          },
+          "buttonBackgroundColor": {
+            "label": "Цвет фона"
+          },
+          "buttonBorderPrimaryColor": {
+            "label": "Первичный цвет границы"
+          },
+          "buttonBorderSecondaryColor": {
+            "label": "Вторичный цвет границы"
+          },
+          "buttonTextColor": {
+            "label": "Цвет текста кнопки"
+          },
+          "buttonHoverBackgroundColor": {
+            "label": "Цвет фона"
+          },
+          "buttonHoverBorderPrimaryColor": {
+            "label": "Первичный цвет границы"
+          },
+          "buttonHoverBorderSecondaryColor": {
+            "label": "Вторичный цвет границы"
+          },
+          "buttonHoverTextColor": {
+            "label": "Цвет текста"
+          },
+          "buttonToggleActiveBackgroundColor": {
+            "label": "Цвет фона"
+          },
+          "buttonToggleActiveBorderPrimaryColor": {
+            "label": "Первичный цвет границы"
+          },
+          "buttonToggleActiveBorderSecondaryColor": {
+            "label": "Вторичный цвет границы"
+          },
+          "buttonToggleActiveTextColor": {
+            "label": "Цвет текста"
+          },
+          "buttonToggleHoverBackgroundColor": {
+            "label": "Цвет фона"
+          },
+          "buttonToggleHoverTextColor": {
+            "label": "Цвет текста"
+          },
+          "buttonToggleHoverBorderPrimaryColor": {
+            "label": "Первичный цвет границы"
+          },
+          "buttonToggleHoverBorderSecondaryColor": {
+            "label": "Вторичный цвет границы"
+          },
+          "textPrimaryColor": {
+            "label": "Первичный цвет"
+          },
+          "textSecondaryColor": {
+            "label": "Вторичный цвет"
+          },
+          "textTertiaryColor": {
+            "label": "Третичный цвет"
+          },
+          "textHoverPrimaryColor": {
+            "label": "Первичный цвет"
+          },
+          "textHoverSecondaryColor": {
+            "label": "Вторичный цвет"
+          },
+          "textHoverTertiaryColor": {
+            "label": "Третичный цвет"
+          }
+        }
+      },
+      "debug": {
+        "hint": "Включить ведение журнала отладки в консоли",
+        "name": "Отладка"
+      },
+      "direction": {
+        "hint": "Задать направление, в которое будет расширяться HUD",
+        "name": "Направление",
+        "choices": {
+          "auto": "Авто",
+          "down": "Вниз",
+          "up": "Вверх"
+        }
+      },
+      "displayCharacterName": {
+        "hint": "Когда параметр 'Направление' установлен на 'Вниз', отображать имя персонажа над hud",
+        "name": "Отображать имя персонажа"
+      },
+      "displayIcons": {
+        "hint": "Когда доступно, отображать иконки на действиях",
+        "name": "Отображать иконки"
+      },
+      "drag": {
+        "hint": "Переместить HUD перетащив одну из кнопок категорий",
+        "name": "Включить перетаскивание"
+      },
+      "enable": {
+        "hint": "Включить HUD",
+        "name": "Включить HUD"
+      },
+      "enableCustomization": {
+        "hint": "Настройка Мастера: Включить настройку HUD",
+        "name": "Включить настройку"
+      },
+      "grid": {
+        "hint": "Использовать сетчатый макет для действий",
+        "name": "Сетка"
+      },
+      "itemMacro": {
+        "hint": "Показывать макросы элементов, обозначаемые символом (М)",
+        "name": "Показывать макросы элементов",
+        "choices": {
+            "both": "Показывать исходный элемент и макрос элемента",
+            "itemMacro": "Показывать только макрос элемента",
+            "original": "Показывать только оригинальный элемент"
+        }
+      },
+      "renderItemOnRightClick": {
+        "hint": "При щелчке правой кнопкой мышки по элементу, открывает лист элемента",
+        "name": "Открывать Лист Элемента щелчком правой кнопкой мыши"
+      },
+      "reset": {
+        "hint": "ВНИМАНИЕ!!! Это приведет к сбросу настроек hud по умолчанию",
+        "name": "Сброс HUD"
+      },
+      "rollHandler": {
+        "hint": "Настройка Мастера: Установите модуль для HUD который будет использоваться для обработки бросков",
+        "name": "Обработка бросков"
+      },
+      "scale": {
+        "hint": "Настройка масштаба HUD (1 по умолчанию)",
+        "name": "Масштаб HUD"
+      },
+      "style": {
+        "hint": "Установить стиль HUD",
+        "name": "Стиль"
+      },
+      "toggleHud": {
+        "disabled": "HUD отключен. Чтобы включить нажмите {binding}",
+        "enabled": "HUD включен. Чтобы отключить, нажмите {binding}"
+      }
+    },
+    "tagDialog": {
+      "actionDialogDescription": "Добавление и удаление групп и действий. Перетаскивайте группы и действия, чтобы изменить их порядок.",
+      "actionDialogTitle": "Настроить действия",
+      "groupDialogDescription": "Добавление и удаление групп. Выберите группы с заранее определенными действиями из списка или введите свободный текст для пустых групп. Перетаскивайте группы, чтобы изменить их порядок.",
+      "groupDialogTitle": "Настроить группы",
+      "hudDialogDescription": "Добавляйте или удаляйте группы. Перетаскивайте группы, чтобы изменить их порядок.",
+      "hudDialogTitle": "Настроить HUD",
+      "clearButton": "Очистить",
+      "settings": {
+        "characterCount": {
+          "label": "Символы на Слово",
+          "hint": "Ограничить количество символов на слово в действиях"
+        },
+        "collapse": {
+          "label": "Свергнуть группу",
+          "hint": "Свернуть эту группу"
+        },
+        "customWidth": {
+          "label": "Пользовательская ширина",
+          "units": "(Пиксели)",
+          "hint": "Пользовательская ширина для подкатегорий"
+        },
+        "grid": {
+          "label": "Сетка",
+          "hint": "Сетчатый макет для действий"
+        },
+        "image": {
+          "label": "Изображение",
+          "hint": "Изображение на этой кнопке"
+        },
+        "showCategoryTitle": {
+          "label": "Показать заголовок",
+          "hint": "Показать заголовок этой кнопки"
+        },
+        "showSubcategoryTitle": {
+          "label": "Показать заголовок",
+          "hint": "Показать название этой группы"
+        },
+        "sort": {
+          "label": "Действия по сортировке",
+          "hint": "Сортировать действия в алфавитном порядке"
+        },
+        "style": {
+          "label": "Стиль",
+          "choice": {
+            "list": "Список",
+            "tab": "Tab"
+          },
+          "hint": "Стиль этой группы"
+        }
+      },
+      "resetActions": {
+        "button": "Сбросить действия",
+        "dialog": {
+          "title": "Сбросить действия",
+          "content": "Это приведет к сбросу всех действий для этого участника. Вы хотите продолжить?",
+          "buttons": {
+            "yes": "Да",
+            "no": "Нет"
+          }
+        }
+      },
+      "tagPlaceholder": "Выбор (разделено точкой с запятой)"
+    }
+  }
+}

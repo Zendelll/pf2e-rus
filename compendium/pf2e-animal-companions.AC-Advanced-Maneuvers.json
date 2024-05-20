@@ -1,0 +1,185 @@
+{
+	"label": "AC Улучшенные маневры",
+	"entries": {
+		"Breath Weapon": {
+			"name": "Атака дыханием",
+			"description": "<p><strong>Частота:</strong> раз в час</p>\n<hr />\n<p>Ездовой дрейк выдыхает @Template[type:cone|distance:30]{30-футовый конус} огня, нанося всем существам в области [[/r ceil(@details.level.value/2)d6 #fire]]{Уровневый урон огнем} за каждые 2 своих уровня (простой спасбросок @Check[type:reflex|basic:true]{Рефлекса}). Для этого используете КС с уровнем мастерства обученный и модификатором Телосложения, или КС с уровнем мастерства эксперта, если дрейк имеет специализацию.</p>"
+		},
+		"Flyby Attack": {
+			"name": "Атака слету",
+			"description": "<p>Птица @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит} и делает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} когтем в любом месте на пути.</p>"
+		},
+		"Badger Rage": {
+			"name": "Барсучья ярость",
+			"description": "<p><strong>Требования:</strong> Барсук не в ярости или имеет состояние @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомлен}.</p>\n<hr />\n<p>@UUID[Compendium.pf2e-animal-companions.AC-Features.Kgt1NyBesS3rohzb]{Барсучья ярость}</p>\n<p>Барсук впадает в состояние чистой ярости, которое длится 1 минуту, пока не останется врагов которых он может воспринимать, или пока он не потеряет сознание, в зависимости от того, что произойдет раньше. Он не может добровольно остановить ярость. Во время ярости на барсука действует следующее:</p>\n<ul>\n<li>Он наносит 4 дополнительного урона своими кусающими атаками и 2 дополнительного урона атаками когтями</li>\n<li>Он получает штраф -1 к КБ</li>\n<li>Он не может использовать действия, которые имеют признак <a href=https://clck.ru/jjU4o><em>`концентрация`</em></a>, если только они еще имеют признак <a href=https://clck.ru/ju6wj><em>`ярость`</em></a>. Во время ярости зверь-компаньон может использовать действие @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск}.</li>\n</ul>\n<p>После прекращения ярости, он не может снова использовать <em>\"Барсучью ярость\"</em> в течение 1 минуты.</p>"
+		},
+		"Wing Thrash": {
+			"name": "Бить крыльями",
+			"description": "<p>Летучая мышь дико бьет своими крыльями, делая @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} крыльями по, вплоть до 3 врагам находящимся рядом. Каждая атака считается к штрафу множественной атаки летучей мыши, но штраф увеличивается только после всех совершенных атак.</p>"
+		},
+		"Throw Rock": {
+			"name": "Бросок камня",
+			"description": "<p>Росток древня @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействует}, чтобы подобрать камень в пределах досягаемости или берет хранящийся у него камень, потом бросает его дистанционным @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}, который наносит [[/r 1d6[bludgeoning]]]{1d6 дробящего урона}, с шагом дистанции 30 футов.</p>"
+		},
+		"Bay": {
+			"name": "Вой",
+			"description": "<p>Теневая гончая издает жуткий вой, пытаясь <span data-pf2-action=\"demoralize\" data-pf2-glyph=\"A\">Деморализовать</span> каждого противника в @Template[type:emanation|distance:20]{20-футовой эманации}. Эти попытки <em>\"Деморализовать\"</em> не требуют знания языка и не получают штраф из-за отсутствия общего языка.</p>"
+		},
+		"Gallop": {
+			"name": "Галоп",
+			"description": "<p>Лошадь @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} дважды с бонусом обстоятельства +10 футов к Скорости.</p>"
+		},
+		"Gnaw": {
+			"name": "Грызть",
+			"description": "<p><strong>Требования:</strong> Последнее действие компаньона - успешный @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} челюстями</p>\n<hr />\n<p>Цель удара получает [[/r 1d6[bleed]]]{1d6 продолжительного урона кровотечением} и получает штраф состояния -10 футов к Скорости, пока не избавится от урона кровотечением. Если гиена зверь-компаньон со специализацией, то продолжительный урон кровотечением увеличивается до [[/r 2d6[bleed]]]{2d6 продолжительного урона кровотечением}.</p>"
+		},
+		"Defensive Curl": {
+			"name": "Защитный клубок",
+			"description": "<p>Панголин сворачивается в клубок для собственной защиты. Он получает бонус обстоятельства +2 к КБ. Любое существо, попавшее по панголину безоружной атакой ближнего боя, пока он находится в <em>\"Защитном клубке\"</em>, получает [[/r 2d6[bleed]]]{2d6 продолжительного урона кровотечением}. Пока он находится в <em>\"Защитном клубке\"</em>, панголин не может двигаться, использовать свои безоружные атаки или совершать другие действия, требующие использования конечностей, но он может развернуться одиночным действием, завершая эффекты <em>\"Защитного клубка\"</em>.</p>"
+		},
+		"Cat Pounce": {
+			"name": "Кошачий прыжок",
+			"description": "<p>Кошка использует <em>\"Перемещение\"</em> а потом @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}. Если она была @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаруженной} в начале своего <em>\"Кошачьего прыжка\"</em>, то остается <em>`необнаруженной`</em> до конца атаки.</p>"
+		},
+		"Screaming Skull": {
+			"name": "Кричащий череп",
+			"description": "<p>Скелет снимает свой череп и бросает его, совершая @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} челюстями с дальностью 20 футов. Вне зависимости от того, попадет он или нет, цель и все враги в пределах 10 футов должны совершить спасбросок @Check[type:will]{Воли} иначе будут @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуганы 1} или @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуганы 2} при крит.провале. Для этого используется КС обученного мастерства с модификатором Харизмы скелета, либо экспертный КС если скелет обладает специализацией. В начале следующего хода скелета, эта голова скачет, катится или летит назад, чтобы заново присоединиться к нему. Пока у него нет головы, скелет @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слеп}.</p>"
+		},
+		"Blood Feast": {
+			"name": "Кровавый пир",
+			"description": "<p>Ваш зверь-компаньон вампир атакует кровоточащего врага и пьет его кровь. Ваш компаньон наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу, получающему в данный момент продолжительный урон кровотечением. Этот <em>\"Удар\"</em> наносит [[/r 2d8[untyped]]]{2d8 дополнительного урона}. Если <em>\"Удар\"</em> попадает и наносит урон, ваш зверь-компаньон вампир получает временные ОЗ, равные половине вашего уровня, которые действуют вплоть до 1 минуты.</p>"
+		},
+		"Bear Hug": {
+			"name": "Медвежье объятие",
+			"description": "<p><strong>Требования:</strong> Последнее действие медведя - успешный @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} когтем</p>\n<hr />\n<p>Медведь делает другой <em>\"Удар\"</em> когтем по той же цели. Если этот <em>\"Удар\"</em> попадает, цель еще получает состояние @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен}, как если бы медведь успешно использовал @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватить} на цель.</p>"
+		},
+		"Boar Charge": {
+			"name": "Нападение кабана",
+			"description": "<p>Кабан 2 раза выполняет @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} по прямой линии и потом наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} клыками. Если он пробежал хотя бы 20 футов, то получает к своему броску атаки бонус обстоятельства +2.</p>"
+		},
+		"Knockdown": {
+			"name": "Нокдаун",
+			"description": "<p><strong>Требования:</strong> Последнее действие компаньона - успешный @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} челюстями</p>\n<hr />\n<p>Волк своим <em>\"Ударом\"</em> челюстями автоматически сбивает цель с ног, давая ей состояние @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}.</p>"
+		},
+		"Careful Withdraw": {
+			"name": "Осторожное отступление",
+			"description": "<p>Кресло на ножках осторожно выводит вас из опасной ситуации. Оно дважды @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шагает}, а затем @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}.</p>"
+		},
+		"Take a Taste": {
+			"name": "Отведать",
+			"description": "<p><strong>Требования:</strong> У зомби есть @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} существо.</p>\n<hr />\n<p>Зомби пытается обхватить и укусить существо. Зомби наносит по существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} челюстями. Этот <em>\"Удар\"</em> использует те же показатели, что и его нормальный <em>\"Удар\"</em> ближнего боя, но его кость урона равна 1d10 и наносит колющий урон.</p>"
+		},
+		"Distracting Spray": {
+			"name": "Отвлекающая струя",
+			"description": "<p>Капибара опрыскивает находящуюся рядом цель своими пахучими железами. Цель должна совершить спасбросок @Check[type:fortitude]{Стойкости}. Для стирания этого мускуса требуется действие @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, что завершает его эффект. Для этого применяется обученный КС с использованием модификатора Телосложения капибары или экспертный КС, если капибара обладает специализацией (см. <a href=https://clck.ru/ZU3ng>специализация зверя-компаньона</a>).</p>\n<hr />\n<p><strong>Критический успех:</strong> Существо невредимо.</p>\n<p><strong>Успех:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Clumsy]{Неуклюже 1} на 1 раунд.</p>\n<p><strong>Провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Clumsy]{Неуклюже 1} на 1 минуту.</p>\n<p><strong>Критический провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Clumsy]{Неуклюже 2} на 1 минуту.</p>"
+		},
+		"Sand Stride": {
+			"name": "Песчаный шаг",
+			"description": "<p>Верблюд использует @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} дважды, с бонусом обстоятельства +5 футов к Скорости, игнорируя <a href=https://clck.ru/akms9>сложную местность</a> вызванную щебнем, песком и неровной поверхностью из земли или камня.</p>"
+		},
+		"Pterosaur Swoop": {
+			"name": "Пикирование птерозавра",
+			"description": "<p>Птерозавр @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит} вплоть до своей Скорости и делает один @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} клювом в любой момент этого перемещения.</p>"
+		},
+		"Feast on the Fallen": {
+			"name": "Пир на павших",
+			"description": "<p><strong>Частота:</strong> раз в час</p>\n<p><strong>Триггер:</strong> Очки здоровья существа, находящегося рядом со стервятником снижены до 0</p>\n<hr />\n<p>Стервятник поедает часть поверженного врага, восстанавливая [[/r 18 #hit-points]]{18 ОЗ}. Если стервятник зверь-компаньон со специализацией, увеличьте восстанавливаемые ОЗ до [[/r 30 #hit-points]]{30 ОЗ}.</p>"
+		},
+		"Tongue Pull": {
+			"name": "Подтянуть языком",
+			"description": "<p>Пещерный геккон, пытается языком подтащить к себе врага в пределах 10 футов. Он совершает проверку @Check[type:athletics]{Атлетики} против КС Стойкости врага. При успехе, геккон подтягивает врага к себе. Это передвижение является принудительным перемещением (см. <a href=https://clck.ru/afcTn>принудительное перемещение</a>). При крит.успехе, враг еще получает состояние @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен} до начала вашего следующего хода.</p>"
+		},
+		"Lurching Rush": {
+			"name": "Покачивающийся разбег",
+			"description": "<p>Варан использует @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} и потом делает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} челюстями. Если он перемещается хотя бы 20 футов от своей начальной позиции, то получает к этому броску атаки бонус обстоятельства +2.</p>"
+		},
+		"Frightening Display": {
+			"name": "Пугающее зрелище",
+			"description": "<p>Ваша обезьяна громко и устрашающе проявляет себя, выводя противника из равновесия. Обезьяна пытается @UUID[Compendium.pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать} целевое существо; это проявление получает признак <a href=https://clck.ru/jyV8n><em>`визуальный`</em></a> и не требует языка. Напуганная этой способностью, цель @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута врасплох} для вашей обезьяны.</p>"
+		},
+		"Shred": {
+			"name": "Разорвать",
+			"description": "<p><strong>Требования:</strong> Своим прошлым действием в этом ходу, акула попала @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} челюстями</p>\n<hr />\n<p>Акула жестоко разрывает рану, нанося дополнительный урон. Цель <em>\"Удара\"</em> акулы получает [[/r 1d8[slashing]]]{1d8 рубящего урона} ([[/r 2d8[slashing]]]{2d8 рубящего урона} если она взрослая или [[/r 3d8[slashing]]]{3d8 рубящего урона} если имеет специализацию).</p>"
+		},
+		"Tearing Clutch": {
+			"name": "Разрывающий укус",
+			"description": "<p>Ужасная птица наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} клювом; при успешном попадании цель получает [[/r 2d6[bleed]]]{2d6 продолжительного урона кровотечением}.</p>"
+		},
+		"Constrict": {
+			"name": "Сдавливание",
+			"description": "<p><strong>Требования:</strong> Змея схватила существо меньшего размера</p>\n<hr />\n<p>Змея наносит [[/r 12[bludgeoning]]]{12 дробящего урона} схваченному существу; существо должно сделать простой спасбросок @Check[type:fortitude|basic:true]{Стойкости}. Если змея зверь-компаньон со специализацией, то увеличьте этот урон до [[/r 20[bludgeoning]]]{20 дробящего урона}.</p>"
+		},
+		"Death Roll": {
+			"name": "Смертельный перекат",
+			"description": "<p><strong>Требования:</strong> У крокодила есть @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо</p>\n<hr />\n<p>Крокодил подгибает ноги и быстро перекатывается, крутя жертву. Он делает <em>\"Удар\"</em> челюстями по <em>`схваченному`</em> существу, с бонусом обстоятельства +2 к броску атаки. Если он попадает, то еще роняет существо @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} на землю. Если он промахивается, то отпускает существо.</p>"
+		},
+		"Hustle": {
+			"name": "Спешка",
+			"description": "<p>Жук движется с невероятной скоростью. Он @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} 3 раза.</p>"
+		},
+		"Darting Attack": {
+			"name": "Стремительная атака",
+			"description": "<p>Раптор делает @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} вплоть до 10 футов и потом делает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}, либо делает <em>\"Удар\"</em> и потом <em>\"Шагает\"</em> вплоть до 10 футов.</p>"
+		},
+		"Grab and Sting": {
+			"name": "Схватить и ужалить",
+			"description": "<p>Скорпион держит клешнями своего врага на месте, чтобы ужалить его. Он делает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} клешнями. Если этот <em>\"Удар\"</em> попадает, цель автоматически получает от скорпиона состояние @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен}, и он потом делает <em>\"Удар\"</em> жалом по этой же цели. Состояние <em>`схвачен`</em> длится до конца вашего следующего хода.</p>"
+		},
+		"Telekinetic Assault": {
+			"name": "Телекинетическое нападение",
+			"description": "<p><strong>Частота:</strong> раз в час</p>\n<hr />\n<p>Ваше привидение выпускает шквал эмоций, заставляя мелкие объекты и обломки разлетаться в @Template[type:emanation|distance:20]{20-футовой эманации}, нанося [[/r {ceil(@details.level.value/2)d6}[bludgeoning]]]{Уровневый дробящий урон} за каждые 2 уровня привидения (простой спасбросок @Check[type:reflex|basic:true]{Рефлекса}). Для этого используется КС обученного мастерства с модификатором Харизмы привидения, или экспертный КС если привидение обладает специализацией.</p>"
+		},
+		"Ultrasonic Scream": {
+			"name": "Ультразвуковой крик",
+			"description": "<p>Мотылек хлопает крыльями и издает ультразвуковой писк, который нарушает чувства ближайших существ. Выберите 1 существо в пределах 30 футов от мотылька. Это существо должно совершить спасбросок @Check[type:fortitude]{Стойкости}. Для этого применяется обученный КС с использованием модификатора Телосложения мотылька или экспертный КС, если мотылёк обладает специализацией (см. <a href=https://clck.ru/ZU3ng>специализация зверя-компаньона</a>).</p>\n<hr />\n<p><strong>Успех:</strong> До начала вашего следующего хода, цель, для своей следующей атаки, считает всех существ @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытыми}.</p>\n<p><strong>Провал:</strong> Цель считает всех существ @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытыми} до начала вашего следующего хода.</p>\n<p><strong>Критический провал:</strong> Как провал, и цель еще @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлена 1}.</p>"
+		},
+		"Bony Constriction": {
+			"name": "Bony Constriction",
+			"description": "<p><strong>Requirements</strong> The constrictor has a creature @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}.</p>\n<hr />\n<p>The skeletal constrictor deals [[/r {12}[piercing]]]{12 piercing Damage} to the grabbed creature with its sharp ribs; the creature must attempt a @Check[type:fortitude|dc:resolve(12+@actor.level+@actor.abilities.con.mod)|basic:true] save. If the constrictor is a specialized companion, increase this damage to [[/r {20}[piercing]]]{20}. This uses a trained DC using the constrictor's Constitution modifier, or an expert DC (@Check[type:fortitude|dc:resolve(14+@actor.level+@actor.abilities.con.mod)|basic:true]) if the constrictor is specialized.</p>"
+		},
+		"Bouncing Slam": {
+			"name": "Bouncing Slam",
+			"description": "<p>The gibtas Leaps toward a Medium or smaller creature, landing in the creature's space and @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{Shoving} the creature. If the Shove fails, the gibtas bounces out of the target's square to an adjacent square of the target's choosing.</p>"
+		},
+		"Disgusting Gallop": {
+			"name": "Disgusting Gallop",
+			"description": "<p>The zombie mount Strides twice, spraying putrid spittle as it runs. Once during this movement, choose a creature adjacent to the zombie mount. The spittle splashes on it, and the creature must succeed at a @Check[type:fortitude|dc:resolve(12+@actor.level+@actor.abilities.con.mod)] save or be @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}. The creature is then temporarily immune to the spittle for 24 hours. This uses a trained DC using the zombie mount's Constitution modifier, or an expert DC (@Check[type:fortitude|dc:resolve(14+@actor.level+@actor.abilities.con.mod)]) if the mount is specialized.</p>"
+		},
+		"Grabbing Trunk": {
+			"name": "Grabbing Trunk",
+			"description": "<p>The elephant grabs its foe with its trunk and carries it off. The elephant uses Athletics to @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} a creature up to two sizes smaller than the elephant in its trunk. If its target is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}, the elephant repositions the target to another space in the elephant's reach.</p>"
+		},
+		"Grip Throat": {
+			"name": "Grip Throat",
+			"description": "<p>The hand attempts to @Compendium[pf2e.actionspf2e.Grapple]{Grapple} a Medium or smaller creature by the throat. If the Grapple succeeds, in addition to the normal effects, the creature has difficulty speaking. While it remains @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @Compendium[pf2e.conditionitems.Restrained]{Restrained} by the hand, it must spend an extra action to perform any action that has the verbal trait.</p>"
+		},
+		"Gulp Blood": {
+			"name": "Глотать кровь",
+			"description": "<p><strong>Требования:</strong> Последним действием водного рейфа была успешная атака челюстями по противнику.</p>\n<hr>\n<p>Водный рейф получает [[/r 2d8 #Temporary Hit Points]]{2d8 ВОЗ} длящихся 1 раунд, а противник получает [[/r {2d6}[bleed]]]{2d6} @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолжительного урона кровотечением}. Если у водного рейфа есть специализация, то вместо этого он получает [[/r 3d8 #Temporary Hit Points]]{3d8 ВОЗ}, а цель получает [[/r {3d6}[bleed]]]{3d6} @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолжительного урона кровотечением}. На усмотрение Мастера, если у целевого существа совсем нет жизненно важных жидкостей, это умение может не сработать.</p>"
+		},
+		"Lumbering Knockdown": {
+			"name": "Lumbering Knockdown",
+			"description": "<p>Your triceratops Strides up to 10 feet, then makes a horns Strike. On a success, the target is knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>"
+		},
+		"Overwhelm": {
+			"name": "Overwhelm",
+			"description": "<p>The tyrannosaurus bears down on an enemy and pins it with its jaws. The tyrannosaurus makes a jaws Strike; on a hit, the target is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}.</p>"
+		},
+		"Pick at the Meat": {
+			"name": "Pick at the Meat",
+			"description": "<p><strong>Requirements</strong> The animal companion's last action was a successful jaws Strike.</p>\n<hr />\n<p>Your bird picks at the wound it just created. The target of its jaws Strike takes [[/r {1d8}[bleed]]]{1d8 bleed damage}, or [[/r {2d8}[bleed]]]{2d8 bleed damage} if the bird is specialized.</p>"
+		},
+		"Rhinoceros Charge": {
+			"name": "Rhinoceros Charge",
+			"description": "<p>The rhino Strides and makes a horn Strike at the end of its Stride. As long as the rhino moved at least 20 feet, the horn Strike deals 1d8 additional piercing damage, or 2d8 additional damage if your rhino is nimble or savage.</p>"
+		},
+		"Snatch and Zap": {
+			"name": "Snatch and Zap",
+			"description": "<p>The Ulgrem-Lurann bites down hard and unleashes an electrical discharge. It makes a jaws Strike. If the Strike hits, the target creature automatically becomes @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} by the Ulgrem-Lurann and takes [[/r 1d4[electricity]]]{1d4 electricity damage} ([[/r 2d4[electricity]]] for a mature Ulgrem-Lurann or [[/r 3d4[electricity]]] for a specialized companion). The grabbed condition lasts until the end of your next turn, though the Ulgrem-Lurann can use @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} to attempt to extend the duration as normal.</p>"
+		},
+		"Unnerving Screech": {
+			"name": "Unnerving Screech",
+			"description": "<p>Your skeletal bird of prey makes an earsplitting, unnatural screech, deafening and startling an enemy within 30 feet. The target must attempt a Fortitude save. The target is then temporarily immune for 1 hour. The frightened condition is a mental, emotion, and fear effect, but the creature can still be @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} if it's immune to these.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round and @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute and @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Critical Failure</strong> The target is @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 10 minutes and @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
+		}
+	}
+}

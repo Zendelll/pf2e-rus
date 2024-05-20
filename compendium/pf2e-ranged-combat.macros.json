@@ -1,0 +1,47 @@
+{
+	"label": "Макросы Ranged Combat",
+	"entries": {
+		"Alchemical Shot": {
+			"name": "Алхимический заряд"
+		},
+		"Conjure Bullet": {
+			"name": "Наколдовать пулю"
+		},
+		"Consolidate Repeating Weapon Ammunition": {
+			"name": "Консолидация боеприпасов для многозарядного оружия"
+		},
+		"Fire Both Barrels": {
+			"name": "Огонь из двух стволов"
+		},
+		"Hunt Prey": {
+			"name": "Выслеживать добычу"
+		},
+		"Load Alchemical Crossbow": {
+			"name": "Зарядить алхимический арбалет"
+		},
+		"Next Chamber": {
+			"name": "Следующий патронник"
+		},
+		"NPC Weapon Configuration": {
+			"name": "Конфигурация оружия NPC"
+		},
+		"Reload": {
+			"name": "Перезарядить"
+		},
+		"Reload Magazine": {
+			"name": "Перезарядить магазин"
+		},
+		"Reload NPCs": {
+			"name": "Перезарядить NPC"
+		},
+		"Switch Ammunition": {
+			"name": "Переключатель боеприпасов"
+		},
+		"Unload": {
+			"name": "Разрядить"
+		},
+		"Unload Alchemical Crossbow": {
+			"name": "Разрядить алхимический арбалет"
+		}
+	}
+}

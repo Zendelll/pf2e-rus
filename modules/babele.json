@@ -1,0 +1,22 @@
+{
+  "BABELE.CompendiumTranslations": "Переводы",
+  "BABELE.TranslateActorHeadBtn": "Перевести",
+  "BABELE.TranslateActorTitle": "Перевести участника",
+  "BABELE.TranslateActorHint": "Автоматически переводит все принадлежащие участнику элементы, для которых имеется переведенный сборник",
+  "BABELE.TranslateActorBtn": "Перевести!",
+  "BABELE.ExportTranslationTitle": "Экспорт файла перевода",
+  "BABELE.ExportTranslationBtn": "Экспорт!",
+  "BABELE.ExportTranslationNotes": "Выберите формат, который будет использоваться для экспортируемого файла перевода. Выберите \"Традиционный\" для исходного родного формата или \"Совместимый\", если вы собираетесь управлять переводом через внешнюю платформу локализации (например Weblate, Transifex и.т.д.)",
+  "BABELE.ExportTranslationFormat": "Формат",
+  "BABELE.ExportTranslationFormatLegacy": "Традиционный",
+  "BABELE.ExportTranslationFormatCompatible": "Совместимый",
+  "BABELE.TranslationDirTitle": "Каталог файлов перевода",
+  "BABELE.TranslationDirHint": "Укажите каталог, в котором находятся файлы локального перевода сборника",
+  "BABELE.EnableTranslationExportTile": "Включить экспорт перевода",
+  "BABELE.EnableTranslationExportHint": "Включите эту опцию, если вы хотите добавить кнопку в каждый сборник для создания файла перевода, полезного в качестве стартового шаблона",
+  "BABELE.ShowOriginalName": "Оригинальные названия",
+  "BABELE.ShowOriginalNameHint": "Показывает непереведенное название элемента сборника в дополнение к переведенному. Это также позволит вам фильтровать по оригинальному названию вместе с уже переведенным в виджете поиска.",
+  "BABELE.ShowTranslateOption": "Показать опцию перевода",
+  "BABELE.ShowTranslateOptionHint": "Включатель опции перевода на листах участников.",
+  "BABELE.requireLibWrapperMessage": "Для Babele требуется модуль 'libWrapper'. Пожалуйста установите и активируйте его."
+}

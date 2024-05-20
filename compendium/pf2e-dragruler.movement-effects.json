@@ -1,0 +1,157 @@
+{
+	"label": "PF2e Эффекты движения",
+	"entries": {
+		"Ignore Aquatic": {
+			"name": "Игнорировать водный",
+			"description": ""
+		},
+		"Ignore Arctic": {
+			"name": "Игнорировать арктику",
+			"description": ""
+		},
+		"Ignore Coast": {
+			"name": "Игнорировать побережье",
+			"description": ""
+		},
+		"Ignore Crowd": {
+			"name": "Игнорировать толпу",
+			"description": ""
+		},
+		"Ignore Desert": {
+			"name": "Игнорировать пустыню",
+			"description": ""
+		},
+		"Ignore Difficult Terrain": {
+			"name": "Игнорировать сложную местность",
+			"description": ""
+		},
+		"Ignore Forest": {
+			"name": "Игнорировать лес",
+			"description": ""
+		},
+		"Ignore Magical": {
+			"name": "Игнорировать магический",
+			"description": ""
+		},
+		"Ignore Mountain": {
+			"name": "Игнорировать горы",
+			"description": ""
+		},
+		"Ignore Non-Magical": {
+			"name": "Игнорировать немагический",
+			"description": ""
+		},
+		"Ignore Plains": {
+			"name": "Игнорировать равнины",
+			"description": ""
+		},
+		"Ignore Plants": {
+			"name": "Игнорировать растения",
+			"description": ""
+		},
+		"Ignore Rubble": {
+			"name": "Игнорировать щебень",
+			"description": ""
+		},
+		"Ignore Sky": {
+			"name": "Игнорировать небо",
+			"description": ""
+		},
+		"Ignore Swamp": {
+			"name": "Игнорировать болото",
+			"description": ""
+		},
+		"Ignore Underground": {
+			"name": "Игнорировать подземелье",
+			"description": ""
+		},
+		"Ignore Urban": {
+			"name": "Игнорировать городскую местность",
+			"description": ""
+		},
+		"Ignore Water": {
+			"name": "Игнорировать воду",
+			"description": ""
+		},
+		"Increase Movement Difficulty": {
+			"name": "Увеличить сложность движения",
+			"description": ""
+		},
+		"Reduce Aquatic": {
+			"name": "Уменьшить водный",
+			"description": ""
+		},
+		"Reduce Arctic": {
+			"name": "Уменьшить арктику",
+			"description": ""
+		},
+		"Reduce Coast": {
+			"name": "Уменьшить побережье",
+			"description": ""
+		},
+		"Reduce Crowd": {
+			"name": "Уменьшить толпу",
+			"description": ""
+		},
+		"Reduce Desert": {
+			"name": "Уменьшить пустыню",
+			"description": ""
+		},
+		"Reduce Difficult Terrain": {
+			"name": "Уменьшить сложную местность",
+			"description": ""
+		},
+		"Reduce Forest": {
+			"name": "Уменьшить лес",
+			"description": ""
+		},
+		"Reduce Magical": {
+			"name": "Уменьшить магический",
+			"description": ""
+		},
+		"Reduce Mountain": {
+			"name": "Уменьшить горы",
+			"description": ""
+		},
+		"Reduce Non-Magical": {
+			"name": "Уменьшить немагический",
+			"description": ""
+		},
+		"Reduce Plains": {
+			"name": "Уменьшить равнины",
+			"description": ""
+		},
+		"Reduce Plants": {
+			"name": "Уменьшить растения",
+			"description": ""
+		},
+		"Reduce Rubble": {
+			"name": "Уменьшить щебень",
+			"description": ""
+		},
+		"Reduce Sky": {
+			"name": "Уменьшить небо",
+			"description": ""
+		},
+		"Reduce Swamp": {
+			"name": "Уменьшить болото",
+			"description": ""
+		},
+		"Reduce Underground": {
+			"name": "Уменьшить подземелье",
+			"description": ""
+		},
+		"Reduce Urban": {
+			"name": "Уменьшить городскую местность",
+			"description": ""
+		},
+		"Reduce Water": {
+			"name": "Уменьшить воду",
+			"description": ""
+		},
+		"Respect Difficult Terrain": {
+			"name": "Соблюдать сложную местность",
+			"description": ""
+		}
+	}
+}

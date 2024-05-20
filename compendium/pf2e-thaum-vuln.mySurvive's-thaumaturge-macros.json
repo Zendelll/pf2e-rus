@@ -1,0 +1,11 @@
+{
+	"label": "Макросы MySurvive's для тауматурга",
+	"entries": {
+		"Exploit Vulnerability": {
+			"name": "Эксплуатировать уязвимость"
+		},
+		"Force EV": {
+			"name": "Насильно ЭУ"
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "id": "pf2e-ru",
+  "title": "PF2e Russian Translation | Русский перевод Pathfinder 2",
+  "description": "Модуль перевода добавляет перевод Pathfinder 2e для VTT Foundry. Подробности и инструкции по установке смотрите <a href=\"https://gitlab.com/gnuraco/pf2r\">здесь</a>.",
+  "authors": [
+    {
+      "name": "Doctor",
+      "discord": "doktor_dank",
+      "url": "https://discord.gg/YWTSmnh76H"
+    }
+  ],
+  "version": "1.2.9",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.302",
+    "maximum": "11"
+  },
+  "scripts": [
+    "scripts/babele.js",
+    "scripts/config.js",
+    "scripts/init.js"
+  ],
+  "relationships": {
+    "systems":[
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.json",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "type": "module",
+				"compatibility": {}
+      },
+      {
+        "id": "babele",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "type": "module",
+				"compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ru-ru",
+        "manifest": "https://raw.githubusercontent.com/phenomen/foundry-vtt-ru/main/public/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "rus",
+        "type": "module",
+        "manifest": "https://gitlab.com/gnuraco/rus/-/raw/V11/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://gitlab.com/gnuraco/pf2r",
+  "manifest": "https://gitlab.com/gnuraco/pf2r/-/raw/master/module.json",
+  "download": "https://gitlab.com/gnuraco/pf2r/-/archive/master/pf2r-master.zip"
+}

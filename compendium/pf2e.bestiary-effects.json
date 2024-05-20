@@ -1,0 +1,1065 @@
+{
+	"label": "Ю2. Эффекты бестиария",
+	"entries": {
+		"Effect: Harmonizing Aura (Enemies)": {
+			"name": "Эффект: Аура гармонии (Враги)",
+			"description": "<p>Существо страдает от штрафа состояния -2 к броскам урона звуком и штрафа состояния -1 к КБ и всем спасброскам против <a href=https://clck.ru/jpdAm><em>`звука`</em></a> и <a href=https://clck.ru/jrPCE><em>`слуховых`</em></a> эффектов.</p>"
+		},
+		"Effect: Harmonizing Aura (Allies)": {
+			"name": "Эффект: Аура гармонии (Союзники)",
+			"description": "<p>Существо получает бонус состояния +2 к броскам урона звуком и бонус состояния +1 к КБ и спасброскам против <a href=https://clck.ru/jpdAm><em>`звука`</em></a> и <a href=https://clck.ru/jrPCE><em>`слуховых`</em></a> эффектов.</p>"
+		},
+		"Effect: Commander's Aura": {
+			"name": "Эффект: Аура командира",
+			"description": "<p>Существо получает бонус обстоятельства +1 к броскам атак, броскам урона, КБ,спасброскам и проверкам навыков.</p>"
+		},
+		"Effect: Aura of Command": {
+			"name": "Эффект: Аура командования",
+			"description": "<p>Существо получает бонус состояния +1 к броскам атак и бонус состояния +2 к спасброскам Воли.</p>"
+		},
+		"Effect: Inspire Envoy": {
+			"name": "Эффект: Вдохновение посланника",
+			"description": "<p>Существо получает бонус состояния к броскам атаки, КБ или ко всему следующему: Восприятию, спасброску Воли и проверкам навыков основанных на Харизме. Величина бонуса зависит от конкретного существа, предоставляющего этот эффект.</p>"
+		},
+		"Effect: Inspirational Presence": {
+			"name": "Эффект: Вдохновляющее присутствие",
+			"description": "<p>Существо получает бонус обстоятельства +1 к проверкам @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить информацию}.</p>"
+		},
+		"Effect: Rope Snare": {
+			"name": "Эффект: Веревочный силок",
+			"description": "<p>Существо страдает от штрафа обстоятельства -10-футов к Скорости.</p>"
+		},
+		"Effect: Pollution Infusion": {
+			"name": "Эффект: Вливание загрязнения",
+			"description": ""
+		},
+		"Effect: Stench": {
+			"name": "Эффект: Вонь",
+			"description": "<p>Существо страдает от штрафа обстоятельства -2 к спасброскам против <a href=https://clck.ru/jrjN6><em>`болезней`</em></a>.</p>"
+		},
+		"Effect: Stick a Fork in It": {
+			"name": "Эффект: Воткнуть вилку",
+			"description": "<p>Существо страдает от штрафа обстоятельства -10 футов к своим Скоростям.</p>"
+		},
+		"Effect: Soul Siphon": {
+			"name": "Эффект: Выкачивание души",
+			"description": "<p>Существо получает 5 ВОЗ и бонус состояния +1 к броскам атаки и урона.</p>"
+		},
+		"Effect: Goblin Song": {
+			"name": "Эффект: Гоблинская песенка",
+			"description": "<p>Существо страдает от штрафа состояния -1 к проверкам Восприятия и спасброскам Воли.</p>"
+		},
+		"Effect: Hydra Heads": {
+			"name": "Эффект: Головы гидры",
+			"description": "<p>Количество голов, которые в настоящее время есть у гидры.</p>"
+		},
+		"Effect: Undead Mastery": {
+			"name": "Эффект: Господство несмерти",
+			"description": "<p>Существо получает бонус обстоятельства +1 к броскам атак, броскам урона, КБ, спасброскам и проверкам навыков.</p>"
+		},
+		"Effect: Brutal Rally": {
+			"name": "Эффект: Жестокий налет",
+			"description": "<p>Существо получает бонус обстоятельства +1 к броскам атак.</p>"
+		},
+		"Effect: Infectious Aura": {
+			"name": "Эффект: Заразная аура",
+			"description": "<p>Существо получает штраф состояния -2 к спасброскам против эффектов болезней.</p>\n<p data-visibility=\"gm\">Если существо в пределах досягаемости заражается или его болезнь прогрессирует, все соседние с ним существа подвергаются той же болезни с тем же КС.</p>"
+		},
+		"Effect: Bodyguard's Defense": {
+			"name": "Эффект: Защита телохранителя",
+			"description": "<p>Существо получает бонус обстоятельства +2 к КБ.</p>"
+		},
+		"Effect: Defensive Assault": {
+			"name": "Эффект: Защитное нападение",
+			"description": "<p>Существо получает бонус обстоятельства к КБ равное количеству оружия используемому для защиты.</p>"
+		},
+		"Effect: Call to Blood": {
+			"name": "Эффект: Зов крови",
+			"description": "<p>Существо получает бонус состояния +2 к броскам атак против @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутых врасплох} существ.</p>"
+		},
+		"Effect: Brand of the Impenitent": {
+			"name": "Эффект: Клеймение нераскаявшегося",
+			"description": "<p>Существо страдает от штрафа состояния -1 к КБ и спасброскам, снижает свои сопротивления на 2 и получает слабость 2 к урону добром.</p>"
+		},
+		"Effect: Bosun's Command - Attack Bonus": {
+			"name": "Эффект: Команда боцмана - Бонус к атаке",
+			"description": "<p>Существо получает бонус состояния +2 к броскам атак.</p>"
+		},
+		"Effect: Bosun's Command - Speed Bonus": {
+			"name": "Эффект: Команда боцмана - Бонус к Скорости",
+			"description": "<p>Существо получает бонус состояния +10 футов к своим Скоростям.</p>"
+		},
+		"Effect: Moon Frenzy": {
+			"name": "Эффект: Лунное безумие",
+			"description": "<p>Существо становится на размер больше, увеличивает досягаемость на 5 футов, увеличивает урон от \"Удара\" челюстями (или аналогичного \"Удара\") на 2.</p>"
+		},
+		"Effect: Bloodline Magic": {
+			"name": "Эффект: Магия наследия крови",
+			"description": "<p>Существо получает бонус состояния +1 к проверкам Обмана.</p>"
+		},
+		"Effect: Gleaming Armor": {
+			"name": "Эффект: Мерцающий доспех",
+			"description": "<p>Существо получает бонус состояния +2 к КБ и сопротивление к энергетическому урону в зависимости от конкретного существа.</p>"
+		},
+		"Effect: Guiding Words": {
+			"name": "Эффект: Направляющие слова",
+			"description": "<p>Существо получает бонус состояния +1 к броскам атак и урона против указанного проводником существа.</p>"
+		},
+		"Effect: No Quarter!": {
+			"name": "Эффект: Никакой пощады!",
+			"description": "<p>Капитан приказывает своему экипажу беспощадно сражаться. Все союзные существа в пределах 20 футов, уровень которых меньше или равен уровню капитана, до конца следующего хода капитана получают бонус состояния +1 к броскам атак и урона.</p>"
+		},
+		"Effect: Profane Gift": {
+			"name": "Эффект: Оскверненный дар",
+			"description": "<p>Существо получает бонус состояния +1 к броскам атак, проверкам навыков и спасброскам.</p>"
+		},
+		"Effect: Distracting Frolic": {
+			"name": "Эффект: Отвлекающая шалость",
+			"description": "<p>Цель-союзник эффекта может дважды бросить спасбросок и выбрать лучший результат.</p>"
+		},
+		"Effect: Swig": {
+			"name": "Эффект: Отхлебнуть",
+			"description": "<p>Существо получает бонус предмета +2 к броскам урона ближнего боя и спасброскам против страха, но становится @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжим 1}</p>"
+		},
+		"Effect: Blood Siphon (Critical Failure)": {
+			"name": "Эффект: Перекачивание крови (Крит.провал)",
+			"description": "<p>Существо получает бонус состояния +2 к КБ и спасброскам.</p>"
+		},
+		"Effect: Transfer Protection": {
+			"name": "Эффект: Перенос защиты",
+			"description": "<p>Существо получает бонус состояния +1 к КБ и спасброскам против злых существ.</p>"
+		},
+		"Effect: Fed by Wood": {
+			"name": "Эффект: Подпитывается деревом",
+			"description": "<p>Урон огнем, наносимый челюстями существа, увеличивается на одну кость.</p>"
+		},
+		"Effect: Fed by Metal": {
+			"name": "Эффект: Подпитывается металлом",
+			"description": "<p>Существо получает бонус предмета +1 к КБ.</p>"
+		},
+		"Effect: Devour Soul": {
+			"name": "Эффект: Пожирание души",
+			"description": "<p>Существо получает 10 ВОЗ и бонус состояния +2 к броскам атак и урона.</p>"
+		},
+		"Effect: Devour Soul (Victim Level 15 or Higher)": {
+			"name": "Эффект: Пожирание души (жертва 15 уровня или выше)",
+			"description": "<p>Существо получает 10 ВОЗ и бонус состояния +2 к броскам атак и урона.</p>"
+		},
+		"Effect: Guide's Warning": {
+			"name": "Эффект: Предупреждение проводника",
+			"description": "<p>Существо получает бонус обстоятельства +1 к броскам инициативы.</p>"
+		},
+		"Effect: Call to Action": {
+			"name": "Эффект: Призыв действовать",
+			"description": "<p>Существо получает бонус состояния +1 к броскам атак и урона.</p>"
+		},
+		"Effect: Curse of Boiling Blood": {
+			"name": "Эффект: Проклятие кипящей крови",
+			"description": "<p>Существо получает слабость 20 к огню.</p>"
+		},
+		"Effect: Curse of Frost": {
+			"name": "Эффект: Проклятие мороза",
+			"description": "<p>Существо получает слабость 15 к холоду.</p>"
+		},
+		"Effect: Curse of Fire": {
+			"name": "Эффект: Проклятие огня",
+			"description": "<p>Существо получает слабость 15 к огню.</p>"
+		},
+		"Effect: Breach the Abyss - Acid": {
+			"name": "Эффект: Прорыв Бездны - Кислота",
+			"description": "<p>Существо получает дополнительные [[/r 2d6[acid]]]{2d6 урона кислотой} от этого оружия.</p>"
+		},
+		"Effect: Breach the Abyss - Negative": {
+			"name": "Эффект: Прорыв Бездны - Негативный",
+			"description": "<p>Существо получает дополнительные [[/r 2d6[negative]]]{2d6 негативного урона} от этого оружия.</p>"
+		},
+		"Effect: Breach the Abyss - Fire": {
+			"name": "Эффект: Прорыв Бездны - Огонь",
+			"description": "<p>Существо получает дополнительные [[/r 2d6[fire]]]{2d6 урона огнем} от этого оружия.</p>"
+		},
+		"Effect: Breach the Abyss - Cold": {
+			"name": "Эффект: Прорыв Бездны - Холод",
+			"description": "<p>Существо получает дополнительные [[/r 2d6[cold]]]{2d6 урона холодом} от этого оружия.</p>"
+		},
+		"Effect: Breach the Abyss - Electricity": {
+			"name": "Эффект: Прорыв Бездны - Электричество",
+			"description": "<p>Существо получает дополнительные [[/r 2d6[electricity]]]{2d6 урона электричеством} от этого оружия.</p>"
+		},
+		"Effect: Countered by Water": {
+			"name": "Эффект: Противится воде",
+			"description": "<p>Существо получает штраф обстоятельства -1 к броскам атак, и его \"Удары\" челюстью не наносят урон огнем.</p>"
+		},
+		"Effect: Countered by Fire": {
+			"name": "Эффект: Противится огню",
+			"description": "<p>Существо получает штраф обстоятельства -1 к броскам атак и КБ, и его \"Удары\" челюстью не наносят урон электричеством.</p>"
+		},
+		"Effect: Timely Advice": {
+			"name": "Эффект: Своевременный совет",
+			"description": "<p>Существо получает бонус обстоятельства +2 к спровоцировавшему броску.</p>"
+		},
+		"Effect: Cite Precedent": {
+			"name": "Эффект: Сослаться на прецедент",
+			"description": "<p>Существо страдает от штрафа обстоятельства -2 к следующей проверке Дипломатии в юридическом споре.</p>"
+		},
+		"Effect: Focused Assault": {
+			"name": "Эффект: Сфокусированное нападение",
+			"description": "<p>Существо получает дополнительный урон в зависимости от количества длинных мечей, которыми оно владеет.</p>"
+		},
+		"Effect: Tail Lash (Attack Roll)": {
+			"name": "Эффект: Удар хвостом (бросок атаки)",
+			"description": "<p>Существо получает штраф обстоятельства -2 к спровоцировавшему броску атаки.</p>"
+		},
+		"Effect: Tail Lash (Skill Check)": {
+			"name": "Эффект: Удар хвостом (проверка навыка)",
+			"description": "<p>Существо получает штраф обстоятельства -2 к спровоцировавшей проверке навыка.</p>"
+		},
+		"Effect: Fanatical Frenzy": {
+			"name": "Эффект: Фанатичное безумие",
+			"description": "<p>Существо получает бонус состояния +1 к броскам атак и бонус состояния +2 к броскам урона, но также штраф состояния -2 к КБ.</p>"
+		},
+		"Effect: Wolf Shape": {
+			"name": "Эффект: Форма волка",
+			"description": "<p>Баргест получает Скорость 40 и атака челюстями получает @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Нокдаун}.</p>"
+		},
+		"Effect: Absorb Memories": {
+			"name": "Effect: Absorb Memories",
+			"description": "<p>The creature gains a +1 status bonus to all skill checks.</p>"
+		},
+		"Effect: Activate Defenses": {
+			"name": "Effect: Activate Defenses",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Adaptive Strike": {
+			"name": "Effect: Adaptive Strike",
+			"description": "<p>The creature's melee strikes count either as adamantine, cold iron or silver.</p>"
+		},
+		"Effect: Air of Sickness": {
+			"name": "Effect: Air of Sickness",
+			"description": "<p>The creature takes a -2 status penalty to saves made to resist diseases.</p>"
+		},
+		"Effect: Alchemical Crossbow": {
+			"name": "Effect: Alchemical Crossbow",
+			"description": "<p>The Alchemical Crossbow deals an additional 1d6 damage of the type dealt by the bomb used.</p>"
+		},
+		"Effect: Alchemical Strike": {
+			"name": "Effect: Alchemical Strike",
+			"description": "<p>Choose acid, cold, electricity, or fire damage. The drudge imbues its fist attacks with this damage.</p>\n<p>Each hit deals 1d6 points of damage of the same type as that of the bomb loaded into it. Each bomb has enough fluid in it for 10 successful strikes.</p>"
+		},
+		"Effect: Ancestral Journey": {
+			"name": "Effect: Ancestral Journey",
+			"description": "<p>The creature gains a +1 status bonus to Will saving throws and all skill checks.</p>"
+		},
+		"Effect: Ancestral Response": {
+			"name": "Effect: Ancestral Response",
+			"description": "<p>The creature gains a +2 circumstance bonus on saving throws.</p>"
+		},
+		"Effect: Artificer's Command": {
+			"name": "Effect: Artificer's Command",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls, damage rolls, and saving throws.</p>"
+		},
+		"Effect: Aura of Corruption": {
+			"name": "Effect: Aura of Corruption",
+			"description": "<p>The creature is treated as if it was a plant for the purposes of any effect that particularly harms or inconveniences plant creatures more than other creatures, but does not gain any benefits of being a plant creature.</p>"
+		},
+		"Effect: Aura of Good Cheer": {
+			"name": "Эффект: Аура хорошего настроения",
+			"description": "<p>Союзники в пределах ауры получают бонус состояния +1 к спасброскам Воли против <a href=https://clck.ru/k2N2K><em>`эмоциональных`</em></a> эффектов.</p>"
+		},
+		"Effect: Aura of Misfortune": {
+			"name": "Effect: Aura of Misfortune",
+			"description": "<p>Living creatures must roll twice on all d20 rolls and use the lower result.</p>"
+		},
+		"Effect: Aura of Protection (Solar)": {
+			"name": "Effect: Aura of Protection (Solar)",
+			"description": "<p>Allies in the solar's aura gain a +2 status bonus to AC against evil creatures and a +2 status bonus to saves against effects from evil creatures. The bonus increases to +4 against control by evil creatures and attacks by evil summoned creatures.</p>"
+		},
+		"Effect: Aura of Righteousness (Planetar)": {
+			"name": "Effect: Aura of Righteousness (Planetar)",
+			"description": "<p>Allies in the planetar's aura gain a +2 status bonus to AC against evil creatures and a +2 status bonus to damage rolls against evil creatures.</p>"
+		},
+		"Effect: Aura of Vitality": {
+			"name": "Effect: Aura of Vitality",
+			"description": "<p>Allies in the movanic deva's aura gain a +1 status bonus to all saving throws, resistance 10 to positive and negative damage, and are unharmed by the effects of a plane's positive and negative traits. Animals in the aura of 12th level or lower don't attack the movanic deva or the deva's allies unless they are controlled or otherwise forced to attack.</p>"
+		},
+		"Effect: Barbed Net": {
+			"name": "Effect: Barbed Net",
+			"description": "<p>The creature takes a -10-foot circumstance penalty to its Speeds.</p>"
+		},
+		"Effect: Bark Orders": {
+			"name": "Effect: Bark Orders",
+			"description": "<p>All kobold allies within 30 feet of him gain a +1 status bonus on attack rolls and saving throws against fear effects until the start of Chief Sootscale's next turn.</p>"
+		},
+		"Effect: Bastion Aura": {
+			"name": "Effect: Bastion Aura",
+			"description": "<p>All good-aligned creatures in the aura have fast healing 30 for as long as they remain in range, and they gain a +2 status bonus to attack rolls and damage rolls.</p>"
+		},
+		"Effect: Battle Cry": {
+			"name": "Effect: Battle Cry",
+			"description": "<p>The creature gains a +1 status bonus to attack and damage rolls.</p>"
+		},
+		"Effect: Bittersweet Dreams": {
+			"name": "Effect: Bittersweet Dreams",
+			"description": "<p>The creature takes a status penalty to attack rolls, saving throws, and skill checks according to its save result.</p>"
+		},
+		"Effect: Black Cat Curse": {
+			"name": "Effect: Black Cat Curse",
+			"description": "<p><strong>Effect</strong> Mistress Dusklight spews a hatefully uttered curse at one creature within 30 feet that she can see. If the target fails a @Check[type:will|dc:32] save, whenever it attempts an attack roll or saving throw, it must roll twice and use the lower result. The target is then temporarily immune for 24 hours. The curse persists until it is removed or the target succeeds a later saving throw against it. The victim can attempt a new @Check[type:will|dc:32] save once per hour to end the curse.</p>"
+		},
+		"Effect: Blasphemous Utterances": {
+			"name": "Effect: Blasphemous Utterances",
+			"description": "<p>The creature takes a -2 circumstance penalty to saves against mental effects.</p>\n<p data-visibility=\"gm\">It can't take actions that have the concentrate trait unless it succeeds at a @Check[type:flat|dc:10] check. Failing this check wastes the action.</p>"
+		},
+		"Effect: Blood Frenzy": {
+			"name": "Effect: Blood Frenzy",
+			"description": "<p>The creature gains temporary hit points and other effects based on the specific creature.</p>"
+		},
+		"Effect: Blood Fury": {
+			"name": "Effect: Blood Fury",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls.</p>"
+		},
+		"Effect: Blood Magic": {
+			"name": "Effect: Blood Magic",
+			"description": "<p>The creature gains a +2 status bonus to Will saving throws.</p>"
+		},
+		"Effect: Blood Soak": {
+			"name": "Эффект: Пропитать кровью",
+			"description": "<p>Существо получает бонус состояния +4 ко всем броскам урона.</p>"
+		},
+		"Effect: Blood Wake": {
+			"name": "Effect: Blood Wake",
+			"description": "<p>The creature takes a -4 status penalty to Athletics checks to Swim.</p>"
+		},
+		"Effect: Bloodline Magic (Stirvyn Banyan)": {
+			"name": "Effect: Bloodline Magic (Stirvyn Banyan)",
+			"description": "<p>When Stirvyn casts a bloodline spell, a surge of ancestral memories grants either him or a target of the spell a +1 status bonus to skill checks for 1 round.</p>"
+		},
+		"Effect: Bond in Light": {
+			"name": "Effect: Bond in Light",
+			"description": "<p>The creature glows with bright light in a 20-foot emanation and dim light to 40 feet and has @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.fJSNOw4zHGbIm4bZ]{Fast Healing 10}.</p>"
+		},
+		"Effect: Bully the Departed": {
+			"name": "Эффект: Издевательство над усопшими",
+			"description": "<p>Существо получает @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.lR9R5Vld8Eu2Dha5]{Регенерацию 15 (отключается силой или добром)}, и наносит своими \"Ударами\" дополнительные 1d8 урона злом.</p>"
+		},
+		"Effect: Bully's Rage": {
+			"name": "Effect: Bully's Rage",
+			"description": "<p>The bully gains a +2 status bonus to Intimidation checks and damage until the end of its turn.</p>"
+		},
+		"Effect: Call to Halt (Success)": {
+			"name": "Effect: Call to Halt (Success)",
+			"description": "<p>The target takes a -10-foot penalty to all its Speeds for 1 minute.</p>"
+		},
+		"Effect: Calming Bioluminescence": {
+			"name": "Effect: Calming Bioluminescence",
+			"description": "<p>The creature gains a +2 circumstance bonus to saving throws against emotion effects.</p>"
+		},
+		"Effect: Cat Sith's Mark": {
+			"name": "Effect: Cat Sith's Mark",
+			"description": "<p>Whenever the cursed creature rolls a critical success on a skill check or saving throw, it gets a success instead. Each day, a cursed creature can attempt a @Check[type:flat|dc:10|trait:curse,misfortune|name:Break Cat Sith's Mark] check to break the curse.</p>"
+		},
+		"Effect: Caustic Mucus": {
+			"name": "Effect: Caustic Mucus",
+			"description": "<p>The creature takes a -5-foot status penalty to its Speed. This Speed reduction ends with the persistent acid damage.</p>"
+		},
+		"Effect: Choose Weakness": {
+			"name": "Effect: Choose Weakness",
+			"description": "<p>The Ghaele changes the elemental damage damage dealt by its greatsword and light ray to acid, cold, electricity, fire, or sonic.</p>\n<p>It can also change its energy resistance to any of these energy types (this can be a different type than for its attacks).</p>"
+		},
+		"Effect: Chug": {
+			"name": "Effect: Chug",
+			"description": "<p>The creature gains a +2 item bonus to Athletics checks, damage rolls, and saving throws against fear.</p>"
+		},
+		"Effect: Claim Corpse - Fleshy": {
+			"name": "Effect: Claim Corpse - Fleshy",
+			"description": ""
+		},
+		"Effect: Claim Corpse - Skeletal": {
+			"name": "Effect: Claim Corpse - Skeletal",
+			"description": ""
+		},
+		"Effect: Commanding Aura (Quara)": {
+			"name": "Effect: Commanding Aura (Quara)",
+			"description": "<p>Granted by @UUID[Compendium.pf2e.abomination-vaults-bestiary.JrowrtDilEG8dN2s]{Quara Orshendiel}</p>\n<p>Drow around Quara are heartened by her presence. Her drow allies in the aura gain a +1 status bonus to attack rolls and skill checks.</p>"
+		},
+		"Effect: Consume Memories": {
+			"name": "Effect: Consume Memories",
+			"description": "<p>Vordakai gains a +1 status bonus to all skill checks for 1 minute as a result of the consumed memories.</p>"
+		},
+		"Effect: Consume Organ": {
+			"name": "Эффект: Потребление органа",
+			"description": "<p>Существо получает 15 ВОЗ и бонус состояния +1 к броскам атак и урона.</p>"
+		},
+		"Effect: Crocodile Form": {
+			"name": "Effect: Crocodile Form",
+			"description": "<p>The bunyip gains a land Speed of 20 feet, but it's Jaws Strike looses the persistent bleed damage.</p>"
+		},
+		"Effect: Crush Chitin": {
+			"name": "Effect: Crush Chitin",
+			"description": "<p>The creature takes a -2 circumstance penalty to AC.</p>"
+		},
+		"Effect: Crush of Hundreds": {
+			"name": "Effect: Crush of Hundreds",
+			"description": "<p>The creature takes a -10-foot penalty to all Speeds.</p>"
+		},
+		"Effect: Crushing Spirits": {
+			"name": "Effect: Crushing Spirits",
+			"description": "<p>The creature takes a -10-foot circumstance penalty to all its Speeds.</p>"
+		},
+		"Effect: Crystalline Dust Form": {
+			"name": "Effect: Crystalline Dust Form",
+			"description": "<p>The creature gains a fly Speed of 40 feet.</p>"
+		},
+		"Effect: Curl Up": {
+			"name": "Effect: Curl Up",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Curse of Stone": {
+			"name": "Effect: Curse of Stone",
+			"description": "<p>The creature gains a +1 status bonus to its AC.</p>"
+		},
+		"Effect: Curse of the Baneful Venom": {
+			"name": "Effect: Curse of the Baneful Venom",
+			"description": "<p>The creature immediately attempts its next saving throw against a poison with a -2 status penalty.</p>"
+		},
+		"Effect: Darivan's Bloodline Magic": {
+			"name": "Effect: Darivan's Bloodline Magic",
+			"description": "<p>When Darivan's bloodline magic activates, his movements become supernaturally graceful and distracting, granting him a +1 status bonus to Diplomacy checks for 1 round or imposing a -1 status penalty on one target's Will saves for 1 round.</p>"
+		},
+		"Effect: Death Gasp": {
+			"name": "Effect: Death Gasp",
+			"description": "<p>The creature gains the undead trait and becomes immune to bleed, death effects, disease, paralyzed, poison, and sleep.</p>"
+		},
+		"Effect: Death Gasp (Etioling)": {
+			"name": "Effect: Death Gasp (Etioling)",
+			"description": "<p>The creature gains the undead and incorporeal traits, a fly Speed of 25 feet, resistance 10 to all damage (except force, ghost touch, or positive; double this resistance vs. non-magical) and becomes immune to bleed, death effects, disease, paralyzed, poison, and sleep.</p>"
+		},
+		"Effect: Deceitful Feast (Failure)": {
+			"name": "Effect: Deceitful Feast (Failure)",
+			"description": "<p>The creature takes a -1 circumstance penalty to Will saves against any of the brughadatch's spells or abilities. The penalty increases with each failed save, to a maximum of -5.</p>"
+		},
+		"Effect: Defensive Slam": {
+			"name": "Effect: Defensive Slam",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Defensive Slice": {
+			"name": "Effect: Defensive Slice",
+			"description": "<p>Baron Drelev assumes a defensive position with his weapons out, then attempts a melee Strike. He takes a -2 status penalty on all Strikes (including this one) and gains a +2 status bonus to his AC until the start of his next turn.</p>"
+		},
+		"Effect: Despair": {
+			"name": "Effect: Despair",
+			"description": "<p>Living creatures are frightened 1 while in a despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area.</p>"
+		},
+		"Effect: Despoiler": {
+			"name": "Effect: Despoiler",
+			"description": "<p>The creature takes a -2 circumstance penalty to all saving throws against poisons, diseases, and drugs.</p>"
+		},
+		"Effect: Dire Warning": {
+			"name": "Effect: Dire Warning",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls and damage rolls.</p>"
+		},
+		"Effect: Dirty Bomb": {
+			"name": "Effect: Dirty Bomb",
+			"description": "<p>The creature takes a -2 circumstance penalty to fortitude saves against the chemist's Crude Bombs.</p>"
+		},
+		"Effect: Dirty Bomb (Critical Failure)": {
+			"name": "Effect: Dirty Bomb (Critical Failure)",
+			"description": "<p>The creature takes a -3 circumstance penalty to fortitude saves against the chemist's Crude Bombs.</p>"
+		},
+		"Effect: Discerning Aura": {
+			"name": "Effect: Discerning Aura",
+			"description": "<p>All undead within the aura glow blue, shedding dim light in a 5-foot radius.</p>"
+		},
+		"Effect: Disturbing Vision": {
+			"name": "Эффект: Тревожное видение",
+			"description": "<p>Виденья длятся [[/br 1d4 #rounds]]{1d4 раунда}, и пока они продолжаются, все злые существа в области получают бонус состояния +1 ко всем проверкам.</p>"
+		},
+		"Effect: Divine Aegis": {
+			"name": "Effect: Divine Aegis",
+			"description": "<p>The creature gains a +1 circumstance bonus to saving throws against non-divine magical effects and a -1 circumstance penalty to saves against divine effects.</p>"
+		},
+		"Effect: Drain Luck": {
+			"name": "Effect: Drain Luck",
+			"description": "<p>The creature must succeed at a @Check[type:will|dc:48] save or gain a -1 status penalty to all checks; it is then temporarily immune to Drain Luck for 1 round. Further damage dealt by the Lantern King's searing rune Strikes increases the status penalty by 1 on a failed save to a maximum status penalty of -4. This status penalty is reduced by one every time the affected creature achieves a critical success on a die roll against a creature that is at least equal to them in level, but otherwise is permanent until removed.</p>"
+		},
+		"Effect: Ectoplasmic Form (Physical)": {
+			"name": "Effect: Ectoplasmic Form (Physical)",
+			"description": "<p>The creature loses the incorporeal trait, the immunity to precision damage and all resistances. It gains temporary hit points and an increased armor class according to the specific creature, its jaws strikes deal piercing and its claws strikes deal slashing damage instead of negative.</p>"
+		},
+		"Effect: Energy Ward": {
+			"name": "Effect: Energy Ward",
+			"description": "<p>The cascader gains resistance 15 to the triggering damage, replacing any other resistance gained from this ability. The cascader's melee strikes also deal an additional 4d10 damage of this type.</p>"
+		},
+		"Effect: Ensnare": {
+			"name": "Effect: Ensnare",
+			"description": "<p>The creature takes a -10-foot status penalty to its Speed.</p>"
+		},
+		"Effect: Entangling Slime": {
+			"name": "Effect: Entangling Slime",
+			"description": "<p>The creature takes a -5-foot penalty to Speed.</p>"
+		},
+		"Effect: Entangling Train": {
+			"name": "Effect: Entangling Train",
+			"description": "<p>The creature takes a -15-foot circumstance penalty to its Speeds.</p>"
+		},
+		"Effect: Fan Bolt": {
+			"name": "Effect: Fan Bolt",
+			"description": "<p>The creature takes a -10-foot status penalty to its swim Speed.</p>"
+		},
+		"Effect: Feed": {
+			"name": "Effect: Feed",
+			"description": "<p>The creature gains a status bonus to its checks and DCs depending on how often it used the Feed ability.</p>"
+		},
+		"Effect: Fetid Screech (Critical Failure)": {
+			"name": "Effect: Fetid Screech (Critical Failure)",
+			"description": "<p>The creature takes a -5 foot status penalty to its Speeds.</p>"
+		},
+		"Effect: Fettering Fedora": {
+			"name": "Effect: Fettering Fedora",
+			"description": "<p>The creature takes a -10-foot circumstance penalty to their Speeds.</p>"
+		},
+		"Effect: Fiddle": {
+			"name": "Effect: Fiddle",
+			"description": "<p>The creature take a –10-foot status penalty to Speeds.</p>"
+		},
+		"Effect: Fiery Form": {
+			"name": "Эффект: Огненная форма",
+			"description": "<p>Кровавая карга получает признак <a href=https://clck.ru/jompy><em>`огонь`</em></a> и скорость полета 60 футов, становится невосприимчивой к огню и излучает свет как факел.</p>"
+		},
+		"Effect: Filth Wave": {
+			"name": "Effect: Filth Wave",
+			"description": "<p>The creature takes a -10-foot penalty to its Speeds.</p>"
+		},
+		"Effect: Form a Phalanx": {
+			"name": "Effect: Form a Phalanx",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Fortune's Favor": {
+			"name": "Effect: Fortune's Favor",
+			"description": "<p>Whenever the creature attempts a specific type of saving throw, it rolls twice and takes the higher result. The type of saving throw is determined by the suit that featured most prominently in the harrow reading: Fortitude (Hammers or Shields), Reflex (Keys or Books), or Will (Stars or Crowns)</p>"
+		},
+		"Effect: Furious Possession": {
+			"name": "Effect: Furious Possession",
+			"description": "<p>The creature gains 12 temporary Hit Points that are lost when the possession ends. During the possession, the creature has the pulse of rage aura. Each time the possessed creature makes a melee Strike, the spirit can substitute their ephemeral claw attack modifier, damage amount, or both in place of the creature's own statistics.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.GC5441z8i7N8swk1]{Effect: Pulse of Rage}</p>"
+		},
+		"Effect: Ganzi Resistance": {
+			"name": "Effect: Ganzi Resistance",
+			"description": "<p>The creature gains an amount of resistance to acid, electricity, or sonic (chosen randomly each day) based on the specific creature.</p>"
+		},
+		"Effect: Ghonhatine Feed": {
+			"name": "Effect: Ghonhatine Feed",
+			"description": "<p>The creature gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.fJSNOw4zHGbIm4bZ]{Fast Healing 5} and a +2 status bonus to damage rolls.</p>"
+		},
+		"Effect: Gird in Prayer": {
+			"name": "Effect: Gird in Prayer",
+			"description": "<p>The creature gains a +2 status bonus to saving throws against death, mental, and possession effects.</p>"
+		},
+		"Effect: Gloom Aura": {
+			"name": "Effect: Gloom Aura",
+			"description": "<p>The creature takes a -1 circumstance penalty to saving throws made to resist emotion effects.</p>"
+		},
+		"Effect: Glowing Spores": {
+			"name": "Effect: Glowing Spores",
+			"description": "<p>The creature takes a -4 penalty to Stealth checks.</p>"
+		},
+		"Effect: Graveknight's Curse": {
+			"name": "Effect: Graveknight's Curse",
+			"description": "<p>The creature's Speed is reduced by 10.</p>"
+		},
+		"Effect: Guardian's Aegis": {
+			"name": "Эффект: Эгида стража",
+			"description": "<p>Существо получает бонус состояния +1 к спасброскам против магических эффектов. Бонус увеличивается до +2, если эффект исходит от демона или другого хаотичного злого беса.</p>"
+		},
+		"Effect: Guildmaster's Lead": {
+			"name": "Effect: Guildmaster's Lead",
+			"description": ""
+		},
+		"Effect: Hallucinogenic Pollen (Critical Failure)": {
+			"name": "Effect: Hallucinogenic Pollen (Critical Failure)",
+			"description": "<p>The creature takes a -4 status penalty to Perception checks and saves against mental effects.</p>"
+		},
+		"Effect: Hallucinogenic Pollen (Failure)": {
+			"name": "Effect: Hallucinogenic Pollen (Failure)",
+			"description": "<p>The creature takes a -2 status penalty to Perception checks and saves against mental effects.</p>"
+		},
+		"Effect: Hamstring": {
+			"name": "Effect: Hamstring",
+			"description": "<p>The target takes a -10-foot status penalty to its Speeds.</p>"
+		},
+		"Effect: Harrowing Misfortune": {
+			"name": "Effect: Harrowing Misfortune",
+			"description": "<p>The creature must roll twice and take the lower result on its next roll of a specific type, determined by the card's suit. The suits and their effects are: Hammers (melee attack roll), Keys (Reflex save), Shields (Fortitude save), Books (skill check), Stars (Will save), and Crowns (spell attack roll).</p>"
+		},
+		"Effect: Haywire": {
+			"name": "Effect: Haywire",
+			"description": "<p>The creature takes a -1 circumstance penalty to Strikes but deals an additional [[/r 1d6[bludgeoning]]]{1d6 bludgeoning damage} plus @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Knockdown}.</p>"
+		},
+		"Effect: Hunted Fear": {
+			"name": "Effect: Hunted Fear",
+			"description": "<p>The creature takes a -2 circumstance penalty to Survival checks to avoid getting lost.</p>"
+		},
+		"Effect: Hurl Net": {
+			"name": "Effect: Hurl Net",
+			"description": "<p>The creature takes a -10-foot circumstance penalty to its Speeds.</p>"
+		},
+		"Effect: Hurtful Critique": {
+			"name": "Effect: Hurtful Critique",
+			"description": "<p>The creature takes a -1 circumstance penalty to attack rolls (-2 on a critical failure).</p>"
+		},
+		"Effect: Hypnotic Stare": {
+			"name": "Effect: Hypnotic Stare",
+			"description": "<p>That target takes a -2 penalty to Will saving throws.</p>"
+		},
+		"Effect: Ill Omen": {
+			"name": "Effect: Ill Omen",
+			"description": "<p>The creature takes a -1 penalty to attack rolls, skill checks, and saving throws while within the ill omen aura and becomes immune to fortune effects for 1 day.</p>"
+		},
+		"Effect: Inspire Courage (Love Siktempora)": {
+			"name": "Effect: Inspire Courage (Love Siktempora)",
+			"description": "<p>The creature gains a +2 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>"
+		},
+		"Effect: Inspire Defense (Love Siktempora)": {
+			"name": "Effect: Inspire Defense (Love Siktempora)",
+			"description": "<p>The creature gains a +2 status bonus to AC and saving throws, as well as resistance 4 to physical damage.</p>"
+		},
+		"Effect: Inspired Feast": {
+			"name": "Effect: Inspired Feast",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls and a +2 status bonus to damage rolls.</p>"
+		},
+		"Effect: Inspiring Presence": {
+			"name": "Effect: Inspiring Presence",
+			"description": "<p>The creature gains a +2 circumstance bonus to saves against fear effects.</p>"
+		},
+		"Effect: Instinctual Tinker (Critical Success)": {
+			"name": "Effect: Instinctual Tinker (Critical Success)",
+			"description": "<p>The creature gains a +1 circumstance bonus to attack rolls.</p>"
+		},
+		"Effect: Interpose": {
+			"name": "Effect: Interpose",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Invigorating Passion": {
+			"name": "Effect: Invigorating Passion",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls and 10 temporary Hit Points.</p>"
+		},
+		"Effect: Jury-Rig": {
+			"name": "Эффект: Сколотить на скорую руку(*)",
+			"description": "<p>Цель получает 10 ВОЗ.</p>"
+		},
+		"Effect: Kharna's Blessing": {
+			"name": "Effect: Kharna's Blessing",
+			"description": ""
+		},
+		"Effect: Lantern of Hope": {
+			"name": "Effect: Lantern of Hope",
+			"description": "<p>The creature gains a +1 status bonus to damage rolls and to saving throws against <em>@UUID[Compendium.pf2e.spells-srd.GaRQlC9Yw1BGKHfN]{Crushing Despair}</em>.</p>"
+		},
+		"Effect: Lantern of Hope (Gestalt)": {
+			"name": "Effect: Lantern of Hope (Gestalt)",
+			"description": "<p>The creature gains a +3 status bonus to damage rolls and to saving throws against <em>@UUID[Compendium.pf2e.spells-srd.GaRQlC9Yw1BGKHfN]{Crushing Despair}</em>.</p>"
+		},
+		"Effect: Lost Plates": {
+			"name": "Effect: Lost Plates",
+			"description": "<p>The creature takes a status penalty to AC equal to the number of lost plates.</p>"
+		},
+		"Effect: Lost Red Cap": {
+			"name": "Эффект: Потерянный красный колпак",
+			"description": "<p>Существо получает штраф состояния -4 ко всем броскам урона.</p>"
+		},
+		"Effect: Lurker's Glow (Critical Failure)": {
+			"name": "Effect: Lurker's Glow (Critical Failure)",
+			"description": "<p>The creature sheds bright light in a 20-foot emanation for the duration of the effect.</p>"
+		},
+		"Effect: Mangling Rend": {
+			"name": "Effect: Mangling Rend",
+			"description": "<p>The target takes a -20-foot status penalty to all Speeds until the end of its next turn.</p>"
+		},
+		"Effect: Manipulate Luck (Bad)": {
+			"name": "Effect: Manipulate Luck (Bad)",
+			"description": "<p>The creature must roll twice and use the lower result on its next d20 roll.</p>"
+		},
+		"Effect: Manipulate Luck (Good)": {
+			"name": "Effect: Manipulate Luck (Good)",
+			"description": "<p>The affected creature can roll twice on one d20 roll within the next minute and use the higher result.</p>"
+		},
+		"Effect: Mortal Reflection": {
+			"name": "Effect: Mortal Reflection",
+			"description": "<p>The imperfect automaton draws upon the target's emotions to recall a semblance of mortal feeling, gaining a +5-foot status bonus to its Speed for 1 minute.</p>"
+		},
+		"Effect: Motivating Assault": {
+			"name": "Effect: Motivating Assault",
+			"description": "<p>You gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>"
+		},
+		"Effect: Musk": {
+			"name": "Effect: Musk",
+			"description": "<p>The creature takes a -2 penalty to Stealth checks.</p>"
+		},
+		"Effect: Mutilating Bite": {
+			"name": "Effect: Mutilating Bite",
+			"description": "<p>The creature then takes a -1 status penalty to Charisma-based checks. This penalty is cumulative up to -3.</p>"
+		},
+		"Effect: Nanite Surge (Glow)": {
+			"name": "Effect: Nanite Surge (Glow)",
+			"description": "<p>The creature sheds dim light in a 10-foot emanation.</p>"
+		},
+		"Effect: Necrotic Field": {
+			"name": "Effect: Necrotic Field",
+			"description": "<p>Undead within the aura deal an additional [[/r 1d6[negative]]]{1d6 negative damage} with their natural attacks.</p>"
+		},
+		"Effect: Nymph Queen's Inspiration": {
+			"name": "Эффект: Вдохновение королевы нимф",
+			"description": "<p>Существо получает бонус состояния +1 ко всем проверкам Ремесла, Выступления и спасброскам Воли.</p>\n<p>Барды получают дополнительные преимущества:</p>\n<ul>\n<li><strong>Энигма:</strong> Бонус состояния +1 ко всем проверкам Знаний <em>(не автоматизировано)</em></li>\n<li><strong>Маэстро:</strong> Бонус состояния +2к проверкам Выступления для определения эффектов композиций</li>\n<li><strong>Эрудит:</strong> Бонус состояния +4 к нетренированным проверкам навыков</li>\n<li><strong>Другие музы:</strong> Бонус состояния +2 к спасброскам Воли против фей</li>\n</ul>"
+		},
+		"Effect: Oceanic Armor": {
+			"name": "Effect: Oceanic Armor",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Overtake Soul": {
+			"name": "Effect: Overtake Soul",
+			"description": ""
+		},
+		"Effect: Pain Frenzy": {
+			"name": "Effect: Pain Frenzy",
+			"description": "<p>The creature gains a +2 status bonus to attack and damage rolls.</p>"
+		},
+		"Effect: Parry Dance": {
+			"name": "Effect: Parry Dance",
+			"description": "<p>The rake gains a +2 circumstance bonus to AC until the end of their next turn.</p>"
+		},
+		"Effect: PFS Level Bump": {
+			"name": "Effect: PFS Level Bump",
+			"description": "<p>Scenarios and quests are designed to challenge PCs whose average level is the lower of the two levels in a given Level Range (i.e., Level Range 1–2 is built to challenge 1st-level PCs, and Level Range 3–4 is built to challenge 3rd-level PCs). Normally, when the Challenge Point total determines that the group’s overall power is equivalent to the higher level in a Level Range (e.g. 2nd level in Level Range 1–2), the scenario’s scaling will adjust for this.</p>\n<p>However, sometimes it is necessary to add a level bump, such as when the scenario’s scaling is based on the number of players, or if the scenario lacks a low tier 16-18 scaling.</p>\n<ul>\n<li>Increase the attack modifiers, attack damage, spell damage, saving throw modifiers, skill modifiers, Perception modifiers, and ACs by 1.</li>\n<li>Increase the Hit Point total by 10 or by 10%, whichever is higher.</li>\n</ul>"
+		},
+		"Effect: Phalanx Fighter": {
+			"name": "Effect: Phalanx Fighter",
+			"description": "<p>The creature gains a +1 circumstance bonus to AC.</p>"
+		},
+		"Effect: Phantasmagoric Fog": {
+			"name": "Effect: Phantasmagoric Fog",
+			"description": "<p>The hall fills with violet fog that imposes a -2 circumstance penalty to Perception checks to all creatures within it and exposes anyone who enters it to phantasmagoric fog.</p>"
+		},
+		"Effect: Poison Frenzy": {
+			"name": "Effect: Poison Frenzy",
+			"description": "<p>The poison eater flies into a frenzy that lasts for 1 minute. While in a frenzy, the poison eater gains a +1 status bonus to attack rolls with melee Strikes, gains a +4 status bonus to damage rolls with melee Strikes, gains 20 temporary Hit Points until the end of the frenzy, and takes a -2 status penalty to AC.</p>"
+		},
+		"Effect: Praise Adachros": {
+			"name": "Effect: Praise Adachros",
+			"description": "<p>The creature gains +1 status bonus to attack rolls, perception checks, saving throws, and skill checks.</p>"
+		},
+		"Effect: Prepare Fangs": {
+			"name": "Effect: Prepare Fangs",
+			"description": "<p>Daggers deals additional poison damage equal to the counter value.</p>"
+		},
+		"Effect: Protean Anatomy": {
+			"name": "Effect: Protean Anatomy",
+			"description": "<p>The creature gains resistance to either acid, electricity, or sonic according to its Protean Anatomy.</p>"
+		},
+		"Effect: Pry": {
+			"name": "Effect: Pry",
+			"description": "<p>The creature takes a -1 status penalty to Charisma-based skill checks.</p>"
+		},
+		"Effect: Pulse of Rage": {
+			"name": "Effect: Pulse of Rage",
+			"description": "<p>The creature takes a –1 status penalty to AC.</p>"
+		},
+		"Effect: Putrid Blast": {
+			"name": "Effect: Putrid Blast",
+			"description": "<p>Creature takes a -2 circumstance penalty to Fortitude saves against xulgath bile for 1 minute.</p>"
+		},
+		"Effect: Putrid Stench": {
+			"name": "Effect: Putrid Stench",
+			"description": "<p>The creature takes a -5-foot status penalty to its Speeds.</p>"
+		},
+		"Effect: Raise Guard": {
+			"name": "Effect: Raise Guard",
+			"description": "<p>The creature gains a +2 circumstance bonus to AC.</p>"
+		},
+		"Effect: Rapid Evolution - Energy Gland": {
+			"name": "Effect: Rapid Evolution - Energy Gland",
+			"description": "<p>The creature gains energy damage resistance similar to the triggering type.</p>"
+		},
+		"Effect: Rapid Evolution - Husk": {
+			"name": "Effect: Rapid Evolution - Husk",
+			"description": "<p>The creature gains physical damage resistance similar to the triggering type.</p>"
+		},
+		"Effect: Read the Stars (Critical Success)": {
+			"name": "Effect: Read the Stars (Critical Success)",
+			"description": "<p>The creature gains a +1 circumstance bonus to saving throws.</p>"
+		},
+		"Effect: Regression": {
+			"name": "Effect: Regression",
+			"description": "<p>The creature shrinks one size and all of the target's proficiencies of expert and better are reduced to trained.</p>"
+		},
+		"Effect: Reminder of Doom": {
+			"name": "Effect: Reminder of Doom",
+			"description": "<p>The creature gains a +2 status bonus to attack rolls and damage rolls.</p>"
+		},
+		"Effect: Remove Face": {
+			"name": "Effect: Remove Face",
+			"description": "<p>The creature takes a permanent -4 status penalty to Charisma checks and Charisma-based skill checks. This penalty can be removed only if the victim recovers its face and has a <em>@UUID[Compendium.pf2e.spells-srd.SnaLVgxZ9ryUFmUr]{Restoration}</em> spell cast on it.</p>"
+		},
+		"Effect: Resonance": {
+			"name": "Effect: Resonance",
+			"description": "<p>The creature gains a +1 status bonus to attack and damage rolls for effects with the selected trait; a creature with the elemental and selected traits gains this bonus to all attack and damage rolls.</p>"
+		},
+		"Effect: Revert Form": {
+			"name": "Effect: Revert Form",
+			"description": "<p>The creature gains a +2 status bonus to attack rolls, damage rolls, saving throws, and skill checks.</p>"
+		},
+		"Effect: Rockfall Critical Failure": {
+			"name": "Effect: Rockfall Critical Failure",
+			"description": "<p>The affected creature takes a -20-foot circumstance penalty to its movement speeds for 2 rounds.</p>"
+		},
+		"Effect: Rockfall Failure": {
+			"name": "Effect: Rockfall Failure",
+			"description": "<p>The affected creature takes a –10-foot circumstance penalty to its movement speeds for 1 round.</p>"
+		},
+		"Effect: Rotting Stench": {
+			"name": "Effect: Rotting Stench",
+			"description": "<p>While within the aura, creatures also take a -2 circumstance penalty to saves against fear and to recover from the sickened condition.</p>"
+		},
+		"Effect: Rune of Destruction (Greatsword)": {
+			"name": "Effect: Rune of Destruction (Greatsword)",
+			"description": "<p>The greatsword gains the deadly trait with 3d12, and a creature hit with the greatsword is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} unless it succeeds at a @Check[type:fortitude|dc:35|name:Rune of Destruction|traits:arcane] save.</p>"
+		},
+		"Effect: Rune of Destruction (Longspear)": {
+			"name": "Effect: Rune of Destruction (Longspear)",
+			"description": "<p>The longspear gains the deadly trait with 3d8, and a creature hit with the longspear is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} unless it succeeds at a @Check[type:fortitude|dc:35|name:Rune of Destruction|traits:arcane] save.</p>"
+		},
+		"Effect: Rune of Destruction (Rock)": {
+			"name": "Effect: Rune of Destruction (Rock)",
+			"description": "<p>The rock gains the deadly trait with 3d12, and a creature hit with the rock is @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} unless it succeeds at a @Check[type:fortitude|dc:35|name:Rune of Destruction|traits:arcane] save.</p>"
+		},
+		"Effect: Rune of Flames (Greatsword)": {
+			"name": "Effect: Rune of Flames (Greatsword)",
+			"description": "<p>The greatsword deals an additional 3d6 fire damage on all attacks.</p>"
+		},
+		"Effect: Rune of Flames (Longspear)": {
+			"name": "Effect: Rune of Flames (Longspear)",
+			"description": "<p>The longspear deals an additional 3d6 fire damage on all attacks.</p>"
+		},
+		"Effect: Rune of Flames (Rock)": {
+			"name": "Effect: Rune of Flames (Rock)",
+			"description": "<p>The rock deals an additional 3d6 fire damage on all attacks.</p>"
+		},
+		"Effect: Rune of Smiting (Greatsword)": {
+			"name": "Effect: Rune of Smiting (Greatsword)",
+			"description": "<p>When the greatsword hits, the giant can Push the target back 10 feet, or 20 feet on a critical hit.</p>"
+		},
+		"Effect: Rune of Smiting (Longspear)": {
+			"name": "Effect: Rune of Smiting (Longspear)",
+			"description": "<p>When the longspear hits, the giant can Push the target back 10 feet, or 20 feet on a critical hit.</p>"
+		},
+		"Effect: Rune of Smiting (Rock)": {
+			"name": "Effect: Rune of Smiting (Rock)",
+			"description": "<p>When the rock hits, the giant can Push the target back 10 feet, or 20 feet on a critical hit.</p>"
+		},
+		"Effect: Runic Resistance": {
+			"name": "Effect: Runic Resistance",
+			"description": "<p>The creature gains resistance 5 to one damage type.</p>"
+		},
+		"Effect: Sandstorm": {
+			"name": "Эффект: Песчаная буря",
+			"description": "<p>Существа получают штраф обстоятельства -4 к проверкам Восприятия.</p>"
+		},
+		"Effect: Scraping Clamor": {
+			"name": "Effect: Scraping Clamor",
+			"description": ""
+		},
+		"Effect: Shadow Rapier": {
+			"name": "Effect: Shadow Rapier",
+			"description": "<p>The rake shrouds their sword in negative energy, changing the damage type to negative.</p>"
+		},
+		"Effect: Share Defenses": {
+			"name": "Effect: Share Defenses",
+			"description": "<p>The creature gains cold resistance 10.</p>"
+		},
+		"Effect: Share Pain": {
+			"name": "Effect: Share Pain",
+			"description": "<p>The creature takes a status penalty to its Speeds based on its save result.</p>"
+		},
+		"Effect: Sinful Bite": {
+			"name": "Effect: Sinful Bite",
+			"description": "<p>The creature takes a -10-foot status penalty to its Speeds.</p>"
+		},
+		"Effect: Sixfold Flurry": {
+			"name": "Эффект: Шестикратный шквал",
+			"description": "<p>Существо получате бонус обстоятельства к КБ в зависимости от Ударов, которые оно решило не совершать.</p>"
+		},
+		"Effect: Slime Trap": {
+			"name": "Effect: Slime Trap",
+			"description": "<p>The creature takes a -10-foot circumstance penalty to its Speeds.</p>"
+		},
+		"Effect: Smash Kneecaps": {
+			"name": "Effect: Smash Kneecaps",
+			"description": "<p>The creature's Speed is reduced by 10 feet.</p>"
+		},
+		"Effect: Snake Form": {
+			"name": "Effect: Snake Form",
+			"description": "<p>The bunyip's tail Strike gains reach 10 and @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Grab}, but it's Jaws Strike looses the persistent bleed damage.</p>"
+		},
+		"Effect: Song of the Swamp": {
+			"name": "Effect: Song of the Swamp",
+			"description": "<p>The creature gains a +2 status bonus to damage rolls and saves against fear.</p>"
+		},
+		"Effect: Spiritual Warden": {
+			"name": "Effect: Spiritual Warden",
+			"description": "<p>Allies in the aura gain a +2 status bonus to saving throws against death effects and effects that target or manipulate their souls.</p>"
+		},
+		"Effect: Splintered Ground": {
+			"name": "Effect: Splintered Ground",
+			"description": "<p>The creature takes a -10-foot circumstance penalty to all Speeds.</p>"
+		},
+		"Effect: Splintered Ground (Critical Failure)": {
+			"name": "Effect: Splintered Ground (Critical Failure)",
+			"description": "<p>The creature takes a -15-foot circumstance penalty to all Speeds.</p>"
+		},
+		"Effect: Spotlight": {
+			"name": "Effect: Spotlight",
+			"description": "<p>The target gains a +2 status bonus to Performance checks and resistance 10 to mental damage.</p>"
+		},
+		"Effect: Spray Toxic Oil": {
+			"name": "Effect: Spray Toxic Oil",
+			"description": "<p>The creature gains weakness to fire 5, and whenever the creature critically fails wth an attack roll with a wielded weapon, it drops the weapon.</p>"
+		},
+		"Effect: Sticky Spores": {
+			"name": "Effect: Sticky Spores",
+			"description": "<p>The creature takes a –10-foot status penalty to all its Speeds.</p>"
+		},
+		"Effect: Sting of the Lash": {
+			"name": "Effect: Sting of the Lash",
+			"description": "<p>The creature gains 5 temporary Hit Points.</p>"
+		},
+		"Effect: Stink Sap": {
+			"name": "Effect: Stink Sap",
+			"description": "<p>Creatures and their equipment coated in the sap smell horrible. Creatures in the aura must attempt a @Check[type:fortitude|dc:16] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}, and on a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is immune to stink sap for 1 minute. Creatures don't save against this effect in exploration mode and don't become temporarily immune, but creatures with stink sap on them must roll against their own aura when they roll initiative in encounter mode. The sap dissipates after 10 hours; spending 10 minutes scrubbing the sap off with soap and water reduces the duration by 1 hour.</p>"
+		},
+		"Effect: Stoke the Fervent - High Tormentor": {
+			"name": "Effect: Stoke the Fervent - High Tormentor",
+			"description": "<p>Each ally that hears the call gains a +4 status bonus to attack rolls and damage rolls, a +2 status bonus to saving throws, and takes a -2 status penalty to AC. Affected allies must use at least one of their actions to Strike each round, if they are able even if it means attacking an ally, object, or thin air).</p>\n<p>The effect duration has been set to the average duration for [[/br 2d4 #rounds]]{2d4 rounds}. Set the duration to the correct value when the effect is added.</p>"
+		},
+		"Effect: Susceptible to Mockery (Critical Failure)": {
+			"name": "Effect: Susceptible to Mockery (Critical Failure)",
+			"description": "<p>The creature gains a +1 status bonus to Strikes and damage rolls against foes.</p>"
+		},
+		"Effect: Swell": {
+			"name": "Effect: Swell",
+			"description": "<p>The creature grows to Huge size, and its reach increases to 15 feet. It also gains 12 temporary Hit Points, resistance 5 to bludgeoning, and a +2 status bonus to damage rolls</p>"
+		},
+		"Effect: Sylvan Wine": {
+			"name": "Effect: Sylvan Wine",
+			"description": "<p>The creature gains a +1 item bonus to Will saves and a +3 item bonus to Will saves against fear effects.</p>"
+		},
+		"Effect: Sylvan Wine (Horned Hunter)": {
+			"name": "Effect: Sylvan Wine (Horned Hunter)",
+			"description": "<p>The creature gains a +3 item bonus to Will saves.</p>"
+		},
+		"Effect: Take Them Down!": {
+			"name": "Effect: Take Them Down!",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls and damage rolls.</p>"
+		},
+		"Effect: Technology Control": {
+			"name": "Effect: Technology Control",
+			"description": "<p>The target takes a -2 circumstance penalty to its attack rolls and DCs against a creature it would not normally attack.</p>\n<hr />\n<p><em>Note: This effect applies a penalty to all rolls and DCs while active.</em></p>"
+		},
+		"Effect: Totems of the Past": {
+			"name": "Effect: Totems of the Past",
+			"description": "<p>Any lizardfolk allies in the area are inspired, gaining a +1 status bonus to attack rolls.</p>"
+		},
+		"Effect: Towering Stance (Disbelieved)": {
+			"name": "Эффект: Возвышающаяся стать (неверие)",
+			"description": "<p>Существо становится Средним.</p>"
+		},
+		"Effect: Uncanny Tinker": {
+			"name": "Effect: Uncanny Tinker",
+			"description": "<p>The creature gains a +1 circumstance bonus to attack rolls.</p>"
+		},
+		"Effect: Under Command": {
+			"name": "Effect: Under Command",
+			"description": "<p>Commanded by a captain of the guard.</p>"
+		},
+		"Effect: Unluck Aura": {
+			"name": "Effect: Unluck Aura",
+			"description": "<p>The creature must roll twice and take the worse result on all checks.</p>"
+		},
+		"Effect: Unsettled Aura": {
+			"name": "Effect: Unsettled Aura",
+			"description": "<p>Gosregs project a field of discordant energy that unsettles the minds of thinking creatures. Any non-mindless creature within 30 feet of a gosreg takes a -1 status penalty to Will saves.</p>"
+		},
+		"Effect: Unsettling Attention": {
+			"name": "Effect: Unsettling Attention",
+			"description": "<p><strong>Failure</strong> The creature becomes unsettled and suffers a -2 penalty to all saves against fear effects as long as they remain within the hex containing Candlemere.</p>"
+		},
+		"Effect: Utter Despair": {
+			"name": "Effect: Utter Despair",
+			"description": "<p>Living creatures are frightened 2 while in an utter despair aura. They can't naturally recover from this fear while in the area but lose the frightened condition immediately upon leaving the area.</p>"
+		},
+		"Effect: Vengeful Fibers": {
+			"name": "Эффект: Мстительные волокна",
+			"description": "<p>Цель получает штраф обстоятельства -10 футов к Скорости</p>"
+		},
+		"Effect: Vent Energy": {
+			"name": "Effect: Vent Energy",
+			"description": "<p>The creatures weapon arm strikes deal an extra 2d6 energy damage according to the damage type in the energy gland.</p>"
+		},
+		"Effect: Viscous Trap": {
+			"name": "Effect: Viscous Trap",
+			"description": "<p>The creature takes a -15-foot circumstance penalty to all Speeds.</p>"
+		},
+		"Effect: Void Shroud": {
+			"name": "Effect: Void Shroud",
+			"description": "<p>Living creatures in the emanation take a -2 status penalty to saves against fear and death effects.</p>"
+		},
+		"Effect: Volcanic Purge": {
+			"name": "Effect: Volcanic Purge",
+			"description": "<p>The target takes [[/r 4d6[persistent,fire]]]{4d6 продолжительного урона огнем}, and as long as it has this persistent fire damage, it also takes a -10-foot status penalty to its Speeds.</p>"
+		},
+		"Effect: Vulnerable to Curved Space": {
+			"name": "Effect: Vulnerable to Curved Space",
+			"description": "<p>When a hound of Tindalos is not adjacent to a structural angle of 90º (or more acute), its resistance to physical damage is suppressed and it becomes sickened 1.</p>"
+		},
+		"Effect: War Leader": {
+			"name": "Effect: War Leader",
+			"description": "<p>The creature gains a +1 status bonus to attack rolls and skill checks.</p>"
+		},
+		"Effect: Warning Hoot": {
+			"name": "Эффект: Предупреждающий крик",
+			"description": "<p>Цели получают бонус обстоятельства +1 к своим броскам инициативы.</p>"
+		},
+		"Effect: Waterlogged": {
+			"name": "Effect: Waterlogged",
+			"description": "<p>While waterlogged, the berberoka can use Spray Water, their size grows to Gargantuan, and their Speed is reduced to 15 feet.</p>"
+		},
+		"Effect: Whirlwind Form": {
+			"name": "Effect: Whirlwind Form",
+			"description": "<p>The creature gains resistance 10 to physical damage.</p>"
+		},
+		"Effect: Wild Shape (Oaksteward)": {
+			"name": "Эффект: Дикое обличье (Служитель Дубрав)",
+			"description": "<p>Руки служителя дубрав трансформируются в дикие когти.</p>"
+		},
+		"Effect: Witchflame (Critical Failure)": {
+			"name": "Effect: Witchflame (Critical Failure)",
+			"description": "<p>The creature gains weakness 10 to fire.</p>"
+		},
+		"Effect: Witchflame (Failure)": {
+			"name": "Effect: Witchflame (Failure)",
+			"description": "<p>The creature gains weakness 5 to fire.</p>"
+		},
+		"Effect: Witchflame (Success)": {
+			"name": "Effect: Witchflame (Success)",
+			"description": "<p>The creature gains weakness 5 to fire.</p>"
+		},
+		"Effect: Wrath of Fate": {
+			"name": "Effect: Wrath of Fate",
+			"description": "<p>An affected creature can choose to roll twice when it attempts an attack, saving throw, or skill check and take the lower result. After this the effect ends.</p>"
+		},
+		"Effect: Wrath of Spurned Hospitality": {
+			"name": "Effect: Wrath of Spurned Hospitality",
+			"description": "<p>The nyktera gains a +2 status bonus to attack and damage rolls for their fist Strikes.</p>"
+		},
+		"Effect: Xulgath Stench": {
+			"name": "Эффект: Вонь зулгатов",
+			"description": "<p>Существо получает штраф состояния -5 футов к своим Скоростям.</p>"
+		}
+	}
+}

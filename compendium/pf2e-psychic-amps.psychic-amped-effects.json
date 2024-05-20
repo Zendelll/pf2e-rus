@@ -1,0 +1,17 @@
+{
+	"label": "PSY: Эффекты расширенных чар",
+	"entries": {
+		"Spell Effect: Contagious Idea (Pleasant Thought)": {
+			"name": "Эффект заклинания: Заразная идея (Приятная мысль)",
+			"description": "<p>Предоставляется <em>@Compendium[pf2e.spells-srd.Dby1eQ7y5dXBWlyc]{Заразной идеей}</em></p>\n<p>Вы получаете временные ОЗ равные удвоенному уровню заклинания.</p>"
+		},
+		"Spell Effect: Glimpse Weakness (Amped)": {
+			"name": "Эффект заклинания: Проблеск слабости (Расширенное)",
+			"description": "<p>Предоставляется <em>@Compendium[pf2e.spells-srd.cNnHV97gPqxJ3Rrr]{Проблеском слабости}</em></p>\n<p>Вы наносите дополнительный точный урон равный 1d4+1, после чего заклинание заканчивается.</p>\n<hr />\n<p><strong>Расширенное усиление (+2):</strong> Дополнительный точный урон увеличивается на 1d4+1.</p>"
+		},
+		"Spell Effect: Thermal Stasis (Amped)": {
+			"name": "Эффект заклинания: Тепловой стазис (Расширенное)",
+			"description": "<p>Предоставляется <em>@UUID[Compendium.pf2e.spells-srd.dhpXpzt7TCm8TbHM]{Тепловым стазисом}</em></p>\n<p>Цель получает сопротивление 2 против огня и сопротивление 2 против холода.</p>\n<hr />\n<p><strong>Усиление (+1):</strong> Оба усиления увеличиваются на 2.</p>"
+		}
+	}
+}

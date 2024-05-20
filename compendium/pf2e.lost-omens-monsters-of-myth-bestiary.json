@@ -1,0 +1,999 @@
+{
+	"label": "Lost Omens: Monsters of Myth",
+	"mapping": {
+		"Cdescription": "system.details.publicNotes",
+		"CdescriptionGM": "system.details.privateNotes",
+		"language": "system.traits.languages.custom",
+		"senses": "system.traits.senses.value",
+		"Hdescription": "system.details.description",
+		"disable": "system.details.disable",
+		"reset": "system.details.reset",
+		"routine": "system.details.routine",
+		"hp": "system.attributes.hp.details",
+		"di": "system.traits.di.custom",
+		"stealth": "system.attributes.stealth.details",
+		"ac": "system.attributes.ac.details",
+		"allSaves": "system.attributes.allSaves.value",
+		"speed": "system.attributes.speed.details"
+	},
+	"entries": {
+		"Young Linnorm": {
+			"name": "Молодой линнорм",
+			"description": "<p>Как уже говорилось в сноске про новорожденных линнормов, самки линнормов откладывают яйца в дикой природе, где, как известно, линнормы охотятся. Яйцо остается жизнеспособным в течение многих лет, защищенное жесткой кожистой оболочкой, которую легко принять за камень. Когда на яйцо натыкается самец, он оплодотворяет его и переносит в безопасное и отдаленное место, оставляя в покое, чтобы оно наконец-то вылупилось. Новорожденные линнормы остаются спрятанными в своих гнездах в течение нескольких месяцев, пока созревают, вырастают достаточно большими, чтобы охотиться самостоятельно, и выходят в мир. В сравнении с другими видами, эти линнормы примерно эквивалентны старшим подросткам.</p>\n<p>Младшие линнормы, хотя и остаются природными существами с сильной связью с <a href=https://clck.ru/pxYiq>Первым Миром</a>, еще не проявили большинство своих магических сил. Они все еще не могут дышать смертоносным огнем либо молнией или видеть невидимых существ, и, что самое важное, их можно убить, не вызвав легендарного смертельного проклятия линнорма. Однако они обладают прожорливым аппетитом, поглощая любое живое существо для подпитки своего быстрого роста. В это время линнорм наиболее уязвим; разведчики, находящие следы молодого линнорма, быстро собирают охотничий отряд из стойких и опытных воинов, чтобы выследить существо и быстро убить его, пока оно не привлекло внимание линнорма-отца.</p>",
+			"descriptionGM": "<h2>Разновидности молодых линнормов</h2>\n<p>Хотя характеристики молодых линнормов подходят для большинства случаев, вы можете персонализировать существо, наделив его умениями и признаками, присущими их взрослым особям.</p>\n<ul><li><strong>Каирновый линнорм</strong> - Иммунитет к кислоте; яд наносит урон кислотой вместо яда; получает Скорость карабканья 30 футов; теряет \"Сжимать\".</lI>\n<li><strong>Скальный линнорм</strong> - Иммунитет к огню; яд наносит урон огнем вместо яда.</lI>\n<li><strong>Фьордовый линнорм</strong> - Иммунитет к холоду; яд наносит урон холодом вместо яда и @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть} вместо истощения.</lI>\n<li><strong>Ледяной линнорм</strong> - Иммунитет к холоду; яд наносит урон холодом вместо яда.</lI>\n<li><strong>Мелководный линнорм</strong> - Иммунитет к огню; яд наносит урон огнем вместо яда.</lI>\n<li><strong>Таежный линнорм</strong> - Иммунитет к электричеству; яд наносит урон электричеством вместо яда; получает \"Шипы (Spines)\"; теряет \"Сжимать\".</lI>\n<li><strong>Каровый линнорм</strong> - Иммунитет к кислоте; яд наносит урон кислотой вместо яда; получает \"Двойной укус (Double Bite)\".</lI>\n<li><strong>Линнорм горных пиков</strong> - Иммунитет к огню; яд наносит урон огнем вместо яда; получает Скорость карабканья 30 футов.</lI></ul>\n<p>Несмотря на их значительную угрозу, если преподнести голову одного из этих молодых линнормов, то воина скорее со смехом вышвырнут из города, чем провозгласят королем. Молодые линнормы, выживающие более нескольких месяцев, становятся огромными, получая элитные корректировки и другие отличительные признаки линнормов, такие как @UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{Истинное зрение} и @UUID[Compendium.pf2e.spells-srd.aqRYNoSvxsVfqglH]{Свобода движений}. К тому времени, когда через год у линнорма появляется атака дыханием и смертельное проклятие, он полностью превращается во взрослую особь.</p>\n<h2>Короли линнормов</h2>\n<p>В легендарных Землях Королей Линнормов, убийство линнорма традиционно является обязательным для тех, кто претендует на корону страны. Однако недавно Король Линнормов Белая Эстрид добилась своей короны, не убив линнорма, а заставив его подчиниться, получив могущественного и опасного союзника, который поможет ей обеспечить свое правление.</p>\n<h2>Смертельные проклятия</h2>\n<p>Смертельные проклятия линнормов часто фигурируют в трагических сагах, и те, кто убив линнорма считали себя героями-покорителями, часто встречают свою погибель вскоре после этого, поддаваясь этим проклятиям уже после смерти линнорма, ответственного за их наложение.</p>\n<h2>Другие линнормы</h2>\n<p>Существуют линнормы самых разных форм, помимо описанных здесь. Огромный каирновый линнорм, колючий таёжный линнорм и водный линнорм фьордов, каждый терроризирует свой определенный регион Материального Плана.</p>\n<h2>Сокровища линнорма</h2>\n<p>Как и истинные драконы, линнормы склонны накапливать в своих логовах огромные кучи сокровищ. Чаще всего эти клады состоят из оружия, снаряжения и вещей потенциальных покорителей, чем из чеканных монет или произведений искусства.</p>\n<h2>Легенды о линнормах</h2>\n<p>Такие могущественные существа, как линнормы, склонны порождать собственные истории, как правдивые, так и выдуманные. Критический провал проверки @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить информацию} о линнормах может предположить, что вы можете избежать смертельного проклятия линнорма, закрыв глаза в момент нанесения последнего удара, или что натирание себя ядовитым дубом может уберечь от внимания линнорма.</p>\n<h2>Новорожденные линнормы</h2>\n<p>Почти все линнормы ведут одиночный образ жизни; они слишком предосудительны, чтобы даже их собственные сородичи могли терпеть их сколько-нибудь долго. Большинство особей даже не встречаются для размножения; самки обычно откладывают одиночное яйцо в отдаленном месте, которое бродячий самец оплодотворяет и помещает в укромное место, подходящее для инкубации. Размеры новорожденных линнормов варьируются от взрослого крокодила до полноразмерных быков, и они очень быстро растут. Даже юный линнорм достаточно силен, чтобы посеять хаос в небольшом поселении, хотя большинство из них не осмеливаются на такой дерзкий поступок, боясь вызвать гнев другого, более крупного линнорма, обитающего поблизости.</p>\n<h2>Отношение к первому миру</h2>\n<p>Линнормы обладают глубокой связью с <a href=https://clck.ru/pxYiq>Первым Миром</a>, первозданным домом <a href=https://clck.ru/saoP4><em>`фей`</em></a>. Хотя линнормы обычно не задумываются, прежде чем сожрать <a href=https://clck.ru/puvaG><em>`гнома`</em></a> или другую <a href=https://clck.ru/saoP4><em>`фею`</em></a>, они с необычным уважением относятся к обладателям мощной <a href=https://clck.ru/jjeJw><em>`природной`</em></a> магии. Согласно общепринятой мудрости, единственный способ угомонить линнорма - напомнить ему, что существуют силы природы, еще более сильные, чем он сам.</p>\n<h2>Более редкие линнормы</h2>\n<p>Хотя описанные здесь линнормы, представляют большинство этих существ, существуют и другие, особенно в отдаленных регионах <a href=https://clck.ru/pxYiq>Первого Мира</a>. Возможно, эти редкие линнормы просто считают <a href=https://clck.ru/pxYdf>Материальный План</a> слишком тесным для своей мощи!</p>",
+			"language": "(Can't Speak Any Language)",
+			"senses": "ночное зрение, сумеречное зрение, нюх (неточное) 60 футов",
+			"hp": "регенерация 5 (отключается от холодного железа)",
+			"ac": "",
+			"allSaves": "+1 состояния ко всем спасброскам от магии",
+			"speed": "",
+			"items": [{
+				"id": "8b6e3g9yq6dtzbxh",
+				"name": "Челюсти"
+			},{
+				"id": "qggdxhacfa9vsyfc",
+				"name": "Коготь"
+			},{
+				"id": "n7a4sgd7e9njj4t9",
+				"name": "Хвост"
+			},{
+				"id": "GyBrnFyF4KqVrCWB",
+				"name": "Сумеречное зрение",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+			},{
+				"id": "LoAdTmnDibgm4odd",
+				"name": "Ночное зрение",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+			},{
+				"id": "6RqMn4YXYfHGw1mZ",
+				"name": "Нюх (неточное) 60 футов",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+			},{
+				"id": "QdgfTTdd3vphQipU",
+				"name": "+1 состояния ко всем спасброскам от магии"
+			},{
+				"id": "GlNrdlhF5QSyL7Ye",
+				"name": "Возможность для атаки (только хвост)",
+				"description": "<p>Только хвост.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+			},{
+				"id": "0VcClEZslJMjfTNM",
+				"name": "Сжимать",
+				"description": "<p>[[/r 2d8+4[bludgeoning]]]{2d8+4 дробящий}, простой спасбросок @Check[type:fortitude|dc:25|basic:true]{Стойкости}.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+			},{
+				"id": "xqt9wc3rotd2clfy",
+				"name": "Яд молодого линнорма",
+				"description": "<p><strong>Спасбросок:</strong> @Check[type:fortitude|dc:25]{Стойкость}</p>\n<p><strong>Макс.продолжительность:</strong> 10 раундов;</p>\n<p><strong>Стадия 1:</strong> [[/r 4d6[poison]]]{4d6 урона ядом} и @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (1 раунд)</p>"
+			},{
+				"id": "TC5iCahqgdFokA9w",
+				"name": "Улучшенный захват",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+			}]
+		},
+		"Fafnheir": {
+			"name": "Фафнир",
+			"description": "<h2>Фафнир, Отец Линнормов.</h2>\n<p>Величайший из всех живущих на Голарионе линнормов, Фафнир пришел в Голарион из Первого Мира десятки тысяч лет назад. На протяжении веков он породил множество низших линнормов, терзающих северные земли, а от его прямого потомства возникло бесчисленное множество других существ. Ныне он обитает в сети пещер, высоко в лесу Грунгир, где собрал одну из величайших сокровищниц Голариона. Любой, кто желает стать королем всех Земель Королей Линнормов, должен убить Фафнира, но его смертельное проклятие особенно сильно и использует жизнь своего убийцы для воскрешения. Еще никому не удавалось убить его, но многие отважные герои погибли, пытаясь стать первыми.</p>\n<p>По его собственным словам, рассказанным просителям, пробиравшимся к его отдаленному логову и умиротворявшим его жертвоприношением людей, быков или овец, он убил в Первом Мире трёх Старейших и заскучав, пришел в Голарион в Эпоху Творения, по большей части просто так, чтобы посмотреть, что происходит за пределами его плана бытия. Оказавшись здесь, он стал исполнять просьбы змеелюдов, которые поклонялись ему как божеству, и обменивался услугами с Рунным Лордом Зандергулом. Он проспал большую часть Эпохи Тьмы, успев к тому времени породить множество поколений себе подобных. Однако ни один из этих рассказов не подтвержден, и некоторые ульфенские скальды предполагают, что Фафнир был вынужден бежать из Первого Мира из-за линормов и других сил, еще более великих, чем он сам.</p>\n<p>Ученые, разбирающиеся в линнормах, рассуждают, как Фафнир мог породить столько разновидностей линнормов, поскольку яйца откладывают только самки этого вида. Нет никаких упоминаний о том, что самки линнормов сопровождали Фафнира при бегстве из Первого Мира, поэтому принято считать, что он бежал в Голарион с одним или несколькими яйцами, которые он оплодотворил и спрятал. Неизвестно как Фафнир заполучил эти яйца, учитывая что самки линнормов откладывают по 1 яйцу за раз. Ульфенские хранители знаний предполагают, что он мог собрать их или украсть, и эта причина могла послужить толчком к внезапному бегству Фафнира из Первого Мира.</p>\n<p>Много веков назад в пророчестве было предсказано, что тот, кто убьет Фафнира, станет королем всех Королевств Линнормов. Долгое время это пророчество гарантировало, что самоуверенные воины, мечтающие стать королем, отправятся в его логово, где их ждет быстрая и ужасная смерть. Так много желающих погибло подобным образом, что некоторые ученые предположили, что Фафнир подделал пророчество, чтобы обеспечить себе постоянное пропитание. Но Эпоха Утраченных Пророчеств сделала и это пророчество ненадежным, создав возможность для таких королей, как Белая Эстрид и Остог Неубитый, сделать заявку на еще более высокий статус, не рискуя противостоять Фафниру.</p>\n<p>Отец Линнормов необычен среди себе подобных тем, что особенно умен и хитер; он помнит тысячелетнюю историю и мудр в вопросах природной и арканной магии. Ходят слухи, что даже во сне Фафнир смутно осознает события, происходящие в лесу Грунгир, и что его сны проявляются в виде спектральных галлюцинаций, которые иногда обретают физическую форму. По этой причине, смертные иногда ищут его мудрости, а не его головы, и хотя Фафнир жесток и абсолютно злобен, также, он тысячелетиями не покидает свое логово и предсказуемо скучает. Посетители, добравшиеся до его логова и принесшие дары, чтобы утолить его голод, могут получить аудиенцию, хотя им лучше говорить быстро и полагаться на лесть. На самом деле Фафнир охотнее выслушивает просителей, которых считает не опасными; герои с длинным списком приключений на своем счету - потенциальные короли линнормов, и Фафнир благоразумно истребляет всех таких индивидов. Но молодые и неопытные герои, столкнувшиеся с древними загадками, которые они не могут разгадать, ищущие затерянные в далеких землях реликвии, или жаждущие знаний о Первом Мире, часто находят просветление в пещере Фафнира - при условии, что они могут отважиться на многочисленные опасности, окружающие это страшное место.</p>\n<p>Он крупнее всех остальных линнормов на Голарионе, обладая длинной 60 футов, а весом - 10 тонн. Фафнир - умное и могущественное существо, достойное страха всех людей в Землях Королей Линнорма.</p>",
+			"descriptionGM": "<h2>Короли линнормов</h2>\n<p>В легендарных Землях Королей Линнормов, убийство линнорма традиционно является обязательным для тех, кто претендует на корону страны. Однако недавно Король Линнормов Белая Эстрид добилась своей короны, не убив линнорма, а заставив его подчиниться, получив могущественного и опасного союзника, который поможет ей обеспечить свое правление.</p>\n<h2>Смертельные проклятия</h2>\n<p>Смертельные проклятия линнормов часто фигурируют в трагических сагах, и те, кто убив линнорма считали себя героями-покорителями, часто встречают свою погибель вскоре после этого, поддаваясь этим проклятиям уже после смерти линнорма, ответственного за их наложение.</p>\n<h2>Другие линнормы</h2>\n<p>Существуют линнормы самых разных форм, помимо описанных здесь. Огромный каирновый линнорм, колючий таёжный линнорм и водный линнорм фьордов, каждый терроризирует свой определенный регион Материального Плана.</p>\n<h2>Сокровища линнорма</h2>\n<p>Как и истинные драконы, линнормы склонны накапливать в своих логовах огромные кучи сокровищ. Чаще всего эти клады состоят из оружия, снаряжения и вещей потенциальных покорителей, чем из чеканных монет или произведений искусства.</p>\n<h2>Легенды о линнормах</h2>\n<p>Такие могущественные существа, как линнормы, склонны порождать собственные истории, как правдивые, так и выдуманные. Критический провал проверки @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить информацию} о линнормах может предположить, что вы можете избежать смертельного проклятия линнорма, закрыв глаза в момент нанесения последнего удара, или что натирание себя ядовитым дубом может уберечь от внимания линнорма.</p>\n<h2>Новорожденные линнормы</h2>\n<p>Почти все линнормы ведут одиночный образ жизни; они слишком предосудительны, чтобы даже их собственные сородичи могли терпеть их сколько-нибудь долго. Большинство особей даже не встречаются для размножения; самки обычно откладывают одиночное яйцо в отдаленном месте, которое бродячий самец оплодотворяет и помещает в укромное место, подходящее для инкубации. Размеры новорожденных линнормов варьируются от взрослого крокодила до полноразмерных быков, и они очень быстро растут. Даже юный линнорм достаточно силен, чтобы посеять хаос в небольшом поселении, хотя большинство из них не осмеливаются на такой дерзкий поступок, боясь вызвать гнев другого, более крупного линнорма, обитающего поблизости.</p>\n<h2>Отношение к первому миру</h2>\n<p>Линнормы обладают глубокой связью с <a href=https://clck.ru/pxYiq>Первым Миром</a>, первозданным домом <a href=https://clck.ru/saoP4><em>`фей`</em></a>. Хотя линнормы обычно не задумываются, прежде чем сожрать <a href=https://clck.ru/puvaG><em>`гнома`</em></a> или другую <a href=https://clck.ru/saoP4><em>`фею`</em></a>, они с необычным уважением относятся к обладателям мощной <a href=https://clck.ru/jjeJw><em>`природной`</em></a> магии. Согласно общепринятой мудрости, единственный способ угомонить линнорма - напомнить ему, что существуют силы природы, еще более сильные, чем он сам.</p>\n<h2>Более редкие линнормы</h2>\n<p>Хотя описанные здесь линнормы, представляют большинство этих существ, существуют и другие, особенно в отдаленных регионах <a href=https://clck.ru/pxYiq>Первого Мира</a>. Возможно, эти редкие линнормы просто считают <a href=https://clck.ru/pxYdf>Материальный План</a> слишком тесным для своей мощи!</p>",
+			"language": "",
+			"senses": "ночное зрение, нюх (неточное) 120 футов, истинное зрение",
+			"hp": "регенерация 20 (отключается от холодного железа)",
+			"ac": "",
+			"allSaves": "+1 состояния ко всем спасброскам от магии",
+			"speed": "свобода движений",
+			"items": [{
+				"id": "olVXH1ynduCQeUm9",
+				"name": "Врожденные природные заклинания"
+			},{
+				"id": "YyHjRdg5DUMcWFlE",
+				"name": "Планарный переход (по желанию) (только в Первый Мир или Материальный План)",
+				"description": "<p>Вы и ваши союзники пересекаете барьеры между планами бытия. Цели перемещаются на другой план, такой как Огненный план, Теневой план или Бездна. Вы должны обладать определенными знаниями о плане назначения и использовать магический камертон, созданный из материала с этого плана, в качестве фокуса для заклинания. В то время как камертоны для большинства известных планов являются необычными, так же как и это заклинание планарного перехода, более смутные планы и демипланы часто имеют камертоны редкого качества.</p>\n<p>Заклинание очень неточное, и вы появляетесь в 1d20×25 милях от последнего места, где одна из целей (по вашему выбору) была расположена в последний раз, когда она путешествовала на этот план. Если это первое путешествие на конкретный план для всех целей, вы появляетесь в случайном месте плана. Планарный переход не обеспечивает способов обратного путешествия, однако сотворение заклинания снова позволяет вам вернуться на ваш предыдущий план, если только нет каких-либо смягчающих обстоятельств.</p>"
+			},{
+				"id": "96UMa0bxtKEr7yJP",
+				"name": "Отражение заклинания (по желанию)",
+				"description": "<p>Эта защита отражает заклинания, направленные на вас, в их заклинателя. Когда заклинание целится в вас, вы можете потратить реакцию, чтобы попытаться отразить его. Это использует правила для <a href=https://clck.ru/TsPmN>Противодействия</a> заклинаний, но если противодействие заклинанию было успешным, его эффект обращается против его заклинателя. В не зависимости от того, было ли противодействие успешным, после этого отражение заклинания заканчивается. <em>Отражение заклинания</em> не может воздействовать на заклинания которые не целятся (такие как заклинания по области).</p>\n<p>Если <em>отражение заклинания</em> отражает заклинание обратно в заклинателя, который так же под эффектом <em>отражения заклинания</em>, то он может отразить свое собственное заклинание обратно в вас; если он это делает, то его попытка противодействия автоматически успешная.</p>"
+			},{
+				"id": "xsVGjzas0RnzcAvb",
+				"name": "Истинное зрение (постоянное)",
+				"description": "<p>Вы видите вещи в пределах 60 футов, такими какие они есть на самом деле. Мастер кидает <a href=https://clck.ru/juoQm><em>`тайную`</em></a> проверку на <a href=https://clck.ru/TsPmN>Противодействие</a> любой <a href=https://clck.ru/jk52u><em>`иллюзии`</em></a> или <a href=https://clck.ru/jjyJJ><em>`трансмутации`</em></a> в области, но только с целью определения видите ли вы через них (например, если проверка была успешной против заклинания <a href=https://clck.ru/jty7e><em>`полиморфа`</em></a>, то вы видите истинную сущность существа, но не заканчиваете действие заклинания <a href=https://clck.ru/jty7e><em>`полиморфа`</em></a>).</p>"
+			},{
+				"id": "T6Z0YF27bUTxz0nA",
+				"name": "Свобода движений (постоянное)",
+				"description": "<p>Вы отталкиваете эффекты, которые бы мешали существу или замедляли его движение. Находясь под действием эффекта этого заклинания, цель игнорирует эффекты которые бы давали ей штраф обстоятельства к Скорости. Когда она пытается @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться} из эффекта дающего состояние @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен}, @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен} или @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаем}, она автоматически преуспевает, если только эффект не магический и большего уровня чем заклинание <em>свобода движения</em>.</p>"
+			},{
+				"id": "svwyv5oxr0pwfphl",
+				"name": "Челюсти"
+			},{
+				"id": "1zz35pwy2lp9jvfk",
+				"name": "Коготь"
+			},{
+				"id": "uyjoe8zddc6rob4d",
+				"name": "Рога"
+			},{
+				"id": "apyvmfhsllaeph0o",
+				"name": "Хвост"
+			},{
+				"id": "akPTisAc4V6YCmxR",
+				"name": "Ночное зрение",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+			},{
+				"id": "N3hgIcOfubuVjlcx",
+				"name": "Нюх (неточное) 120 футов",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+			},{
+				"id": "TmoZWNYh8I5FjuHM",
+				"name": "Заклинания по желанию",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+			},{
+				"id": "1MLwFNFYnkOt5XmV",
+				"name": "Постоянные заклинания",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+			},{
+				"id": "iMrEydMjdLAZcsJ1",
+				"name": "+1 состояния ко всем спасброскам от магии"
+			},{
+				"id": "AIDwG2gAh47TAZLN",
+				"name": "Регенерация 20 (отключается от холодного железа)",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+			},{
+				"id": "mY6LsNRUmIovhhik",
+				"name": "Возможность для атаки (только хвост)",
+				"description": "<p>Только хвост.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+			},{
+				"id": "z63jd6f7tky1s05m",
+				"name": "Проклятие горестной участи",
+				"description": "<p>Когда существо убивает Фафнира, оно становится вместилищем его души, которая медленно выходит из тела его убийцы. Существо должно совершить спасбросок @Check[type:will|dc:52]{Воли}, иначе становится @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Обреченным 2} (@UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Обреченным 1} при успехе, либо невредимым при критическом успехе). Каждый день значение <em>`обреченности`</em> увеличивается на 1, если только существо не получило критический успех спасброска. Если существо умирает, находясь под действием \"Проклятия горестной участи\", его труп взрывается @Template[type:burst|distance:60]{60-футовым взрывом} с эффектом \"Взрывного дыхания\". Фафнир мгновенно возвращается к жизни, в ближайшем к трупу пространстве, с полными ОЗ и без каких-либо состояний. Даже косвенное убийство обычно позволяет Фафниру проклясть душу своего убийцы через метафизическую связь между ними.</p>"
+			},{
+				"id": "doqtr68fycufek4p",
+				"name": "Громадный",
+				"description": "<p>Фафнир занимает пространство 6 на 6 квадратов (30 на 30 футов) и длиной 60 футов.</p>"
+			},{
+				"id": "pcvgmlgibqjv1oq7",
+				"name": "Дополнительные реакции",
+				"description": "<p>Фафнир в начале каждого своего хода получает 2 реакции.</p>"
+			},{
+				"id": "DC4cAo45NhAQcRI0",
+				"name": "Устрашающее присутствие",
+				"description": "<p>@Template[type:emanation|distance:90]{90 футов} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура} спасбросок @Check[type:will|dc:45]{Воли}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+			},{
+				"id": "lojhkbcrhcpj1jd7",
+				"name": "Плевок кипящей крови",
+				"description": "<p><strong>Триггер:</strong> Существо в пределах 60 футов наносит урон Фафниру;</p>\n<hr />\n<p><strong>Эффект:</strong> Фафнир плюет кровью в существо. Оно должно мгновенно совершить спасбросок Стойкости против Кипящей крови.</p>"
+			},{
+				"id": "3t8cgxyo23x69bva",
+				"name": "Взрывное дыхание",
+				"description": "<p>Фафнир выдыхает катастрофический огненный шторм, пронизанный молниями и ураганным ветром, @Template[type:cone|distance:90]{90-футовым конусом}, наносящий [[/r 20d6[fire]]]{20d6 урона огнем} (простой спасбросок @Check[type:reflex|dc:48|basic:true]{Рефлекса}). Еще Фафнир наносит дополнительные [[/r 10d6[electricity]]]{10d6 урона электричеством} 1 существу в области \"Взрывного дыхания\", на свой выбор, а результат определяется тем же спасброском. Существа в области еще должны совершить спасбросок @Check[type:fortitude|dc:48|name:Resist Winds|traits:damaging-effect]{Стойкости}, чтобы сопротивляться мощным ветрам и оглушительным громовым раскатам его дыхания. При провале, существа испытывают эффекты <em>@UUID[Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1]{Порыва ветра}</em>, действующие на существ Большого или меньшего размера, как обычно. Наконец, существа провалившие свой спасбросок Стойкости становятся @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухими} на 1 минуту (постоянно <em>`глухими`</em> при крит.провале).</p>"
+			},{
+				"id": "g54io4oqvawdyhgr",
+				"name": "Кипящая кровь",
+				"description": "<p><strong>Спасбросок:</strong> @Check[type:fortitude|dc:48]{Стойкость}</p>\n<p><strong>Макс.продолжительность:</strong> 10 раундов;</p>\n<p><strong>Стадия 1:</strong> [[/r 6d8[fire]]]{6d8 урона огнем} и @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (1 раунд);</p>\n<p><strong>Стадия 2:</strong> [[/r 6d10[fire]]]{6d10 урона огнем} и @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (1 раунд);</p>\n<p><strong>Стадия 3:</strong> [[/r 6d12[fire]]]{6d12 урона огнем} и @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (1 раунд)</p>"
+			},{
+				"id": "llu71qnpigkzc3qg",
+				"name": "Яростное безумие",
+				"description": "<p>Фафнир в любом порядке наносит 2 \"Удара\" когтями и 1 \"Удар\" челюстями, рогами или хвостом.</p>"
+			},{
+				"id": "jovLZyxPZzRw1Evn",
+				"name": "Улучшенный захват",
+				"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+			},{
+				"id": "wddirglm0koy95q4",
+				"name": "Знания Первого Мира"
+			},{
+				"id": "2uvel7ww7t639k20",
+				"name": "Знания Земель Сказаний"
+			}]
+		},
+		"Ainamuuren": {
+			"name": "Ainamuuren",
+			"description": "<p>Like all saumen kar, Ainamuuren is a large, muscular humanoid with large horns atop his head. Thick, white fur covers everywhere except his face, hands, and feet, which reveal darker skin beneath the fur, covered in an intricate pattern of stylized runes. Unlike other saumen kar, Ainamuuren possess not two but four long, curving horns, jutting from his head like a primal crown. The large, magical greataxe he carries bears intricate, stylized runic patterns that greatly resemble those carved upon his flesh, with the same sharp focus on angular lines and triangular shapes.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "darkvision, scent (imprecise) 30 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "+1 status bonus to saves against evil and necromancy spells and effects",
+			"speed": "",
+			"items": [{
+				"id": "g5vdfh096y8dx0mx",
+				"name": "Секира"
+			},{
+				"id": "oRsxoEAGKTXPLfQi",
+				"name": "Ночное зрение"
+			},{
+				"id": "citx6dy943QreVkJ",
+				"name": "Нокдаун"
+			}]
+		},
+		"Collapsing Structure": {
+			"name": "Collapsing Structure",
+			"hp": "",
+			"items": [{}]
+		},
+		"Crystal Pin": {
+			"name": "Crystal Pin",
+			"hp": "",
+			"items": [{}]
+		},
+		"Cuetzmonquali": {
+			"name": "Cuetzmonquali",
+			"description": "<p>Though stories call it the Burning Dragon, Cuetzmonquali is a unique creature with no draconic heritage. Cuetzmonquali resembles an enormous reptile with large frills, two tails ending in massive stingers, and scales that appear to be made of burning flame. Cuetzmonquali is capable of growing any number of horns from its head, on which it can impale and trap its enemies. Each horn grows in a burst of searing flame that burns flesh and scales and results in a blackened obsidian spike jutting from its forehead. These horns molt off occasionally, leaving behind warnings of the beast's presence.</p>\n<p>In combat, Cuetzmonquali is a terrifying foe who uses its horns to skewer foes, unleashes white-hot blasts of flame to devastate those who don't approach, and injects a potent burning venom that ignites a foe from within their own body, sapping their strength. Against groups of weaker foes, it simply tramples them to death underfoot. Anyone courageous enough to face Cuetzmonquali and powerful or cunning enough to slay the creature can lay claim to the treasure that lies in its belly: the legendary artifact known as the <em>Spear of the Destroyer's Flame</em>.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "greater darkvision, scent (imprecise) 60 feet, smoke vision",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "y4hltucco4pc25sm",
+				"name": "Когти"
+			},{
+				"id": "viEBhTPAYMtHhMlO",
+				"name": "Сильное ночное зрение"
+			},{
+				"id": "o71q4UREMfDCHPAn",
+				"name": "Возможность для атаки"
+			},{
+				"id": "2p5py5os1vk83n8k",
+				"name": "Атака дыханием"
+			},{
+				"id": "YSixpv8c2E3BBnDS",
+				"name": "Сжимать"
+			},{
+				"id": "90yzeQFbYxJFIiXF",
+				"name": "Растоптать"
+			},{
+				"id": "v3oUc7CpK7fLfOLy",
+				"name": "Улучшенный захват"
+			}]
+		},
+		"Desert's Howl": {
+			"name": "Desert's Howl",
+			"description": "<p>Desert's Howl is a towering, gray abomination with a shape vaguely similar to that of a bearded man with glowing yellow eyes, long ibex horns, deadly black claws, and cloven hooves. These features have sometimes caused those who encounter it to mistake it for some kind of fiend, a fatal mistake likely to lead to their demise, as Desert's Howl is in truth a twisted aberration composed of a disgusting mix of nightmares, smoke, and ash. As such, holy water and other measures that might be effective against fiends have no effect on Desert's Howl.</p>\n<p>According to the oral histories of the people who have survived in the Thuvian desert the longest, when Desert's Howl first appeared, it was in much the same shape but no larger than a human. Over time, its proportions lengthened and grew, as did its frightening abilities and appetite for suffering.</p>\n<p>Given the incredible range on Desert's Howl's namesake desolate exclamation, creatures are much more likely to hear Desert's Howl than see it. Though such forewarning potentially gives distant creatures additional time to prepare to face or escape the creature, Desert's Howl enjoys the steady build-up of fear that this approach allows, potentially breaking its victims' resolve long before it even appears. Besides, a creature of its power has little to fear from travelers, or even most adventurers, regardless of how much time they have to prepare. In the end, a greater struggle just makes destroying them all the sweeter.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision, fear scent 120 feet",
+			"hp": "regeneration 30 (deactivated by cold)",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "tRo1oDuKuFaS0o66",
+				"name": "Сильное ночное зрение"
+			},{
+				"id": "ELSkb0e9jzVn0q8E",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "ZD7cHylyiCQZFOco",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "OopegBXq4dNWcL5u",
+				"name": "Улучшенный захват"
+			}]
+		},
+		"Grisantian Lion": {
+			"name": "Grisantian Lion",
+			"description": "",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "low-light vision, scent (imprecise) 60 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "NVZaM135vnuYRbSO",
+				"name": "Сумеречное зрение"
+			},{
+				"id": "SbsDaImCI4BsHZJm",
+				"name": "Раздирать"
+			},{
+				"id": "TrvSXq6mPFlsP0lp",
+				"name": "Захват"
+			}]
+		},
+		"Grogrisant": {
+			"name": "Grogrisant",
+			"description": "<p>Grogrisant is an enormous lion with multiple eyes and a golden, glowing mane. As it was originally slain by Taldor's founding emperor, the legendary hero Taldaris, Grogrisant's appearance marks both danger for the people of Taldor and the potential for Taldans to prove their might against a creature from their fabled past. How it continues to appear time and time again remains a mystery, one that Taldan scholars continuously attempt to decipher.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, low-light vision, scent (imprecise) 60 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "q8DCTjTqC3iJPL33",
+				"name": "Сумеречное зрение"
+			},{
+				"id": "DxYScFy3vhncNVah",
+				"name": "Ночное зрение"
+			},{
+				"id": "lLLlYQM0bVSJaMuv",
+				"name": "Постоянные заклинания"
+			},{
+				"id": "PLMG5zFUObMCLLwn",
+				"name": "Раздирать"
+			},{
+				"id": "tiyG6uib1CPLk1sq",
+				"name": "Улучшенный захват"
+			}]
+		},
+		"Howling Spawn": {
+			"name": "Howling Spawn",
+			"description": "<p>While Desert's Howl is presumed to be unique, given its inexplicable origin, there have been reports of creatures resembling Desert's Howl that stalk the sands of Thuvia. Though quite similar to the descriptions of Desert's Howl, they seem to be individuals who haven't yet fully completed their transformation into the terrifying beast. Whether these unfortunate people met a cruel fate similar to that which spawned Desert's Howl or are spawn of the nightmarish creature itself is unclear. Some reports of encounters with these creatures note that it's possible to revert the creature back to its humanoid form by cleansing its mind of nightmarish visions, though there's no solid evidence of such an event ever occurring.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "darkvision, fear scent 60 feet",
+			"hp": "regeneration 20 (deactivated by cold)",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "44cnuujVLM25YtT2",
+				"name": "Ночное зрение"
+			},{
+				"id": "35VyXuDo2nbYzuDM",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "6ftXNwYf4ZvjZwW0",
+				"name": "Захват"
+			}]
+		},
+		"Imperfect Automaton": {
+			"name": "Imperfect Automaton",
+			"description": "",
+			"descriptionGM": "",
+			"language": "one language depending on its mortal life; telepathy 30 feet",
+			"senses": "darkvision",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "id4o8xnz4rsjvbw3",
+				"name": "Кулак"
+			},{
+				"id": "e12wj19aopdcbp56",
+				"name": "Energy Beam"
+			},{
+				"id": "bx38jxjHpbtTvxcl",
+				"name": "Захват"
+			}]
+		},
+		"Kallas Devil": {
+			"name": "Kallas Devil",
+			"description": "<p>Bearing a resemblance to the flayed nuckelavee that lurks in stagnant swamps, the Kallas Devil distinguishes herself by being able to separate herself from her mount without issue, as well as with her powers of disguise and subtlety. Though her wicked trident and violent fury are enough to sear her image into the minds of the local people, it's the Kallas Devil's ability to slip unseen among her would-be victims that elevates the creature beyond the ranks of a common horror. No matter how careful the residents of Riverton are with their youth and the vulnerable, the Kallas Devil claims her chosen target more often than not, luring the hapless victim toward doom while wearing a smiling child's face.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "darkvision, lifesense (imprecise) 30 feet, wavesense (imprecise) 30 feet; see invisibility",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "tyvo7ikid2evukk0",
+				"name": "Devil's Trident"
+			},{
+				"id": "gn5b3ptfqh5ignxs",
+				"name": "Devil's Trident"
+			},{
+				"id": "PdKOfMH4yJ5GTa6U",
+				"name": "Ночное зрение"
+			},{
+				"id": "MCcVX6PtHEyiHZLg",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "McKRSO8vxFmuQ5Pe",
+				"name": "Постоянные заклинания"
+			},{
+				"id": "dvz3t1v2gys82jum",
+				"name": "Ковен"
+			},{
+				"id": "KplPPIqx5pbfKMDe",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "9yxfoilnjfcr0kt1",
+				"name": "Водная засада"
+			},{
+				"id": "1hVYGo6Mjju8l32N",
+				"name": "Изменение формы"
+			},{
+				"id": "bnvvcc2DPbWtldX6",
+				"name": "Захват"
+			}]
+		},
+		"Kothogaz, Dance Of Disharmony": {
+			"name": "Kothogaz, Dance Of Disharmony",
+			"description": "<p>Kothogaz is a towering horror of claws and eyes, surrounded by swarming insects.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, scent (imprecise) 120 feet",
+			"hp": "regeneration 30",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "wDxLf8PuuHDskHZ0",
+				"name": "Ночное зрение"
+			},{
+				"id": "MZ7LW1F9UrJDPsv4",
+				"name": "Возможность для атаки"
+			},{
+				"id": "C312jfT2yvSypyS8",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "J11YMgiyLH5Lz05g",
+				"name": "Проглотить целиком"
+			},{
+				"id": "rnulENB7MxSPIsF7",
+				"name": "Улучшенный захват"
+			}]
+		},
+		"Krampus (The Horned Miser)": {
+			"name": "Krampus (The Horned Miser)",
+			"description": "<p>Krampus is a tall, goatlike humanoid with a pointed nose, swept-back horns, and hooved feet. His long, greasy tongue continually flickers out from his mouth, occasionally licking droplets of spittle from his dark brown fur. He wields a set of iron chains that act as an extension of his will. Krampus is never seen without a wicker basket draped over one shoulder, its bottom often stained with the blood of his victims. Krampus stands a little over 14 feet tall and weighs nearly 1,000 pounds.</p>\n<p>Krampus's origin is unknown; residents of the small towns and villages he terrorizes in northern Irrisen believe the creature has always existed, coming forth once a year to punish those he deems wicked. While many legends have been told about Krampus's beginning, the most popular of them starts with a handful of mountain towns under the protection of a circle of druids. After a series of harsh winters that the townsfolk barely survived, they began to doubt the power of the druids and their rituals. As the villagers grew more resentful, the druid circle took drastic action. Under the light of a blue moon, the druids opened an imperfect portal to the primal realm of the fey and called forth the most powerful spiritual essence they could, and a new creature was born-Krampus. However, unknown to the druids, the portal had been corrupted by the villagers' bitter resentment and doubt. Instead of a central figure to lead them in winter celebrations, as they had hoped, the druids had spawned a monster who sought to punish those who had behaved selfishly during lean times.</p>\n<p>Recognizing their error, the druids sought to banish their creation. They tracked Krampus down as he slept and shackled him in cold iron chains, hoping to subdue him and force him back to the First World. But Krampus was no fey, and cold iron held no power over him. When he awoke, he ripped the chains free, claimed them as his own, and tracked down the druids who had dared try to capture him. After their betrayal, Krampus can see no good in any mortal and longs only to punish the wicked for their selfish misdeeds.</p>\n<p>To this day, Krampus takes vicious delight in transforming his victims into the petulant children before killing them, and no manner of sacrifice can appease him. Luckily for any nearby villages, Krampus stalks their streets but once a year.</p>\n<p>Locals believe that Krampus makes his lair among the deep crevasses of ice somewhere within the Winterwall Glacier, which lines Avistan's northernmost reaches. No adventurer has yet braved the treacherous expanse to find and defeat him.</p>\n<p>While Krampus is most infamous for tracking and punishing the naughty, his own sins often inform his vindictive responses to others' misdeeds. An incarnation of Krampus who arose from irrepressible greed might possess abilities that better reflect his fierce miserly behavior, emphasizing less the abduction of miscreants and more the disproportionate punishment of thieves and robbers. Such a variant Krampus might arise in different cultures that tell different stories about Krampus, or Krampus's powers and nature might drift between incarnations each time he is defeated and arises anew elsewhere in the world the following year. In these cultures or incarnations, Krampus represents a remorseless yet generous spirit who's willing to grant boons to the truly worthy while tormenting any who fail his morality tests.</p>\n<p>Unfortunately for people in regions terrorized by this Krampus, his definition of \"any who fail his morality tests\" tend to be nearly everyone but the most innocent and generous of people.</p>",
+			"descriptionGM": "",
+			"language": "Tongues",
+			"senses": "blizzard sight, scent (imprecise) 60 feet, thief scent (imprecise) 1 mile, see invisibility",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "air walk, snowstep",
+			"items": [{
+				"id": "2KYuE80DPoFkgFGT",
+				"name": "Шипастая цепь"
+			},{
+				"id": "vct7Th4oUyktL8WO",
+				"name": "Постоянные заклинания"
+			},{
+				"id": "4j8tGzWuHcBuRSsZ",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "j67aVe855G3FeDEO",
+				"name": "Улучшенный захват"
+			}]
+		},
+		"Krampus Celebrant": {
+			"name": "Krampus Celebrant",
+			"description": "",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "darkvision, scent (imprecise) 30 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "snowstride",
+			"items": [{
+				"id": "XrFqCSf0tq7GMXfr",
+				"name": "Ночное зрение"
+			},{
+				"id": "3ecSXcCNVQZlts7c",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "xauihcm6qasf0qgh",
+				"name": "Vandal"
+			},{
+				"id": "WeZPle87zoSEGq5J",
+				"name": "Захват"
+			}]
+		},
+		"Kuworsys": {
+			"name": "Kuworsys",
+			"description": "<p>At a distance, the creature known as Kuworsys might be mistaken for a crawling undead hand, possessed of two thumbs instead of one. These \"thumbs\" are actually the being's hind limbs, which it can clumsily stand upon should it choose. Each of its fingerlike limbs bears a smaller hand on the end, giving Kuworsys an eerie gait possessed of too many moving joints. Wedged within the wrist-shaped tissue that makes up the creature's head are three bloodshot eyes, glaring balefully from lids twisted into shape from ropes of flesh.</p>\n<p>Whether part of its base nature or due to its long imprisonment, Kuworsys appears to be skinned and rotting, its body riddled with ragged holes held together by raw sinew. Despite its glistening and putrid appearance, it isn't undead, nor does it leave any trace of blood or gristle in its wake. Those who believe its condition might slow it down are often shocked by the creature's jittering speed, and those who believe they might be able to track it by the scent of rotting flesh find themselves inhaling the beast's deadly, exhausting spores instead.</p>\n<p>When encountering another creature, Kuworsys doesn't approach initially, instead observing the stranger while hidden or at a distance. While it might grow bolder and approach to examine or provoke another being, it prefers to avoid direct confrontation and is intelligent and stealthy enough to deftly avoid discovery. Its presence proves deadly enough, even without any further aggression, as those who Kuworsys stalks eventually succumb to a lethal lethargy.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "+26 vs. traps, infect scent (imprecise) 60 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "wxrs4twqxamooh1m",
+				"name": "Праща"
+			}]
+		},
+		"Melfesh Monster": {
+			"name": "Melfesh Monster",
+			"description": "<p>Each Melfesh Monster is unique at any given time since the parent fungus only gives birth to a single monster at once, and each of these creations works a little differently and looks a little different from the last. However, their forms all bear similarities. A twisting mass of creeping vines creates the bulk of a Melfesh Monster's body, sculpted into a towering figure that can glide effortlessly across the ground. Mossy growths and trumpeting fungi cover the creature like matted fur, dripping from its back and shoulders in excess. A hood of dampened bark and thick moss covers its face, revealing only a crusty wooden jaw and a pair of gleaming red eyes. An acrid stench of burning manure follows the creature, often serving as the only warning that anyone gets before it attacks.</p>\n<p>Despite their fungal nature, Melfesh Monsters are undamaged by their own jets of flame and resistant to fires set by others, often surprising hunters who paid too little attention to the legends before encountering the creature. Their terrifying spores also mean that most survivors of their attacks tend to be disoriented and delirious, relating accounts of the monster that are distorted by confusion and fear. This, along with the natural variance between different Melfesh Monsters, means that even the most diligent of researchers will come across contradictory evidence. Even if they learn from all the prior information collected over the years, they're still often caught off guard when trying to hunt down and fell the threat since the new Melfesh Monster might have an ability never seen before. The canniest researchers, when faced with the seemingly contradictory evidence, speculate that the creature might evolve or change over time, which is closer to the truth but still falls short.</p>",
+			"descriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "sporesight 100 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "6ekg94qcp43g0pwy",
+				"name": "Spore Cloud"
+			}]
+		},
+		"Mosquito Witch": {
+			"name": "Mosquito Witch",
+			"description": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>",
+			"descriptionGM": "",
+			"language": "speak with animals",
+			"senses": "darkvision, swarmsense (imprecise) 30 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "0iFOo30bLuKDuEi1",
+				"name": "Укус"
+			},{
+				"id": "hurxa5aGs4Afv0g1",
+				"name": "Ночное зрение"
+			},{
+				"id": "JMixf4Jehvf8B5F0",
+				"name": "Wild Empathy"
+			},{
+				"id": "iX6VJgGNpPw2jGIf",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "qX64mpf4UMVhGW9x",
+				"name": "Постоянные заклинания"
+			}]
+		},
+		"Mosquito Witch (The Hemoprophet)": {
+			"name": "Mosquito Witch (The Hemoprophet)",
+			"description": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Hemoprophet</h2>\n<p>Already versed in several folk divinations like dowsing and reading patterns in windblown winnowed husks, Shimmerford residents swiftly attributed divinatory powers to the Mosquito Witch.</p>\n<p>This \"hemoprophet\" aspect can supposedly smell conundrums, and she visits those facing difficult decisions or mysteries in their dreams. The witch offers an answer to the dreamer's deepest question, and if the dreamer accepts, the witch drinks their blood as they sleep, tastes their options, and leaves an answer nearby, written with some of the stolen fluids. This Mosquito Witch isn't necessarily malicious, but neither does she worry about draining too much or painting embarrassing blood-truths for all of Shimmerford to see. The blood's weight makes her footfalls heavy, and hunters often remark that especially deep tracks left by anyone are \"heavy with answers\" in homage to the Witch.</p>",
+			"descriptionGM": "",
+			"language": "speak with animals",
+			"senses": "darkvision, swarmsense (imprecise) 30 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "0iFOo30bLuKDuEi1",
+				"name": "Укус"
+			},{
+				"id": "hurxa5aGs4Afv0g1",
+				"name": "Ночное зрение"
+			},{
+				"id": "JMixf4Jehvf8B5F0",
+				"name": "Wild Empathy"
+			},{
+				"id": "iX6VJgGNpPw2jGIf",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "qX64mpf4UMVhGW9x",
+				"name": "Постоянные заклинания"
+			}]
+		},
+		"Mosquito Witch (The Legion Leech)": {
+			"name": "Mosquito Witch (The Legion Leech)",
+			"description": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Legion Leech</h2>\n<p>Mosquitoes are parasites. Like her namesake, the Mosquito Witch wanders the world before alighting in an unguarded area to drain it of life and happiness. Once sated, she withdraws to digest her stolen vitality.</p>\n<p>This Legion Leech is associated with inexplicable wasting sicknesses, bloodseekers bold enough to carry off lambs, and ravenous mosquito swarms that cover and drain a bull dead in moments. Whereas other aspects are occasionally helpful or curious, the Legion Leech cares for little beyond snuffing out life.</p>",
+			"descriptionGM": "",
+			"language": "speak with animals",
+			"senses": "darkvision, swarmsense (imprecise) 30 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "0iFOo30bLuKDuEi1",
+				"name": "Укус"
+			},{
+				"id": "hurxa5aGs4Afv0g1",
+				"name": "Ночное зрение"
+			},{
+				"id": "JMixf4Jehvf8B5F0",
+				"name": "Wild Empathy"
+			},{
+				"id": "iX6VJgGNpPw2jGIf",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "qX64mpf4UMVhGW9x",
+				"name": "Постоянные заклинания"
+			}]
+		},
+		"Mosquito Witch (The Swarm Seer)": {
+			"name": "Mosquito Witch (The Swarm Seer)",
+			"description": "<p>The Mosquito Witch is a humanoid figure with unpleasant, waxy skin. She always seems to have her head bowed and her shoulders hunched, a mane of unkempt black hair hiding all of her face save for a pair of unblinking red eyes and a long, sharp tongue that's as stiff and pointed as a proboscis. Fleshy, ribbed mosquito wings protrude from her back. She has six handless arms that taper into malformed points, which she keeps clutched to her chest like the legs of an insect's pupae. Her spindly legs also taper into points; when bloated from feeding, she must run on all eight limbs, which leave small holes in the ground as tracks.</p>\n<h2>The Swarm Seer</h2>\n<p>Few have seen the Mosquito Witch, yet almost everyone has suffered her namesake vermin at some point in time. Shimmerford summer skies shimmer with flies hatching from the river and myriad creeks, and \"wherever pests fly, the Witch can spy.\" In her Swarm Seer aspect, the Mosquito Witch is a haunting predator and verminous voyeur whose sanguineous appetites are equal to her fascination with societies. She keeps tabs on every inhabitant with parasocial glee, obsessing over their superstitions and abandoned trinkets-especially any representations of herself.</p>\n<p>This Mosquito Witch rarely acts with outright malice or to bring direct harm to those around her. However, her haunting appearance, alien values, and tendency to express emotions with sky-blotting swarms inspires terror in her neighbors. Depending on the circumstances she might represent a fearsome and ineffable ally, a demigod of fecundity, or a terrible foe who long ago lost patience with humanity.</p>",
+			"descriptionGM": "",
+			"language": "speak with animals",
+			"senses": "darkvision, swarmsense (imprecise) 100 feet, swarmsight (precise) 20 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "0iFOo30bLuKDuEi1",
+				"name": "Укус"
+			},{
+				"id": "hurxa5aGs4Afv0g1",
+				"name": "Ночное зрение"
+			},{
+				"id": "JMixf4Jehvf8B5F0",
+				"name": "Wild Empathy"
+			},{
+				"id": "iX6VJgGNpPw2jGIf",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "qX64mpf4UMVhGW9x",
+				"name": "Постоянные заклинания"
+			}]
+		},
+		"Planar Tear": {
+			"name": "Planar Tear",
+			"hp": "",
+			"items": [{}]
+		},
+		"Quaking Slither": {
+			"name": "Quaking Slither",
+			"hp": "",
+			"items": [{}]
+		},
+		"Somnalu": {
+			"name": "Somnalu",
+			"description": "<p>With its lithe, sinuous body and a flexible, twisting spine, Somnalu bears a resemblance to a giant lizard, save for its striking visage. Spiny frills run down the creature's mottled black back, interlaced with dull red stripes that streak from head to tail. Its two sets of forelimbs are bound to each other by small webs of skin. Its distinctive face lacks any visible mouth, nose, or ears, instead possessing only a huge red eye surrounded by six smaller, secondary eyes.</p>",
+			"descriptionGM": "",
+			"language": "Can't Speak Any Language; Telepathy 60 feet",
+			"senses": "greater darkvision, sleep scent (imprecise) 60 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "GJfVPSI8F9jNbRlK",
+				"name": "Сильное ночное зрение"
+			},{
+				"id": "glcioqtbc3vb4ph9",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "aGTy9BdANkUxx360",
+				"name": "Улучшенный захват"
+			}]
+		},
+		"Somnalu Oculus": {
+			"name": "Somnalu Oculus",
+			"description": "<p>When Somnalu is defeated, its central eye abandons its dying body to create an ethereal body from the wisps of dreams. Over centuries-or sooner, if it can find a powerful source of nightmares-it can re-form a full body and return to its corporeal self.</p>",
+			"descriptionGM": "",
+			"language": "Can't Speak Any Language; Telepathy 60 feet",
+			"senses": "greater darkvision, true seeing",
+			"hp": "regeneration 10 (deactivated by mental)",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "6mL9w2GtwGkSEto6",
+				"name": "Сильное ночное зрение"
+			}]
+		},
+		"Spawn Of Kothogaz": {
+			"name": "Spawn Of Kothogaz",
+			"description": "<p>Kothogaz's presence causes the land to sprout festering hives. Insectile, acid-drooling spawn slither from these growths as lesser versions of their creator.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "",
+			"hp": "regeneration 10 (deactivated by good)",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{}]
+		},
+		"Spectral Devil": {
+			"name": "Spectral Devil",
+			"description": "",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision, scent (imprecise) 30 feet",
+			"hp": "negative healing",
+			"ac": "",
+			"allSaves": "+1 status to all saves vs. magic",
+			"speed": "",
+			"items": [{
+				"id": "VAiC8RjXYyj4mg5l",
+				"name": "Сильное ночное зрение"
+			},{
+				"id": "HQPfbyHso7FMMk1U",
+				"name": "Негативное исцеление"
+			},{
+				"id": "3y4grxqduw8smrrg",
+				"name": "Восстановление"
+			},{
+				"id": "FZOeInuA5uaA7PVK",
+				"name": "Растоптать"
+			}]
+		},
+		"Spring-Heeled Jack": {
+			"name": "Spring-Heeled Jack",
+			"description": "<p>The greatest secret of the murderous trickster known as Spring-Heeled Jack is that he isn't a unique creature. Instead, he's one of a rare type of fey native to the First World who enjoy causing bloody mayhem in the Material Plane. These fey are so rare and so distrustful of one another's company that two have never been seen together; the mistaken assumption that only a single Spring-Heeled Jack exists is therefore entirely understandable. The fact that sightings occur across Ustalav (and beyond) and across centuries of time is ascribed to the trickster's long lifespan and mysterious ability to travel quickly, or to the belief that there's no such creature, merely an urban legend that twisted minds attempt to bring to life through costumes, magic, and a series of murders and mayhem. Even in fear-drenched Ustalav, no one has yet guessed that multiple Spring-Heeled Jacks exist or postulated that some future event might drive them to overcome their mutual disdain and gather into a murderous cabal, far more powerful than the sum of its parts.</p>\n<p>Spring-Heeled Jacks are cruel-eyed, hairy fey with vaguely humanoid shapes and extra features that cause them to be easily mistaken for demons or devils. Glowing eyes, cloven hooves, menacing horns, and a pointed tail combine to create the mien of a wicked imp; his love of sudden and sadistic violence completes the impression. Almost all have jet-black skin and fur, though a few exceptions might exist.</p>\n<p>Spring-Heeled Jacks typically hide their features in tattered cloaks, appearing as a hunched elder or a youth in the nighttime conditions they enjoy. Such a disguise rarely holds up to any scrutiny, but that doesn't matter much to the Spring-Heeled Jack, who only needs something that offers just enough doubt for their target to move within striking distance, which can be from much farther away than most other creatures even realize. Once close enough, the Spring-Heeled Jack leaps startling distances in the blink of an eye to easily slash at a victim who had, until that moment, considered themself safe.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "low-light vision",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "whyr1s5y9sy8683e",
+				"name": "Little Love"
+			},{
+				"id": "p2bi38bko79wqvho",
+				"name": "Little Love"
+			},{
+				"id": "fkoUyElXVTPmWYkv",
+				"name": "Сумеречное зрение"
+			},{
+				"id": "XtaSeknLWau5BnfM",
+				"name": "Заклинания по желанию"
+			},{
+				"id": "doSenmQTkKGl6jFO",
+				"name": "Постоянные заклинания"
+			},{
+				"id": "THVTYHIQn7eM7KpS",
+				"name": "Возможность для атаки"
+			},{
+				"id": "tRNJFT4ARw8LJsqY",
+				"name": "Устрашающее присутствие"
+			},{
+				"id": "xm2oerr04zipy1wn",
+				"name": "Атака дыханием"
+			}]
+		},
+		"Storm Discharge": {
+			"name": "Storm Discharge",
+			"hp": "",
+			"items": [{}]
+		},
+		"Taljjae": {
+			"name": "Taljjae",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "io6N5juptjCl3vCO",
+				"name": "Ночное зрение"
+			}]
+		},
+		"Taljjae (The Beast)": {
+			"name": "Taljjae (The Beast)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>With this mask, Taljjae assumes a low stance and gathers power.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "W6ypDZ4KL8XzCx7C",
+				"name": "Ночное зрение"
+			},{
+				"id": "QBCzdpVPaZNg9pxC",
+				"name": "Раздирать"
+			},{
+				"id": "NvQMQAvLV3KT3Chd",
+				"name": "Нокдаун"
+			}]
+		},
+		"Taljjae (The General)": {
+			"name": "Taljjae (The General)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>Carved scars mark the face of this severe mask, which gives Taljjae the skill at arms of a veteran commander.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "LdogBNXVi8yADxNd",
+				"name": "Глефа"
+			},{
+				"id": "B7w7Yfb8BQPBzDHN",
+				"name": "Ночное зрение"
+			},{
+				"id": "QrIbKsj0LZW93voU",
+				"name": "Возможность для атаки"
+			}]
+		},
+		"Taljjae (The Grandmother)": {
+			"name": "Taljjae (The Grandmother)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>The kind eyes of this mask sap any attackers' will to fight while granting Taljjae powerful supportive magic.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "TfDtvyUAD19259NP",
+				"name": "Ночное зрение"
+			}]
+		},
+		"Taljjae (The Hermit)": {
+			"name": "Taljjae (The Hermit)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>This wizened male face draws upon the powers of a true sage</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "9uJErvNjBtlCsHz1",
+				"name": "Ночное зрение"
+			}]
+		},
+		"Taljjae (The Hero)": {
+			"name": "Taljjae (The Hero)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>The eyes of this female face seem to glint with determination.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "Ivzy3JEhQdWZjOOm",
+				"name": "Длинный лук"
+			},{
+				"id": "vZIQHxHvenAEQU6K",
+				"name": "Ночное зрение"
+			},{
+				"id": "7syCFyzM9v6F7bje",
+				"name": "Double Shot"
+			}]
+		},
+		"Taljjae (The Nobleman)": {
+			"name": "Taljjae (The Nobleman)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>This twisted mask mocks members of the nobility for their parasitic greed.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "c8bHDXybaDOkqIUY",
+				"name": "Ночное зрение"
+			}]
+		},
+		"Taljjae (The Wanderer)": {
+			"name": "Taljjae (The Wanderer)",
+			"description": "<p>The form of Taljjae's body can vary from visit to visit or even moment to moment, but it's easily recognized due to its signature cloak and masks. So long as Taljjae's mood is placid, it can be approached safely, but its mercurial temperament can be hard to predict.</p>\n<p>The slightly upturned smile of this mask depicts a sense of joy and wonder at travel and new experiences.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, jelly sense 120 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "air walk, freedom of movement,",
+			"items": [{
+				"id": "PpkSuVPgX2XIBqUB",
+				"name": "Посох"
+			},{
+				"id": "xlDVZt9SxdS1TC8c",
+				"name": "Ночное зрение"
+			},{
+				"id": "Az0aJNmFsTawPaap",
+				"name": "Постоянные заклинания"
+			},{
+				"id": "YbHqV9VoW0K0FgtR",
+				"name": "Внезапная атака"
+			}]
+		},
+		"Tehialai-Thief-of-Ships": {
+			"name": "Tehialai-Thief-of-Ships",
+			"description": "<p>Though her current form is but a small and pale shell of her former glory, Tehialai is a legend even in her waning days. The titanic crustacean wears the hulls of ruined ships as her shell, ripped into shape by vessel-rending claws, as nothing else in Golarion's oceans is large enough to shield her body-or perhaps nothing else will satisfy her. Few ships can withstand her might, and fewer still are prepared for her appearance. Those who don't know of the thief of ships won't know to watch for her coming, and those who do know Tehialai offer her tribute to ward off her predation.</p>",
+			"descriptionGM": "",
+			"language": "",
+			"senses": "darkvision, wavesense 60",
+			"hp": "Hardness 10 (Ship Armor)",
+			"ac": "",
+			"allSaves": "+2 status to all saves vs. water",
+			"speed": "",
+			"items": [{
+				"id": "M5d0cFGYLOpO7AXZ",
+				"name": "Ночное зрение"
+			}]
+		},
+		"Temteki": {
+			"name": "Temteki",
+			"description": "<p>Though it superficially resembles a cypress tree and is easily mistaken for an arboreal or other similar plant creature, Temteki is actually an earth elemental, a creature of living earth and stone. In normal situations, Temteki is content to remain still and blend into the jungle when observing other creatures, using its natural camouflage to assist in harrying those it considers interlopers disturbing its home. Temteki usually dissuades such intruders with a combination of surprise attacks and nonlethal snares; the elemental is more interested in getting them to leave than in dealing them any permanent harm. However, to those who prove determined to harm Temteki or its home, Temteki can be an implacable foe. Temteki's asymmetrical gait and appearance often alarm and confuse creatures who aren't expecting to spot it, especially since it's surprisingly stealthy for its size and appearance.</p>",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, tremorsense (imprecise) 60 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "earth glide",
+			"items": [{
+				"id": "b0ftCWOzTpM9CHoV",
+				"name": "Ночное зрение"
+			},{
+				"id": "ZNUo6g3HspqnzbiZ",
+				"name": "Толчок"
+			}]
+		},
+		"Ulgrem-Axaan": {
+			"name": "Ulgrem-Axaan",
+			"description": "",
+			"descriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, wavesense (imprecise) 60 feet",
+			"hp": "negative healing",
+			"ac": "",
+			"allSaves": "+2 status to all non-primal emotion effects",
+			"speed": "",
+			"items": [{
+				"id": "4gSa2w72sITXYSsh",
+				"name": "Ночное зрение"
+			},{
+				"id": "2w2YBltXxvoygMgQ",
+				"name": "Негативное исцеление"
+			},{
+				"id": "WIg3TixkTgNXldTm",
+				"name": "Свирепость"
+			},{
+				"id": "MzYAR7cFUNM0wjNf",
+				"name": "Водная засада"
+			},{
+				"id": "0mRtyM1kEJir35q1",
+				"name": "Проглотить целиком"
+			},{
+				"id": "C91Hh7jBVz4M7zvH",
+				"name": "Захват"
+			}]
+		},
+		"Ulgrem-Lurann": {
+			"name": "Ulgrem-Lurann",
+			"description": "",
+			"descriptionGM": "",
+			"language": "can't speak",
+			"senses": "darkvision",
+			"hp": "",
+			"ac": "",
+			"allSaves": "",
+			"speed": "",
+			"items": [{
+				"id": "C8rcuoyKncxzG1XP",
+				"name": "Ночное зрение"
+			},{
+				"id": "aAgbtcFrEiIFWF2V",
+				"name": "Возможность для атаки"
+			},{
+				"id": "8v81gms2q5chj3ux",
+				"name": "Проглотить целиком"
+			},{
+				"id": "JcawEYIWCeSQQoRt",
+				"name": "Захват"
+			}]
+		},
+		"Ulistul": {
+			"name": "Ulistul",
+			"description": "",
+			"descriptionGM": "",
+			"language": "telepathy 100 feet",
+			"senses": "darkvision, statuesense (imprecise) 60 feet",
+			"hp": "",
+			"ac": "",
+			"allSaves": "+2 status to all saves vs. effects created by constructs",
+			"speed": "",
+			"items": [{
+				"id": "ue6gij3jwtdyh4ey",
+				"name": "Кулак"
+			},{
+				"id": "h5bgzsm0jttoq8b9",
+				"name": "Energy Beam"
+			},{
+				"id": "cvo2jPtdUJb7aWW4",
+				"name": "Постоянные заклинания"
+			},{
+				"id": "w2eyHgOrm5G2ZnA7",
+				"name": "Захват"
+			}]
+		}
+	}
+}
